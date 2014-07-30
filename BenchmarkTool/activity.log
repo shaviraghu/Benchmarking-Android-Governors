@@ -1,0 +1,695 @@
+--------- beginning of /dev/log/system
+10-20 16:53:45.719 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 16:53:46.259 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 16:53:46.840 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 16:53:46.840 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 16:53:47.481 W/ContextImpl(27761): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 16:53:48.632 W/ActivityManager(  504): Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService2 in 5000ms
+10-20 16:53:49.323 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.323 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.363 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.363 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.403 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.403 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.433 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.433 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.453 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:49.453 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:53:52.386 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 16:54:02.777 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 16:54:04.359 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 16:54:04.359 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 16:56:33.388 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 16:58:43.537 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41a78040 attribute=null, token = android.os.BinderProxy@41e923d0
+10-20 16:59:06.671 W/ProcessStats(  504): Skipping unknown process pid 29207
+10-20 16:59:38.475 W/PackageManager(  504): Couldn't delete native library directory /data/app-lib/com.example.benchmarktool
+10-20 16:59:38.886 W/ContextImpl(27761): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 16:59:40.467 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.467 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.527 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.527 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.547 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.547 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.557 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.557 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.577 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:40.577 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:44.341 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 16:59:44.792 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 16:59:47.455 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.455 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.475 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.475 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.485 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.485 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.545 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.545 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.555 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:47.555 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 16:59:48.606 W/ProcessStats(  504): Skipping unknown process pid 29585
+10-20 16:59:48.606 W/ProcessStats(  504): Skipping unknown process pid 29587
+10-20 17:04:14.990 W/ProcessStats(  504): Skipping unknown process pid 30390
+10-20 17:04:14.990 W/ProcessStats(  504): Skipping unknown process pid 30392
+10-20 17:04:14.990 W/ProcessStats(  504): Skipping unknown process pid 30393
+10-20 17:06:33.388 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:11:36.011 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{422ee248 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:11:46.402 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{422ee248 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:11:48.374 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 17:11:48.384 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{422ee248 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:12:00.757 E/ActivityManager(  504): ANR in com.example.benchmarktool (com.example.benchmarktool/.BenchmarkActivity)
+10-20 17:12:00.757 E/ActivityManager(  504): Reason: keyDispatchingTimedOut
+10-20 17:12:00.757 E/ActivityManager(  504): Load: 6.0 / 5.67 / 4.98
+10-20 17:12:00.757 E/ActivityManager(  504): CPU usage from 7980ms to 0ms ago:
+10-20 17:12:00.757 E/ActivityManager(  504):   73% 25995/com.quicinc.trepn: 58% user + 14% kernel / faults: 3980 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   65% 29564/com.example.benchmarktool: 64% user + 0.6% kernel / faults: 1 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   31% 5332/com.skype.raider: 26% user + 5% kernel / faults: 542 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   9.3% 210/sdcard: 0.2% user + 9.1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   8.8% 504/system_server: 7.2% user + 1.6% kernel / faults: 556 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   6.7% 632/com.android.systemui: 5.7% user + 1% kernel / faults: 204 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   4.3% 120/mmcqd/0: 0% user + 4.3% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   3.5% 160/surfaceflinger: 2.2% user + 1.2% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   2.5% 163/mediaserver: 0% user + 2.5% kernel / faults: 1 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   2.3% 7808/com.google.android.deskclock: 1% user + 1.3% kernel / faults: 5 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   1.1% 214/adbd: 0.2% user + 0.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.8% 171/mpdecision: 0.1% user + 0.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.8% 614/RX_Thread: 0% user + 0.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.8% 31691/kworker/2:1: 0% user + 0.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.6% 25386/logcat: 0.2% user + 0.3% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.6% 30255/kworker/1:0: 0% user + 0.6% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.3% 209/sensors.qcom: 0% user + 0.3% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.1% 22091/kworker/u:4: 0% user + 0.1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.3% 23781/kworker/0:0: 0% user + 0.3% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.2% 613/TX_Thread: 0% user + 0.2% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.2% 14762/com.whatsapp: 0.1% user + 0.1% kernel / faults: 1 minor
+10-20 17:12:00.757 E/ActivityManager(  504):   0% 2/kthreadd: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0% 146/jbd2/mmcblk0p23: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0% 9144/com.tencent.mm: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   0.1% 24625/kworker/u:2: 0% user + 0.1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):  +0% 31724/kworker/2:2: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):  +0% 31740/migration/3: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):  +0% 31741/kworker/3:0: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):  +0% 31742/ksoftirqd/3: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):  +0% 31743/kworker/3:1: 0% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504): 65% TOTAL: 46% user + 11% kernel + 7% iowait + 0.1% softirq
+10-20 17:12:00.757 E/ActivityManager(  504): CPU usage from 1391ms to 1928ms later:
+10-20 17:12:00.757 E/ActivityManager(  504):   62% 25995/com.quicinc.trepn: 42% user + 20% kernel / faults: 192 minor
+10-20 17:12:00.757 E/ActivityManager(  504):     18% 25999/GC: 18% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     18% 26034/Thread-1183: 14% user + 3.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     18% 26036/Thread-1185: 9.2% user + 9.2% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 26039/Thread-1188: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 26040/Thread-1189: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   29% 5332/com.skype.raider: 25% user + 3.7% kernel / faults: 36 minor
+10-20 17:12:00.757 E/ActivityManager(  504):     9.2% 27555/AudioRecord: 7.4% user + 1.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     7.4% 27566/Thread-292: 7.4% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     3.7% 5422/Thread-292: 1.8% user + 1.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     3.7% 5424/Thread-292: 3.7% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     3.7% 27240/AudioTrack: 3.7% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 5969/er$SensorThread: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 27239/Thread-292: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 31537/Thread-292: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   15% 632/com.android.systemui: 15% user + 0% kernel / faults: 205 minor
+10-20 17:12:00.757 E/ActivityManager(  504):     6.6% 632/ndroid.systemui: 6.6% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     5.5% 641/GC: 5.5% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     2.2% 647/FinalizerDaemon: 2.2% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.1% 646/ReferenceQueueD: 1.1% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.1% 654/Binder_2: 1.1% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   20% 504/system_server: 14% user + 5.5% kernel / faults: 8 minor
+10-20 17:12:00.757 E/ActivityManager(  504):     5.5% 580/InputDispatcher: 1.8% user + 3.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 515/Binder_2: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 579/er$SensorThread: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 749/Binder_4: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 773/Binder_5: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 853/Binder_8: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 981/Binder_9: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 986/Binder_A: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 22661/Binder_C: 0% user + 1.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 22662/Binder_D: 1.8% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   11% 210/sdcard: 0% user + 11% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     5.5% 210/sdcard: 0% user + 5.5% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     5.5% 221/sdcard: 1.8% user + 3.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   3.7% 120/mmcqd/0: 0% user + 3.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   2.1% 160/surfaceflinger: 1% user + 1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     2.1% 409/EventThread: 2.1% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1% 229/SurfaceFlinger: 1% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1% 574/Binder_2: 0% user + 1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   3.7% 163/mediaserver: 0% user + 3.7% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1.8% 559/FastMixer: 0% user + 1.8% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   1% 214/adbd: 0% user + 1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1% 214/adbd: 1% user + 0% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):     1% 22037/adbd: 0% user + 1% kernel
+10-20 17:12:00.757 E/ActivityManager(  504):   1.8% 7808/com.google.and
+10-20 17:12:03.740 W/ActivityManager(  504):   Force finishing activity com.example.benchmarktool/.BenchmarkActivity
+10-20 17:12:04.231 W/InputMethodManagerService(  504): Got RemoteException sending setActive(false) notification to pid 29564 uid 10084
+10-20 17:12:33.933 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:12:34.383 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:12:34.964 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 17:12:34.964 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 17:12:35.474 W/ContextImpl(31874): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 17:12:37.507 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.507 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.537 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.537 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.547 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.547 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.567 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:37.567 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:12:41.771 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{41c45ce0 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:12:51.642 W/ProcessStats(  504): Skipping unknown process pid 32084
+10-20 17:12:51.642 W/ProcessStats(  504): Skipping unknown process pid 32086
+10-20 17:13:40.904 W/ActivityManager(  504): Scheduling restart of crashed service com.google.android.apps.currents/com.google.apps.dots.android.dotslib.service.AudioPlayerService in 5000ms
+10-20 17:16:33.388 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:19:32.980 W/ProcessStats(  504): Skipping unknown process pid 2217
+10-20 17:19:32.980 W/ProcessStats(  504): Skipping unknown process pid 2219
+10-20 17:26:33.388 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:30:03.332 W/WindowManager(  504): App freeze timeout expired.
+10-20 17:30:23.244 W/ActivityManager(  504): Scheduling restart of crashed service com.tencent.mm/.booter.NotifyReceiver$NotifyService in 5000ms
+10-20 17:30:28.359 E/ActivityThread( 4675): Failed to find provider info for com.tencent.mm.coolassist.debugprovider
+10-20 17:36:33.399 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:46:33.399 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:46:50.287 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 17:46:55.292 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 17:53:03.655 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,215][1196,343] }
+10-20 17:53:06.749 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41e64b98 attribute=null, token = android.os.BinderProxy@41dec700
+10-20 17:53:24.017 W/ActivityManager(  504): Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService6 in 5000ms
+10-20 17:53:25.609 W/ActivityManager(  504): Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService5 in 5000ms
+10-20 17:56:33.399 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 17:57:48.840 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:57:49.621 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:57:50.281 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 17:57:50.281 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 17:57:50.812 W/ContextImpl(10013): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 17:57:51.402 W/ActivityManager(  504): Scheduling restart of crashed service com.android.providers.media/.MtpService in 5000ms
+10-20 17:57:52.263 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{41a7ac18 u0 com.skype.raider/com.skype.android.app.calling.CallActivity}
+10-20 17:57:54.516 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.516 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.546 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.546 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.566 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.566 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.616 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.616 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.636 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:54.636 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:57:56.728 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:58:00.632 W/ActivityManager(  504): Force removing ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 17:59:13.530 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:59:13.900 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 17:59:14.451 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 17:59:14.451 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 17:59:14.882 W/ContextImpl(10013): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 17:59:16.713 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.713 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.733 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.733 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.744 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.754 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.764 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:16.764 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 17:59:18.866 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{418f5418 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 17:59:23.040 W/ActivityManager(  504): Force removing ActivityRecord{418f5418 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 18:00:34.627 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:00:34.967 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:00:35.508 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:00:35.508 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:00:36.689 W/ContextImpl(11093): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:00:38.491 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.491 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.501 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.501 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.511 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.511 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.531 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:38.531 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:00:42.605 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414b2bc8 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:00:46.609 W/ActivityManager(  504): Force removing ActivityRecord{414b2bc8 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 18:02:54.246 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:02:54.626 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:02:55.177 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:02:55.177 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:02:55.537 W/ContextImpl(11093): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:02:57.329 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.329 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.359 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.359 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.379 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.379 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.399 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.399 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.399 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:57.399 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:02:59.671 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{4149d480 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:03:03.255 W/ActivityManager(  504): Force removing ActivityRecord{4149d480 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 18:03:35.550 W/ActivityManager(  504): Force removing ActivityRecord{41f52ff0 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 18:03:35.970 W/InputMethodManagerService(  504): Got RemoteException sending setActive(false) notification to pid 12067 uid 10084
+10-20 18:05:41.474 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:05:41.754 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:05:42.425 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:05:42.425 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:05:43.226 W/ContextImpl(11093): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:05:45.098 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.098 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.118 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.118 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.128 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.128 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.138 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:45.138 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:05:47.080 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{41e91b88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:06:33.399 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:14:53.223 W/ProcessStats(  504): Skipping unknown process pid 14068
+10-20 18:14:53.223 W/ProcessStats(  504): Skipping unknown process pid 14069
+10-20 18:16:33.410 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:24:00.016 W/ActivityManager(  504): Scheduling restart of crashed service com.tencent.mm/.booter.NotifyReceiver$NotifyService in 5000ms
+10-20 18:24:05.162 E/ActivityThread(15792): Failed to find provider info for com.tencent.mm.coolassist.debugprovider
+10-20 18:25:36.089 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:25:36.479 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:25:37.010 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:25:37.010 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:25:37.570 W/ContextImpl(16046): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:25:42.055 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.055 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.065 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.065 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.075 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.075 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.105 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.105 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.135 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.135 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:25:42.275 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414b3648 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:26:33.410 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:27:27.718 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:27:28.018 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:27:28.689 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:27:28.689 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:27:29.410 W/ContextImpl(16046): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:27:31.132 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.132 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.152 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.152 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.162 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.162 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.192 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.192 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.202 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:31.202 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:27:33.784 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414d9710 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:28:11.194 W/ActivityManager(  504): Scheduling restart of crashed service com.android.providers.media/.MtpService in 5000ms
+10-20 18:29:36.625 W/ProcessStats(  504): Skipping unknown process pid 17384
+10-20 18:29:36.625 W/ProcessStats(  504): Skipping unknown process pid 17386
+10-20 18:29:45.525 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:29:45.805 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:29:46.396 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:29:46.396 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:29:46.997 W/ContextImpl(16046): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:29:48.738 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.738 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.778 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.778 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.798 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.798 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.818 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.818 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.828 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:48.828 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:29:51.712 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414d9710 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:32:25.546 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:32:25.876 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:32:26.407 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:32:26.407 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:32:26.897 W/ContextImpl(18531): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:32:28.579 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.579 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.629 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.629 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.679 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.679 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.689 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.689 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.699 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:28.699 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:32:31.122 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414d9710 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:36:33.420 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:37:24.885 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:37:25.346 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:37:25.896 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:37:25.906 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:37:26.457 W/ContextImpl(18531): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:37:28.028 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.028 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.089 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.089 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.109 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.109 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.119 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:28.119 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:37:30.631 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:37:41.012 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:37:43.425 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 18:37:43.435 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:41:36.544 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{41df59a0 u0 com.skype.raider/com.skype.android.app.calling.CallActivity}
+10-20 18:46:33.420 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:51:07.813 W/ProcessStats(  504): Skipping unknown process pid 22854
+10-20 18:51:07.813 W/ProcessStats(  504): Skipping unknown process pid 22856
+10-20 18:51:53.912 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:51:54.403 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:51:55.074 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:51:55.074 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:51:55.834 W/ContextImpl(23030): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:51:59.969 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:51:59.969 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:52:00.049 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:52:00.049 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:52:00.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:52:00.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:52:00.199 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a7e88 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:53:30.946 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:53:31.236 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:53:31.787 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:53:31.787 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:53:32.127 W/ContextImpl(23030): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:53:33.999 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:33.999 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.009 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.009 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.029 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.029 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.039 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.039 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:34.069 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:53:36.382 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414c1f28 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:54:11.699 W/ProcessStats(  504): Skipping unknown process pid 24341
+10-20 18:54:11.699 W/ProcessStats(  504): Skipping unknown process pid 24343
+10-20 18:54:34.944 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,214][1196,342] }
+10-20 18:56:33.421 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 18:57:00.159 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:57:00.580 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:57:01.180 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:57:01.180 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 18:57:01.721 W/ContextImpl(25128): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:57:05.305 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.305 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.325 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.325 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.325 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.325 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.345 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.345 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.365 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:05.365 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:57:12.753 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:57:23.124 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:57:24.735 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 18:57:24.735 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:58:17.181 W/ActivityManager(  504): Scheduling restart of crashed service com.android.providers.media/.MtpService in 5000ms
+10-20 18:59:14.212 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:59:14.593 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 18:59:15.163 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:59:15.163 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 18:59:15.714 W/ContextImpl(25128): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 18:59:17.506 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.506 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.546 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.546 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.566 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.566 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.606 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.606 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.636 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:17.636 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 18:59:20.048 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:59:20.769 W/ProcessStats(  504): Skipping unknown process pid 26184
+10-20 18:59:20.769 W/ProcessStats(  504): Skipping unknown process pid 26186
+10-20 18:59:20.769 W/ProcessStats(  504): Skipping unknown process pid 26198
+10-20 18:59:20.769 W/ProcessStats(  504): Skipping unknown process pid 26200
+10-20 18:59:30.430 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 18:59:32.171 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 18:59:32.181 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:01:48.247 W/ActivityManager(  504): Scheduling restart of crashed service com.skype.raider/com.skype.android.service.AccountService in 5000ms
+10-20 19:01:48.247 W/ActivityManager(  504): Force removing ActivityRecord{41cebfc8 u0 com.skype.raider/com.skype.android.app.calling.CallActivity}: app died, no saved state
+10-20 19:01:50.319 W/ActivityManager(  504): Scheduling restart of crashed service com.skype.raider/com.skype.android.service.AccountService in 20000ms
+10-20 19:01:52.952 W/ActivityManager(  504): Duplicate finish request for ActivityRecord{414ac338 u0 com.skype.raider/.Main}
+10-20 19:06:17.604 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 19:06:17.994 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 19:06:18.625 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 19:06:18.625 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 19:06:19.206 W/ContextImpl(28371): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 19:06:20.868 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.868 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.898 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.898 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.918 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.918 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.938 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.938 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.948 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:20.948 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 19:06:23.711 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:06:33.431 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 19:06:34.092 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:06:36.154 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 19:06:36.164 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:06:54.353 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:07:04.915 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 19:10:00.142 W/InputMethodManagerService(  504): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41ae7b48 (uid=10084 pid=28451)
+10-20 19:16:33.431 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 19:24:57.139 W/ActivityManager(  504): Scheduling restart of crashed service com.tencent.mm/.booter.NotifyReceiver$NotifyService in 5000ms
+10-20 19:25:02.284 E/ActivityThread(31612): Failed to find provider info for com.tencent.mm.coolassist.debugprovider
+10-20 19:26:33.431 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 19:36:33.442 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 19:41:02.058 W/WindowManager(  504): App freeze timeout expired.
+10-20 19:45:43.288 W/ProcessStats(  504): Skipping unknown process pid 1661
+10-20 19:45:43.288 W/ProcessStats(  504): Skipping unknown process pid 1663
+10-20 19:45:43.298 W/ProcessStats(  504): Skipping unknown process pid 1664
+10-20 19:46:33.452 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 19:46:51.902 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 19:46:56.917 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 19:53:37.635 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41ed4c60 attribute=null, token = android.os.BinderProxy@41ce7bb8
+10-20 19:53:39.997 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4207b100 attribute=null, token = android.os.BinderProxy@41a997e0
+10-20 19:53:43.481 W/ActivityManager(  504): Duplicate finish request for ActivityRecord{4191ee50 u0 com.skype.raider/com.skype.android.app.main.HubActivity}
+10-20 19:55:09.453 W/ActivityManager(  504): Scheduling restart of crashed service com.tencent.mm/.booter.NotifyReceiver$NotifyService in 5000ms
+10-20 19:55:14.608 E/ActivityThread( 3257): Failed to find provider info for com.tencent.mm.coolassist.debugprovider
+10-20 19:56:33.452 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:01:05.022 W/ProcessStats(  504): Skipping unknown process pid 4939
+10-20 20:01:05.022 W/ProcessStats(  504): Skipping unknown process pid 4941
+10-20 20:01:07.144 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41ab6a68 attribute=null, token = android.os.BinderProxy@418c75b8
+10-20 20:01:10.568 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42059ad0 attribute=android.view.inputmethod.EditorInfo@4229ff18, token = android.os.BinderProxy@418c75b8
+10-20 20:02:32.275 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 20:02:37.270 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 20:02:59.464 W/ProcessStats(  504): Skipping unknown process pid 5645
+10-20 20:02:59.464 W/ProcessStats(  504): Skipping unknown process pid 5647
+10-20 20:02:59.464 W/ProcessStats(  504): Skipping unknown process pid 5649
+10-20 20:03:02.157 W/PowerUI (  632): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+10-20 20:03:07.112 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,382][768,510] }
+10-20 20:04:26.757 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 20:04:27.308 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 20:04:27.348 W/ActivityManager(  504): Force removing ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}: app died, no saved state
+10-20 20:04:27.928 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 20:04:27.928 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-1.apk to /data/app/com.example.benchmarktool-2.apk
+10-20 20:04:28.389 W/ContextImpl( 5980): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 20:04:29.220 W/ActivityManager(  504): Scheduling restart of crashed service com.mxtech.videoplayer.ad/com.mxtech.videoplayer.service.PlayService in 5000ms
+10-20 20:04:31.863 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.863 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.893 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.893 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.903 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.903 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.913 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.913 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.943 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:31.943 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 20:04:33.434 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 20:04:44.046 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 20:04:45.778 W/ActivityManager(  504): Launch timeout has expired, giving up wake lock!
+10-20 20:04:45.788 W/ActivityManager(  504): Activity idle timeout for ActivityRecord{414a3980 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 20:06:33.452 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:09:03.002 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,382][768,510] }
+10-20 20:11:10.158 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,382][1196,510] }
+10-20 20:12:05.317 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,382][768,510] }
+10-20 20:12:05.937 W/ActivityManager(  504): Activity pause timeout for ActivityRecord{418e8620 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 20:12:16.669 W/ActivityManager(  504): Activity stop timeout for ActivityRecord{418e8620 u0 com.example.benchmarktool/.BenchmarkActivity}
+10-20 20:13:53.272 W/ProcessStats(  504): Skipping unknown process pid 9578
+10-20 20:13:53.272 W/ProcessStats(  504): Skipping unknown process pid 9580
+10-20 20:13:53.272 W/ProcessStats(  504): Skipping unknown process pid 9581
+10-20 20:13:53.272 W/ProcessStats(  504): Skipping unknown process pid 9595
+10-20 20:15:04.948 W/InputMethodManagerService(  504): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@419e14f8 (uid=10084 pid=6180)
+10-20 20:16:33.463 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:21:46.066 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41c25bf8 attribute=android.view.inputmethod.EditorInfo@41c27410, token = android.os.BinderProxy@41f6c340
+10-20 20:21:54.465 W/ViewRootImpl(10536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x48, repeatCount=0, eventTime=88939598, downTime=88939598, deviceId=-1, source=0x101 }
+10-20 20:21:55.867 W/BroadcastQueue(  504): Permission Denial: broadcasting Intent { act=com.google.android.gcm.intent.RETRY flg=0x14 (has extras) } from com.google.android.googlequicksearchbox (pid=-1, uid=10059) requires com.skype.raider.permission.C2D_MESSAGE due to registered receiver BroadcastFilter{41e34920 u0 ReceiverList{41e349c8 27217 com.skype.raider/10070/u0 remote:41967b98}}
+10-20 20:21:58.369 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 20:22:02.033 W/BroadcastQueue(  504): Permission Denial: broadcasting Intent { act=com.google.android.gcm.intent.RETRY flg=0x14 (has extras) } from com.google.android.googlequicksearchbox (pid=-1, uid=10059) requires com.skype.raider.permission.C2D_MESSAGE due to registered receiver BroadcastFilter{41e34920 u0 ReceiverList{41e349c8 27217 com.skype.raider/10070/u0 remote:41967b98}}
+10-20 20:22:03.385 W/ActivityManager(  504): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+10-20 20:26:33.463 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:32:29.303 W/ActivityManager(  504): Scheduling restart of crashed service com.google.android.apps.currents/com.google.apps.dots.android.dotslib.service.AudioPlayerService in 5000ms
+10-20 20:36:33.473 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:46:33.473 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:51:40.331 W/ProcessStats(  504): Skipping unknown process pid 12537
+10-20 20:51:40.331 W/ProcessStats(  504): Skipping unknown process pid 12540
+10-20 20:56:33.484 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 20:57:13.286 W/ProcessStats(  504): Skipping unknown process pid 12881
+10-20 20:57:13.286 W/ProcessStats(  504): Skipping unknown process pid 12890
+10-20 20:57:13.286 W/ProcessStats(  504): Skipping unknown process pid 12896
+10-20 21:02:41.677 W/ProcessStats(  504): Skipping unknown process pid 13089
+10-20 21:06:33.494 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 21:16:33.494 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 21:26:33.504 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 21:35:33.851 W/ProcessStats(  504): Skipping unknown process pid 14673
+10-20 21:35:33.851 W/ProcessStats(  504): Skipping unknown process pid 14676
+10-20 21:35:33.851 W/ProcessStats(  504): Skipping unknown process pid 14679
+10-20 21:35:33.851 W/ProcessStats(  504): Skipping unknown process pid 14680
+10-20 21:35:33.851 W/ProcessStats(  504): Skipping unknown process pid 14681
+10-20 21:35:33.861 W/ProcessStats(  504): Skipping unknown process pid 14683
+10-20 21:35:33.861 W/ProcessStats(  504): Skipping unknown process pid 14685
+10-20 21:36:33.515 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 21:40:32.970 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41ae5308 attribute=android.view.inputmethod.EditorInfo@41ad7b88, token = android.os.BinderProxy@41f6c340
+10-20 21:46:33.515 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+--------- beginning of /dev/log/main
+10-20 21:54:52.117 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:55:49.168 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:56:33.525 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 21:56:54.237 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:57:27.192 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 21:57:27.202 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 21:57:33.149 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 21:57:33.179 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 21:57:33.329 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:57:33.359 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:57:33.399 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:57:38.464 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:57:48.515 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:58:17.566 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:59:01.603 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 21:59:59.665 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:01:32.945 W/System.err(  819): javax.net.ssl.SSLException: Connection closed by peer
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.harmony.xnet.provider.jsse.NativeCrypto.SSL_do_handshake(Native Method)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl.startHandshake(OpenSSLSocketImpl.java:378)
+10-20 22:01:32.945 W/System.err(  819): 	at android.net.SSLCertificateSocketFactory.verifyHostname(SSLCertificateSocketFactory.java:190)
+10-20 22:01:32.945 W/System.err(  819): 	at android.net.SSLCertificateSocketFactory.createSocket(SSLCertificateSocketFactory.java:382)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.conn.ssl.SSLSocketFactory.createSocket(SSLSocketFactory.java:375)
+10-20 22:01:32.945 W/System.err(  819): 	at ll.createSocket(SourceFile:157)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:165)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+10-20 22:01:32.945 W/System.err(  819): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+10-20 22:01:32.945 W/System.err(  819): 	at android.net.http.AndroidHttpClient.execute(AndroidHttpClient.java:257)
+10-20 22:01:32.945 W/System.err(  819): 	at lj.a(SourceFile:200)
+10-20 22:01:32.945 W/System.err(  819): 	at lj.execute(SourceFile:242)
+10-20 22:01:32.945 W/System.err(  819): 	at lj.execute(SourceFile:310)
+10-20 22:01:32.945 W/System.err(  819): 	at esr.g(SourceFile:126)
+10-20 22:01:32.945 W/System.err(  819): 	at esr.c(SourceFile:172)
+10-20 22:01:32.945 W/System.err(  819): 	at evh.run(SourceFile:418)
+10-20 22:01:32.945 W/System.err(  819): 	at evg.b(SourceFile:224)
+10-20 22:01:32.945 W/System.err(  819): 	at evg.run(SourceFile:198)
+10-20 22:01:32.945 W/System.err(  819): 	at esz.run(SourceFile:96)
+10-20 22:02:44.721 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:02:56.043 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:02:56.143 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:03:01.109 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:03:01.139 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:03:01.309 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:01.359 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:01.409 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:06.454 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:12.511 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:21.561 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:03:35.616 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:04:04.667 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:05:08.715 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:06:33.255 W/PowerUI (  632): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+10-20 22:06:33.525 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 22:06:37.269 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@425ba568 attribute=android.view.inputmethod.EditorInfo@41e40ae0, token = android.os.BinderProxy@41fa9330
+10-20 22:06:40.142 W/KeyguardViewMediator(  504): verifyUnlock called when not externally disabled
+10-20 22:06:40.142 W/ActivityManager(  504): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.userinterface.main.TrepnActivity bnds=[0,382][768,510] }
+10-20 22:06:40.503 W/InputMethodManagerService(  504): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42063578 attribute=null, token = android.os.BinderProxy@41fa9330
+10-20 22:06:53.767 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:24.163 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:08:24.204 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:08:29.629 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:08:29.669 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:08:30.580 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:30.801 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:30.841 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:36.186 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:43.394 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:08:55.617 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:09:20.894 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:09:56.042 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:09:59.395 W/fb4a(:<default>):ThreadTrace( 5882): Giant thread trace. Clearing to avoid memory leak.
+10-20 22:11:06.086 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): DNS Unresolved Success
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): DNSUnresolvedException Status: Success
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): com.facebook.common.network.DNSUnresolvedException
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.common.network.DNSResolver.a(DNSResolver.java:76)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient.a(MqttClient.java:511)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient.j(MqttClient.java:564)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient.i(MqttClient.java:478)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient.k(MqttClient.java:399)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient.a(MqttClient.java:74)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at com.facebook.mqtt.MqttClient$1.run(MqttClient.java:264)
+10-20 22:13:52.113 W/fb4a(:<default>):MqttClient( 5882): 	at java.lang.Thread.run(Thread.java:856)
+10-20 22:13:53.034 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:13:53.074 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:13:57.649 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:13:57.659 E/LocSvc_eng(  504): E/void loc_eng_agps_ril_update_network_availability(loc_eng_data_s_type&, int, char const*): log_eng state error: instance not initialized
+10-20 22:13:57.820 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:13:57.870 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:13:57.910 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:14:01.974 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:14:09.021 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:14:26.060 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:14:53.099 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:16:09.150 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.
+10-20 22:16:33.536 W/ThrottleService(  504): unable to find stats for iface rmnet_usb0
+10-20 22:17:05.400 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 22:17:05.590 W/Settings(17494): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+10-20 22:17:05.600 W/Settings(17494): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+10-20 22:17:05.950 W/ActivityManager(  504): No content provider found for permission revoke: file:///data/local/tmp/BenchmarkTool.apk
+10-20 22:17:06.561 W/PackageManager(  504): Code path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 22:17:06.561 W/PackageManager(  504): Resource path for pkg : com.example.benchmarktool changing from /data/app/com.example.benchmarktool-2.apk to /data/app/com.example.benchmarktool-1.apk
+10-20 22:17:06.891 W/ResourceType( 5630): getEntry failing because entryIndex 1252 is beyond type entryCount 132
+10-20 22:17:06.901 W/ResourceType( 5630): Failure getting entry for 0x7f0204e4 (t=1 e=1252) in package 0 (error -2147483647)
+10-20 22:17:06.921 W/ResourceType( 5630): getEntry failing because entryIndex 1419 is beyond type entryCount 132
+10-20 22:17:06.931 W/ResourceType( 5630): Failure getting entry for 0x7f02058b (t=1 e=1419) in package 0 (error -2147483647)
+10-20 22:17:06.931 W/ResourceType( 5630): getEntry failing because entryIndex 1449 is beyond type entryCount 132
+10-20 22:17:06.931 W/ResourceType( 5630): Failure getting entry for 0x7f0205a9 (t=1 e=1449) in package 0 (error -2147483647)
+10-20 22:17:06.931 W/ContextImpl(17537): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1352 android.content.ContextWrapper.startService:450 android.content.ContextWrapper.startService:450 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2376 
+10-20 22:17:06.981 W/ResourceType( 5630): getEntry failing because entryIndex 498 is beyond type entryCount 132
+10-20 22:17:06.981 W/ResourceType( 5630): Failure getting entry for 0x7f0201f2 (t=1 e=498) in package 0 (error -2147483647)
+10-20 22:17:06.981 W/ResourceType( 5630): getEntry failing because entryIndex 499 is beyond type entryCount 132
+10-20 22:17:06.981 W/ResourceType( 5630): Failure getting entry for 0x7f0201f3 (t=1 e=499) in package 0 (error -2147483647)
+10-20 22:17:06.981 W/ResourceType( 5630): getEntry failing because entryIndex 500 is beyond type entryCount 132
+10-20 22:17:06.981 W/ResourceType( 5630): Failure getting entry for 0x7f0201f4 (t=1 e=500) in package 0 (error -2147483647)
+10-20 22:17:06.981 E/ExternalAccountType( 5630): Unsupported attribute readOnly
+10-20 22:17:07.001 W/ResourceType( 5630): getEntry failing because entryIndex 1252 is beyond type entryCount 132
+10-20 22:17:07.001 W/ResourceType( 5630): Failure getting entry for 0x7f0204e4 (t=1 e=1252) in package 0 (error -2147483647)
+10-20 22:17:07.031 W/ResourceType( 5630): getEntry failing because entryIndex 1419 is beyond type entryCount 132
+10-20 22:17:07.031 W/ResourceType( 5630): Failure getting entry for 0x7f02058b (t=1 e=1419) in package 0 (error -2147483647)
+10-20 22:17:07.031 W/ResourceType( 5630): getEntry failing because entryIndex 1449 is beyond type entryCount 132
+10-20 22:17:07.031 W/ResourceType( 5630): Failure getting entry for 0x7f0205a9 (t=1 e=1449) in package 0 (error -2147483647)
+10-20 22:17:07.061 W/ResourceType( 5630): getEntry failing because entryIndex 498 is beyond type entryCount 132
+10-20 22:17:07.061 W/ResourceType( 5630): Failure getting entry for 0x7f0201f2 (t=1 e=498) in package 0 (error -2147483647)
+10-20 22:17:07.061 W/ResourceType( 5630): getEntry failing because entryIndex 499 is beyond type entryCount 132
+10-20 22:17:07.061 W/ResourceType( 5630): Failure getting entry for 0x7f0201f3 (t=1 e=499) in package 0 (error -2147483647)
+10-20 22:17:07.061 W/ResourceType( 5630): getEntry failing because entryIndex 500 is beyond type entryCount 132
+10-20 22:17:07.061 W/ResourceType( 5630): Failure getting entry for 0x7f0201f4 (t=1 e=500) in package 0 (error -2147483647)
+10-20 22:17:07.102 E/ExternalAccountType( 5630): Unsupported attribute readOnly
+10-20 22:17:07.232 W/Settings(17586): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-20 22:17:07.422 W/dalvikvm(17627): VFY: unable to resolve static field 94 (CONTENT_URI) in Landroid/provider/ContactsContract$DeletedContacts;
+10-20 22:17:07.682 W/DexLibLoader(17653): Unexpected file in program dex directory: /data/data/com.facebook.katana/app_secondary_program_dex/temp_dex_lock
+10-20 22:17:10.215 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.215 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.225 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.225 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.355 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.355 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.365 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.365 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.375 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:10.375 W/ActivityManager(  504): Permission denied: checkComponentPermission() owningUid=10059
+10-20 22:17:31.187 W/fb4a(:<default>):MqttClient( 5882): Socket Connection Failed.

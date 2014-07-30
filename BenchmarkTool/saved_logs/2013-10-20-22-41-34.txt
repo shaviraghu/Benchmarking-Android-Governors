@@ -1,0 +1,96 @@
+10-20 22:38:18.648 I/benchmark.c(19805): ondemand
+10-20 22:38:18.648 I/benchmark.c(19805): In round 0
+10-20 22:38:20.530 I/benchmark.c(19805): calibrating load of 500000us, please wait...
+10-20 22:38:24.324 I/benchmark.c(19805): calibration done
+10-20 22:38:24.324 I/benchmark.c(19805): _round 1: doing 5 cycles with 412 calculations for 500000us
+10-20 22:38:24.324 I/benchmark.c(19805): avarage: 1213us, rps:824
+10-20 22:38:25.355 I/benchmark.c(19805): performance cycle took 1028017us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:26.387 I/benchmark.c(19805): performance cycle took 1033908us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:27.438 I/benchmark.c(19805): performance cycle took 1042973us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:28.419 I/benchmark.c(19805): performance cycle took 993346us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:29.410 I/benchmark.c(19805): performance cycle took 989135us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:29.410 I/benchmark.c(19805): ondemand
+10-20 22:38:29.410 I/benchmark.c(19805): total_time 30000000us progress_time 1000000us
+10-20 22:38:29.410 I/benchmark.c(19805): ondemand
+10-20 22:38:30.471 I/benchmark.c(19805): ondemand cycle took 1062506us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:31.522 I/benchmark.c(19805): ondemand cycle took 1043644us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:32.613 I/benchmark.c(19805): ondemand cycle took 1092049us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:33.734 I/benchmark.c(19805): ondemand cycle took 1119396us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:34.766 I/benchmark.c(19805): ondemand cycle took 1029544us, sleep: 500000us, load: 500000us, rounds: 412
+10-20 22:38:34.766 I/benchmark.c(19805): performance is at 90.88%
+10-20 22:38:34.766 I/benchmark.c(19805): In round 1
+10-20 22:38:36.788 I/benchmark.c(19805): calibrating load of 1000000us, please wait...
+10-20 22:38:42.584 I/benchmark.c(19805): calibration done
+10-20 22:38:42.584 I/benchmark.c(19805): _round 2: doing 5 cycles with 797 calculations for 1000000us
+10-20 22:38:42.584 I/benchmark.c(19805): avarage: 1254us, rps:797
+10-20 22:38:44.636 I/benchmark.c(19805): performance cycle took 2047092us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:46.728 I/benchmark.c(19805): performance cycle took 2104990us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:48.780 I/benchmark.c(19805): performance cycle took 2043247us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:50.803 I/benchmark.c(19805): performance cycle took 2019228us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:52.845 I/benchmark.c(19805): performance cycle took 2043461us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:52.845 I/benchmark.c(19805): ondemand
+10-20 22:38:52.845 I/benchmark.c(19805): total_time 30000000us progress_time 4000000us
+10-20 22:38:52.845 I/benchmark.c(19805): ondemand
+10-20 22:38:54.927 I/benchmark.c(19805): ondemand cycle took 2080818us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:56.889 I/benchmark.c(19805): ondemand cycle took 1968991us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:38:58.931 I/benchmark.c(19805): ondemand cycle took 2034030us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:39:01.014 I/benchmark.c(19805): ondemand cycle took 2086983us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:39:03.166 I/benchmark.c(19805): ondemand cycle took 2145307us, sleep: 1000000us, load: 1000000us, rounds: 797
+10-20 22:39:03.166 I/benchmark.c(19805): performance is at 98.91%
+10-20 22:39:03.166 I/benchmark.c(19805): In round 2
+10-20 22:39:05.338 I/benchmark.c(19805): calibrating load of 1500000us, please wait...
+10-20 22:39:13.227 I/benchmark.c(19805): calibration done
+10-20 22:39:13.227 I/benchmark.c(19805): _round 3: doing 5 cycles with 1156 calculations for 1500000us
+10-20 22:39:13.227 I/benchmark.c(19805): avarage: 1297us, rps:770
+10-20 22:39:16.210 I/benchmark.c(19805): performance cycle took 2987120us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:19.243 I/benchmark.c(19805): performance cycle took 3028140us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:22.356 I/benchmark.c(19805): performance cycle took 3110758us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:25.550 I/benchmark.c(19805): performance cycle took 3205035us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:28.663 I/benchmark.c(19805): performance cycle took 3108561us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:28.663 I/benchmark.c(19805): ondemand
+10-20 22:39:28.663 I/benchmark.c(19805): total_time 30000000us progress_time 9000000us
+10-20 22:39:28.663 I/benchmark.c(19805): ondemand
+10-20 22:39:31.636 I/benchmark.c(19805): ondemand cycle took 2964138us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:34.629 I/benchmark.c(19805): ondemand cycle took 3008942us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:37.502 I/benchmark.c(19805): ondemand cycle took 2862994us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:40.346 I/benchmark.c(19805): ondemand cycle took 2837815us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:43.189 I/benchmark.c(19805): ondemand cycle took 2856951us, sleep: 1500000us, load: 1500000us, rounds: 1156
+10-20 22:39:43.189 I/benchmark.c(19805): performance is at 112.93%
+10-20 22:39:43.189 I/benchmark.c(19805): In round 3
+10-20 22:39:44.160 I/benchmark.c(19805): calibrating load of 2000000us, please wait...
+10-20 22:39:54.150 I/benchmark.c(19805): calibration done
+10-20 22:39:54.150 I/benchmark.c(19805): _round 4: doing 5 cycles with 1660 calculations for 2000000us
+10-20 22:39:54.150 I/benchmark.c(19805): avarage: 1204us, rps:830
+10-20 22:39:58.585 I/benchmark.c(19805): performance cycle took 4434733us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:03.330 I/benchmark.c(19805): performance cycle took 4748940us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:07.945 I/benchmark.c(19805): performance cycle took 4601618us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:12.640 I/benchmark.c(19805): performance cycle took 4709141us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:17.335 I/benchmark.c(19805): performance cycle took 4688753us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:17.335 I/benchmark.c(19805): ondemand
+10-20 22:40:17.335 I/benchmark.c(19805): total_time 30000000us progress_time 16000000us
+10-20 22:40:17.335 I/benchmark.c(19805): ondemand
+10-20 22:40:22.020 I/benchmark.c(19805): ondemand cycle took 4683473us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:26.545 I/benchmark.c(19805): ondemand cycle took 4522967us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:31.000 I/benchmark.c(19805): ondemand cycle took 4456341us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:35.705 I/benchmark.c(19805): ondemand cycle took 4698672us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:40.530 I/benchmark.c(19805): ondemand cycle took 4832168us, sleep: 2000000us, load: 2000000us, rounds: 1660
+10-20 22:40:40.530 I/benchmark.c(19805): performance is at 99.92%
+10-20 22:40:40.530 I/benchmark.c(19805): In round 4
+10-20 22:40:41.731 I/benchmark.c(19805): calibrating load of 2500000us, please wait...
+10-20 22:40:51.732 I/benchmark.c(19805): calibration done
+10-20 22:40:51.732 I/benchmark.c(19805): _round 5: doing 5 cycles with 117 calculations for 2500000us
+10-20 22:40:51.732 I/benchmark.c(19805): avarage: 21367us, rps:46
+10-20 22:40:54.415 I/benchmark.c(19805): performance cycle took 2676912us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:40:57.107 I/benchmark.c(19805): performance cycle took 2692660us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:40:59.780 I/benchmark.c(19805): performance cycle took 2680940us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:02.473 I/benchmark.c(19805): performance cycle took 2685152us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:05.176 I/benchmark.c(19805): performance cycle took 2698581us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:05.176 I/benchmark.c(19805): ondemand
+10-20 22:41:05.176 I/benchmark.c(19805): total_time 30000000us progress_time 25000000us
+10-20 22:41:05.176 I/benchmark.c(19805): ondemand
+10-20 22:41:08.910 I/benchmark.c(19805): ondemand cycle took 2708164us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:11.623 I/benchmark.c(19805): ondemand cycle took 2712743us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:14.296 I/benchmark.c(19805): ondemand cycle took 2666015us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:16.999 I/benchmark.c(19805): ondemand cycle took 2705357us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:19.682 I/benchmark.c(19805): ondemand cycle took 2682436us, sleep: 2500000us, load: 2500000us, rounds: 117
+10-20 22:41:19.682 I/benchmark.c(19805): performance is at 95.85%

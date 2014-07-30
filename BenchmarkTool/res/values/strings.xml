@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BenchMarkTool</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="scaling_governors">
+        <item >ondemand</item>
+        <item >performance</item>
+        <item >interactive</item>
+    </string-array>
+    <string name="governor_prompt">choose governor to benchmark</string>
+    <string name="user_prompt">choose user</string>
+    <string name="usageprofile_prompt">choose usage profile</string>
+    <string-array name="users">
+        <item >professional</item>
+        <item >geek</item>
+    </string-array>
+    <string-array name="usage_profile">
+        <item >general</item>
+    </string-array>
+    <string name="onlinecpus_prompt">number of online cpus</string>
+    <string-array name="online_cpus">
+        <item >2</item>
+        <item >4</item>
+    </string-array>
+    
+
+</resources>

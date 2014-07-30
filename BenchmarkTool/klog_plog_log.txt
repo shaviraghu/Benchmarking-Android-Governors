@@ -1,0 +1,1415 @@
+<6>[    0.000000] Booting Linux on physical CPU 0
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 3.4.0-perf-g7ce11cd-dirty (raghu@pc-ram55) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #11 SMP PREEMPT Tue Jul 9 17:37:05 CEST 2013
+<4>[    0.000000] CPU: ARMv7 Processor [510f06f2] revision 2 (ARMv7), cr=10c5387d
+<4>[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+<4>[    0.000000] Machine: QCT APQ8064 MAKO
+<2>[    0.000000] Truncating memory at 0xc0000000 to fit in 32-bit physical address space
+<6>[    0.000000] memory pool 3 (start fe9ff000 size 1600000) initialized
+<6>[    0.000000] Initialized persistent memory from 88700000-887fffff
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<6>[    0.000000] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+<6>[    0.000000]  accessory_chip=0 hw_plat_subtype=1
+<7>[    0.000000] On node 0 totalpages: 493055
+<7>[    0.000000]   Normal zone: 1536 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 169984 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 2556 pages used for memmap
+<7>[    0.000000]   HighMem zone: 318979 pages, LIFO batch:31
+<6>[    0.000000] allocating 21626880 bytes at c2258000 (82458000 physical) for fb
+<6>[    0.000000] PERCPU: Embedded 7 pages/cpu @c36fb000 s15744 r0 d12928 u32768
+<7>[    0.000000] pcpu-alloc: s15744 r0 d12928 u32768 alloc=8*4096
+<7>[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 488963
+<5>[    0.000000] Kernel command line: console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 uart_console=enable lcd_maker_id=primary lge.hreset=off lge.reset=mode_reset gpt=enable lge.kcal=0|0|0|x lge.rev=rev_11 mdm_force_dump_enabled androidboot.emmc=true androidboot.serialno=04fffa641bdbef03 androidboot.bootloader=MAKOZ10o androidboot.baseband=mdm bootreason=kernel_panic
+<6>[    0.000000] UART CONSOLE : enable
+<6>[    0.000000] kcal is 0|0|0|x
+<6>[    0.000000] kcal not calibrated yet : 120
+<6>[    0.000000] set to default : 255
+<6>[    0.000000] BOARD : LGE input rev_11 
+<6>[    0.000000] BOARD : LGE matched rev_11 
+<6>[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Memory: 134MB 74MB 7MB 1MB 253MB 1456MB = 1925MB total
+<5>[    0.000000] Memory: 1915344k/1998288k available, 56876k reserved, 1286140K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]       .text : 0xc0008000 - 0xc0bcde54   (12056 kB)
+<5>[    0.000000]       .init : 0xc0c00000 - 0xc0d03d80   (1040 kB)
+<5>[    0.000000]       .data : 0xc0d04000 - 0xc0d6c098   ( 417 kB)
+<5>[    0.000000]        .bss : 0xc0e3b3b4 - 0xc10d4f74   (2663 kB)
+<6>[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<6>[    0.000000] Preemptible hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:921
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30520ns, wraps every 131084001ms
+<6>[    0.000000] Console: colour dummy device 80x30
+<6>[    0.000183] Calibrating delay loop (skipped) preset value.. 13.53 BogoMIPS (lpj=67677)
+<6>[    0.000213] pid_max: default: 32768 minimum: 301
+<6>[    0.000579] Mount-cache hash table entries: 512
+<6>[    0.001800] Initializing cgroup subsys debug
+<6>[    0.001831] Initializing cgroup subsys cpuacct
+<6>[    0.001831] Initializing cgroup subsys freezer
+<6>[    0.001953] CPU: Testing write buffer coherency: ok
+<6>[    0.002227] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+<6>[    0.002258] hw perfevents: enabled with ARMv7 Krait PMU driver, 5 counters available
+<6>[    0.002350] Setting up static identity map for 0x80a59168 - 0x80a591f0
+<6>[    0.005585] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+<6>[    0.008057] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+<6>[    0.010560] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+<6>[    0.010682] Brought up 4 CPUs
+<6>[    0.010682] SMP: Total of 4 processors activated (54.14 BogoMIPS).
+<6>[    0.026491] dummy: 
+<6>[    0.026888] NET: Registered protocol family 16
+<3>[    0.027865] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+<6>[    0.030489] meminfo_init: smem ram ptable found: ver: 0 len: 6
+<6>[    0.030489] Found 2 memory banks grouped into 16 memory regions
+<6>[    0.030703] gpiochip_add: registered GPIOs 0 to 151 on device: msmgpio
+<6>[    0.031405] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+<6>[    0.031435]  accessory_chip=0 hw_plat_subtype=1
+<6>[    0.031527] msm_rpm_init: RPM firmware 3.0.16842886
+<3>[    0.049900] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049931] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049931] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049931] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049961] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049961] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049992] msm_rpm_get_status(): Status id 341 not defined for target
+<3>[    0.049992] msm_rpm_get_status(): Status id 341 not defined for target
+<6>[    0.051426] pm8921_probe: PMIC revision 1: F4
+<6>[    0.051426] pm8921_probe: PMIC revision 2: 06
+<6>[    0.051457] pm8921_probe: PMIC version: PM8921 rev 3.0
+<6>[    0.051457] pm8921_probe: PMIC Restart Reason: Triggered from KPD (power key press)
+<6>[    0.052586] gpiochip_add: registered GPIOs 152 to 195 on device: pm-gpio
+<6>[    0.053074] pm_gpio_probe: OK: base=152, ngpio=44
+<6>[    0.053380] gpiochip_add: registered GPIOs 196 to 207 on device: pm8xxx-mpp
+<6>[    0.053441] pm8xxx_mpp_probe: OK: base=196, ngpio=12
+<6>[    0.055455] pm8821_probe: PMIC revision 1: PM8821 rev F3
+<6>[    0.055486] pm8821_probe: PMIC revision 2: PM8821 rev 0B
+<6>[    0.055486] pm8821_probe: PMIC version: PM8821 ver 2.1
+<6>[    0.056065] gpiochip_add: registered GPIOs 208 to 211 on device: pm8xxx-mpp
+<6>[    0.056096] pm8xxx_mpp_probe: OK: base=208, ngpio=4
+<6>[    0.056523] gpio_vreg_probe: id=86, name=ext_dsv_load, gpio=86, gpio_label=ext_dsv_load_en
+<6>[    0.057775] saw_probe: id=0, name=8921_s5
+<6>[    0.058080] saw_probe: id=1, name=8921_s6
+<6>[    0.058415] saw_probe: id=2, name=8821_s0
+<6>[    0.058751] saw_probe: id=3, name=8821_s1
+<6>[    0.067297] persistent_ram: found existing buffer, size 80043, start 80043
+<6>[    0.309446] console [ram-1] enabled
+<6>[    0.310819] [NORMAL-DEBUG] apq8064_device_uart_gsbi4.id : 0
+<6>[    0.311002] [DEBUG] uart_enable : 1
+<6>[    0.313566] [Touch D] apq8064_init_input: NOT DCM KDDI, reg synaptics driver 
+<6>[    0.317167] sps:REVISION of BAM 0xf0068000 is 0x5.
+<6>[    0.317289] sps:BAM 0x12244000 is registered.
+<6>[    0.317839] sps:sps is ready.
+<6>[    0.346558] bio: create slab <bio-0> at 0
+<6>[    0.347291] ION heap vmalloc created
+<6>[    0.347474] ION heap mm created at a0000000 with size 3800000
+<6>[    0.347596] ION heap mm_fw created at 9fe00000 with size 1e0000
+<6>[    0.347749] ION heap mfc created at a3800000 with size 2000
+<6>[    0.347871] ION heap iommu created
+<6>[    0.347993] ION heap qsecom created at fea02000 with size 780000
+<6>[    0.348176] ION heap audio created at ff182000 with size 4cf000
+<5>[    0.349366] pm8xxx_pwm_probe: OK
+<5>[    0.350251] SCSI subsystem initialized
+<6>[    0.350526] sps:REVISION of BAM 0xf0070000 is 0x12.
+<6>[    0.350801] sps:BAM 0x28084000 is registered.
+<6>[    0.351533] usbcore: registered new interface driver usbfs
+<6>[    0.351777] usbcore: registered new interface driver hub
+<6>[    0.352052] usbcore: registered new device driver usb
+<6>[    0.352449] input: pmic8xxx_pwrkey as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-pwrkey/input/input0
+<6>[    0.353395] Linux media interface: v0.10
+<6>[    0.353639] Linux video capture interface: v2.00
+<7>[    0.354097] Registered led device: red
+<7>[    0.354494] Registered led device: green
+<7>[    0.354890] Registered led device: blue
+<6>[    0.355867] msm_iommu_dev: device vpe mapped at f0400000, with 2 ctx banks
+<6>[    0.356172] msm_iommu_dev: device mdp0 mapped at f0600000, with 2 ctx banks
+<6>[    0.356386] msm_iommu_dev: device mdp1 mapped at f0800000, with 2 ctx banks
+<6>[    0.356691] msm_iommu_dev: device rot mapped at f0a00000, with 2 ctx banks
+<6>[    0.356935] msm_iommu_dev: device ijpeg mapped at f0c00000, with 2 ctx banks
+<6>[    0.357210] msm_iommu_dev: device vfe mapped at f0e00000, with 2 ctx banks
+<6>[    0.357515] msm_iommu_dev: device vcodec_a mapped at f1000000, with 2 ctx banks
+<6>[    0.357729] msm_iommu_dev: device vcodec_b mapped at f1200000, with 2 ctx banks
+<6>[    0.358003] msm_iommu_dev: device gfx3d mapped at f1400000, with 3 ctx banks
+<6>[    0.358309] msm_iommu_dev: device jpegd mapped at f1600000, with 2 ctx banks
+<6>[    0.358522] msm_iommu_dev: device gfx3d1 mapped at f1800000, with 3 ctx banks
+<6>[    0.358828] msm_iommu_dev: device vcap mapped at f1a00000, with 2 ctx banks
+<6>[    0.359285] msm_iommu_ctx msm_iommu_ctx.2: context vpe_src using bank 0
+<6>[    0.359621] msm_iommu_ctx msm_iommu_ctx.3: context vpe_dst using bank 1
+<6>[    0.359926] msm_iommu_ctx msm_iommu_ctx.4: context mdp_port0_cb0 using bank 0
+<6>[    0.360201] msm_iommu_ctx msm_iommu_ctx.5: context mdp_port0_cb1 using bank 1
+<6>[    0.360506] msm_iommu_ctx msm_iommu_ctx.6: context mdp_port1_cb0 using bank 0
+<6>[    0.360750] msm_iommu_ctx msm_iommu_ctx.7: context mdp_port1_cb1 using bank 1
+<6>[    0.361056] msm_iommu_ctx msm_iommu_ctx.8: context rot_src using bank 0
+<6>[    0.361361] msm_iommu_ctx msm_iommu_ctx.9: context rot_dst using bank 1
+<6>[    0.361605] msm_iommu_ctx msm_iommu_ctx.10: context ijpeg_src using bank 0
+<6>[    0.361880] msm_iommu_ctx msm_iommu_ctx.11: context ijpeg_dst using bank 1
+<6>[    0.362154] msm_iommu_ctx msm_iommu_ctx.12: context vfe_imgwr using bank 0
+<6>[    0.362459] msm_iommu_ctx msm_iommu_ctx.13: context vfe_misc using bank 1
+<6>[    0.362765] msm_iommu_ctx msm_iommu_ctx.14: context vcodec_a_stream using bank 0
+<6>[    0.363009] msm_iommu_ctx msm_iommu_ctx.15: context vcodec_a_mm1 using bank 1
+<6>[    0.363375] msm_iommu_ctx msm_iommu_ctx.16: context vcodec_b_mm2 using bank 0
+<6>[    0.363741] msm_iommu_ctx msm_iommu_ctx.17: context gfx3d_user using bank 0
+<6>[    0.364016] msm_iommu_ctx msm_iommu_ctx.18: context gfx3d_priv using bank 1
+<6>[    0.364321] msm_iommu_ctx msm_iommu_ctx.0: context jpegd_src using bank 0
+<6>[    0.364535] msm_iommu_ctx msm_iommu_ctx.1: context jpegd_dst using bank 1
+<6>[    0.364901] msm_iommu_ctx msm_iommu_ctx.19: context gfx3d1_user using bank 0
+<6>[    0.365267] msm_iommu_ctx msm_iommu_ctx.20: context gfx3d1_priv using bank 1
+<6>[    0.365511] msm_iommu_ctx msm_iommu_ctx.21: context vcap_vc using bank 0
+<6>[    0.365817] msm_iommu_ctx msm_iommu_ctx.22: context vcap_vp using bank 1
+<6>[    0.366030] Advanced Linux Sound Architecture Driver Version 1.0.25.
+<6>[    0.366671] Bluetooth: Core ver 2.16
+<6>[    0.366793] NET: Registered protocol family 31
+<6>[    0.366976] Bluetooth: HCI device and connection manager initialized
+<6>[    0.367068] Bluetooth: HCI socket layer initialized
+<6>[    0.367221] Bluetooth: L2CAP socket layer initialized
+<6>[    0.367526] Bluetooth: SCO socket layer initialized
+<6>[    0.367953] cfg80211: Calling CRDA to update world regulatory domain
+<6>[    0.368655] earjack debugger probed
+<6>[    0.369662] Switching to clocksource gp_timer
+<6>[    0.398931] NET: Registered protocol family 2
+<6>[    0.399267] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.400061] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    0.401464] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.402166] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    0.402319] TCP: reno registered
+<6>[    0.402411] UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    0.402594] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    0.403052] NET: Registered protocol family 1
+<6>[    0.403387] Trying to unpack rootfs image as initramfs...
+<6>[    0.425942] Freeing initrd memory: 348K
+<6>[    0.427468] Detected 5 counters on the L2CC PMU.
+<6>[    0.429971] pil_qdsp6v4 pil_qdsp6v4.0: using secure boot
+<6>[    0.432015] pil_riva pil_riva: using secure boot
+<6>[    0.435647] pil_dsps pil_dsps: using secure boot
+<6>[    0.437387] pil_gss pil_gss: using secure boot
+<3>[    0.440134] smd_channel_probe_worker: allocation table not initialized
+<6>[    0.445109] msm_dsps driver version 4.02.
+<6>[    0.446604] NET: Registered protocol family 27
+<6>[    0.449259] lpass_fatal_init: lpass SSR driver init'ed.
+<6>[    0.449443] wcnss_8960: module initialized
+<6>[    0.449992] gss_8064_init: gss fatal driver init'ed.
+<6>[    0.450602] acpuclk-8064 acpuclk-8064: ACPU PVS: Fast
+<6>[    0.453105] acpuclk-8064 acpuclk-8064: CPU0: 12 frequencies supported
+<6>[    0.453288] acpuclk-8064 acpuclk-8064: CPU1: 12 frequencies supported
+<6>[    0.453441] acpuclk-8064 acpuclk-8064: CPU2: 12 frequencies supported
+<6>[    0.453532] acpuclk-8064 acpuclk-8064: CPU3: 12 frequencies supported
+<6>[    0.455058] kcal_ctrl_init 
+<6>[    0.455638] persistent_ram: no valid data in buffer (sig = 0x12345678)
+<5>[    0.456432] msm_rpm_log_probe: OK
+<3>[    0.460094] mdm_do_first_power_on: Powering on modem for the first time
+<6>[    0.469952] mdm_pblrdy_change: pbl ready:0
+<6>[    0.494643] mdm_pblrdy_change: pbl ready:1
+<6>[    0.700106] mdm_common_create: Registering mdm modem
+<6>[    0.701541] usbcore: registered new interface driver hsic_sysmon
+<4>[    0.704898] highmem bounce pool size: 64 pages
+<6>[    0.723607] fuse init (API version 7.18)
+<6>[    0.724492] msgmni has been set to 1229
+<6>[    0.728857] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+<6>[    0.729192] io scheduler noop registered
+<6>[    0.729406] io scheduler deadline registered
+<6>[    0.729925] io scheduler cfq registered (default)
+<6>[    0.731023] lm3530 probed
+<6>[    0.734777] mipi_dsi base phy_addr = 0x4700000 virt = 0xf1c00000
+<6>[    0.735144] mmss_sfpb  base phy_addr = 0x5700000,virt = 0xf0082000
+<6>[    0.736365] mipi_lgit_lcd_probe start
+<6>[    0.736731] setting pdata->panel_info.fb_num to 3. type: 8
+<6>[    0.749427] FrameBuffer[0] 768x1280 size=11796480 bytes is registered successfully!
+<4>[    0.749763] load_565rle_image: Can not open /initlogo.rle
+<7>[    0.750343] Registered led device: lcd-backlight
+<6>[    0.750404] mdp4_dsi_vsync_init: ndx=0
+<6>[    0.751716] setting pdata->panel_info.fb_num to 1. type: 7
+<6>[    0.752571] FrameBuffer[1] 1920x1080 size=0 bytes is registered successfully!
+<4>[    0.752876] load_565rle_image: Can not open /initlogo.rle
+<6>[    0.753273] mdp4_dtv_vsync_init: ndx=0
+<3>[    0.753517] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group cf998008
+<6>[    0.754372] setting pdata->panel_info.fb_num to 1. type: 10
+<3>[    0.754707] Inside writeback_driver_init
+<3>[    0.755074] Inside writeback_probe
+<6>[    0.755684] FrameBuffer[2] 1280x720 size=0 bytes is registered successfully!
+<4>[    0.755989] load_565rle_image: Can not open /initlogo.rle
+<6>[    0.757485] 
+<6>[    0.757515]  msm_vidc_enc: Inside vid_enc_init()
+<6>[    0.757973] 
+<6>[    0.757973]  msm_vidc_enc: Inside vid_enc_vcd_init()
+<6>[    0.759438] msm_serial_hs module loaded
+<6>[    0.759926] msm_serial_hsl: detected port #0
+<6>[    0.760201] msm_serial_hsl.0: ttyHSL0 at MMIO 0x16340000 (irq = 184) is a MSM
+<6>[    0.760445] msm_serial_hsl: console setup on port #0
+<6>[    0.760720] console [ttyHSL0] enabled
+<6>[    0.761147] msm_serial_hsl: driver initialized
+<6>[    0.762765] msm_rotator_probe: rotator_hw_revision=2
+<6>[    0.765969] diagchar initialized now
+<6>[    0.767526] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
+<6>[    0.776651] brd: module loaded
+<6>[    0.781016] loop: module loaded
+<6>[    0.783427] anx7808 init gpio
+<6>[    0.820082] anx7808 dvdd is already on 
+<6>[    0.850480] sp_tx_hardware_poweron: anx7808 power on
+<6>[    0.851365] sp_tx_chip_located: ANX7808 BA is found.
+<5>[    0.852739] sp_tx_vbus_powerdown: 3.3V output disabled
+<6>[    0.910544] sp_tx_hardware_powerdown: anx7808 power down
+<5>[    0.910636] sp_tx_set_sys_state: SP_TX To System State: 
+<5>[    0.910788] sp_tx_set_sys_state: STATE_CABLE_PLUG
+<6>[    0.911399] tabla2x-slim tabla2x-slim: Platform data from board file
+<6>[    1.007416] wcd9xxx_device_init : Codec version 2 initialized
+<4>[    1.008728] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+<4>[    1.009095] i2c-core: driver [tabla-i2c-core] using legacy resume method
+<6>[    1.010499] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver flags = 10
+<6>[    1.011078] bcm2079x-i2c 0-a1fa: requesting IRQ 317
+<6>[    1.011445] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver exited successfully
+<6>[    1.012788] SCSI Media Changer driver v0.25 
+<6>[    1.014771] tun: Universal TUN/TAP device driver, 1.6
+<6>[    1.014954] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    1.015504] rmnet_init: BAM devices[8]
+<6>[    1.027926] PPP generic driver version 2.4.2
+<6>[    1.028353] PPP BSD Compression module registered
+<6>[    1.028719] PPP Deflate Compression module registered
+<6>[    1.029574] PPP MPPE Compression module registered
+<6>[    1.029909] NET: Registered protocol family 24
+<6>[    1.030154] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+<6>[    1.030550] CSLIP: code copyright 1989 Regents of the University of California.
+<6>[    1.030917] wcnss_wlan probed in built-in mode
+<6>[    1.032107] usbcore: registered new interface driver asix
+<6>[    1.032351] usbcore: registered new interface driver cdc_ether
+<6>[    1.032778] usbcore: registered new interface driver net1080
+<6>[    1.033053] usbcore: registered new interface driver cdc_subset
+<6>[    1.033480] usbcore: registered new interface driver zaurus
+<6>[    1.033969] usbcore: registered new interface driver cdc_ncm
+<6>[    1.034396] usbcore: registered new interface driver rmnet_usb
+<6>[    1.035342] rmnet usb ctrl Initialized.
+<6>[    1.035830] msm_otg msm_otg: msm_otg probe
+<3>[    1.036105] msm_otg msm_otg: failed to get phy_clk
+<6>[    1.036532] msm_otg msm_otg: OTG regs = f009a000
+<6>[    1.039707] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    1.053135] msm_hsic_host msm_hsic_host: Qualcomm EHCI Host Controller using HSIC
+<6>[    1.053258] msm_hsic_host msm_hsic_host: new USB bus registered, assigned bus number 1
+<6>[    1.080665] msm_hsic_host msm_hsic_host: irq 261, io mem 0x12510000
+<6>[    1.100259] msm_hsic_host msm_hsic_host: USB 2.0 started, EHCI 1.00
+<6>[    1.100656] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    1.100808] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    1.100930] usb usb1: Product: Qualcomm EHCI Host Controller using HSIC
+<6>[    1.101083] usb usb1: Manufacturer: Linux 3.4.0-perf-g7ce11cd-dirty ehci_hcd
+<6>[    1.101175] usb usb1: SerialNumber: msm_hsic_host
+<6>[    1.101785] hub 1-0:1.0: USB hub found
+<6>[    1.101907] hub 1-0:1.0: 1 port detected
+<6>[    1.103250] usbcore: registered new interface driver cdc_acm
+<6>[    1.103372] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    1.103525] Initializing USB Mass Storage driver...
+<6>[    1.103708] usbcore: registered new interface driver usb-storage
+<6>[    1.103860] USB Mass Storage support registered.
+<6>[    1.104013] usbcore: registered new interface driver ums-alauda
+<6>[    1.104257] usbcore: registered new interface driver ums-cypress
+<6>[    1.104379] usbcore: registered new interface driver ums-datafab
+<6>[    1.104593] usbcore: registered new interface driver ums-freecom
+<6>[    1.104745] usbcore: registered new interface driver ums-isd200
+<6>[    1.104990] usbcore: registered new interface driver ums-jumpshot
+<6>[    1.105112] usbcore: registered new interface driver ums-karma
+<6>[    1.105356] usbcore: registered new interface driver ums-onetouch
+<6>[    1.105478] usbcore: registered new interface driver ums-sddr09
+<6>[    1.105692] usbcore: registered new interface driver ums-sddr55
+<6>[    1.105844] usbcore: registered new interface driver ums-usbat
+<6>[    1.106149] usbcore: registered new interface driver usbserial
+<6>[    1.106241] usbserial: USB Serial Driver core
+<6>[    1.106455] usbcore: registered new interface driver qcserial
+<6>[    1.106607] USB Serial support registered for Qualcomm USB modem
+<6>[    1.106821] usbcore: registered new interface driver qc_csvt
+<6>[    1.106973] USB Serial support registered for qc_csvt
+<6>[    1.107218] usbcore: registered new interface driver usb_ehset_test
+<6>[    1.107370] usbcore: registered new interface driver diag_bridge
+<6>[    1.107645] usbcore: registered new interface driver mdm_bridge
+<6>[    1.108133] msm_otg msm_otg: phy_reset: success
+<6>[    1.109049] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
+<6>[    1.109354] mbim_init: initialize 1 instances
+<6>[    1.109629] mbim_init: Initialized 1 ports
+<6>[    1.111735] rndis_qc_init: initialize rndis QC instance
+<6>[    1.112253] android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    1.112376] android_usb gadget: Number of LUNs=1
+<6>[    1.112528]  lun0: LUN: removable file: (no medium)
+<6>[    1.113016] android_usb gadget: android_usb ready
+<6>[    1.114481] input: keypad_8064 as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-keypad/input/input1
+<4>[    1.115367] [Touch D]touch enable
+<6>[    1.470471] usb 1-1: new high-speed USB device number 2 using msm_hsic_host
+<6>[    1.520585] input: touch_dev as /devices/virtual/input/input2
+<6>[    1.523210] [Touch] common[1] finger[17] flash[52] button[0]
+<6>[    1.524278] [Touch] IC is 7020, H pattern, panel is G2, Firmware: E027.
+<6>[    1.525621] usb 1-1: New USB device found, idVendor=05c6, idProduct=9008
+<6>[    1.525804] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+<6>[    1.525988] usb 1-1: Product: QHSUSB__BULK
+<6>[    1.526079] usb 1-1: Manufacturer: Qualcomm CDMA Technologies MSM
+<6>[    1.527147] [Touch] fw_rev[0:0] product_id[PLG137:PLG137] force_upgrade[0]
+<6>[    1.527178] [Touch] Touch driver is initialized
+<6>[    1.527636] [Touch] DO NOT UPDATE 7020 G2 H pattern FW-upgrade is not executed
+<6>[    1.528368] using rtc device, pm8xxx_rtc, for alarms
+<6>[    1.528551] rtc-pm8xxx rtc-pm8xxx: rtc core: registered pm8xxx_rtc as rtc0
+<6>[    1.529223] i2c /dev entries driver
+<6>[    1.529833] qcserial 1-1:1.0: Qualcomm USB modem converter detected
+<6>[    1.530199] usb 1-1: Qualcomm USB modem converter now attached to ttyUSB0
+<6>[    1.531359] usbcore: registered new interface driver uvcvideo
+<6>[    1.531451] USB Video Class driver (1.1.1)
+<3>[    1.532702] __jrchoi: msm_sensor_init_module: E
+<3>[    1.560292] msm_eeprom_probe probe_fail
+<6>[    1.560872] msm_server_update_sensor_info mctl_node_name[0] = video1
+<3>[    1.589348] msm_eeprom_probe probe_fail
+<6>[    1.589775] msm_server_update_sensor_info mctl_node_name[1] = video3
+<6>[    1.593804] msm_cam_server_request_irq IRQ Router hw is not present. 
+<6>[    1.594536] lm3559_init
+<7>[    1.594872] Registered led device: spotlight
+<6>[    1.621303] pm8xxx_tm_probe: OK
+<6>[    1.622340] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+<6>[    1.622890] [imoseyon] ondemandx enter
+<6>[    1.623164] cpuidle: using governor ladder
+<6>[    1.623348] cpuidle: using governor menu
+<6>[    1.623866] mmc0: SDCC Version: 0x0000001a
+<6>[    1.625148] mmc0: bam physical base=0x12402000
+<6>[    1.625331] mmc0: bam virtual base=0xf00ac000
+<6>[    1.625423] sps:BAM 0x12402000 is registered.
+<6>[    1.625515] mmc0: BAM device registered. bam_handle=0xef02d000
+<6>[    1.625911] sps:REVISION of BAM 0xf00ac000 is 0x5.
+<6>[    1.626430] mmc0: Qualcomm MSM SDCC-BAM at 0x0000000012402000 irq 130
+<6>[    1.626613] mmc0: Qualcomm MSM SDCC-DML at 0x0000000012400800
+<3>[    1.626766] mmc0: No card detect facilities available
+<6>[    1.628658] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma -1 dmacrcri -1
+<6>[    1.628811] mmc0: Controller capabilities: 0x0000039e
+<6>[    1.628902] mmc0: 8 bit data mode enabled
+<6>[    1.629024] mmc0: 4 bit data mode disabled
+<6>[    1.629177] mmc0: polling status mode disabled
+<6>[    1.629269] mmc0: MMC clock 400000 -> 96000000 Hz, PCLK 0 Hz
+<6>[    1.629452] mmc0: Slot eject status = 0
+<6>[    1.629543] mmc0: Power save feature enable = 1
+<6>[    1.629635] mmc0: SPS-BAM data transfer mode available
+<6>[    1.630489] usbcore: registered new interface driver usbhid
+<6>[    1.630581] usbhid: USB HID core driver
+<6>[    1.631527] ashmem: initialized
+<6>[    1.631710] logger: created 256K log 'log_main'
+<6>[    1.631954] logger: created 256K log 'log_events'
+<6>[    1.632229] logger: created 256K log 'log_radio'
+<6>[    1.632412] logger: created 256K log 'log_system'
+<6>[    1.634304] coresight-tpiu coresight-tpiu.0: TPIU initialized
+<6>[    1.634976] coresight-etb coresight-etb.0: ETB initialized
+<6>[    1.635586] coresight-funnel coresight-funnel.0: FUNNEL initialized
+<6>[    1.637601] coresight-etm coresight-etm.0: ETM initialized
+<6>[    1.638791] coresight-etm coresight-etm.1: ETM initialized
+<6>[    1.639890] coresight-etm coresight-etm.2: ETM initialized
+<6>[    1.641416] coresight-etm coresight-etm.3: ETM initialized
+<6>[    1.642026] usbcore: registered new interface driver snd-usb-audio
+<3>[    1.643705] tabla_probe
+<6>[    1.644590] amp_enable: amp enable bypass(2)
+<6>[    1.644712] amp_enable: AMP_EN is set to 0
+<6>[    1.645872] msm_pcm_probe: dev name msm-voip-dsp
+<6>[    1.646299] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback sdline 0 capture sdline 8
+<6>[    1.646482] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback ch_max 0 capture ch_mx 8
+<6>[    1.647825] msm_pcm_probe: dev name msm-pcm-dsp
+<6>[    1.648283] msm_pcm_probe: dev name msm-multi-ch-pcm-dsp
+<6>[    1.648771] msm_pcm_probe: dev name msm-lowlatency-pcm-dsp
+<6>[    1.649900] msm_compr_probe: dev name msm-compr-dsp
+<6>[    1.650907] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+<3>[    1.652067] msm8930_audio_init: Not the right machine type
+<3>[    1.652220] msm_audio_init: Not the right machine type
+<6>[    1.768472] mmc0: new HS200 MMC card at address 0001
+<6>[    1.770028] mmcblk0: mmc0:0001 008G92 7.28 GiB 
+<4>[    1.776072] Alternate GPT is invalid, using primary GPT.
+<6>[    1.776712]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25
+<6>[    1.777872] asoc: snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+<6>[    1.779124] asoc: snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+<6>[    1.780314] asoc: snd-soc-dummy-dai <-> CS-VOICE mapping ok
+<6>[    1.781626] asoc: snd-soc-dummy-dai <-> VoIP mapping ok
+<6>[    1.782786] asoc: snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+<6>[    1.784007] asoc: snd-soc-dummy-dai <-> SLIMBUS0_HOSTLESS mapping ok
+<6>[    1.785228] asoc: snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+<6>[    1.786387] asoc: msm-stub-rx <-> msm-dai-q6.241 mapping ok
+<6>[    1.787547] asoc: msm-stub-tx <-> msm-dai-q6.240 mapping ok
+<6>[    1.788707] asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+<6>[    1.789928] asoc: snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+<6>[    1.791118] asoc: snd-soc-dummy-dai <-> HDMI_HOSTLESS mapping ok
+<6>[    1.792369] asoc: snd-soc-dummy-dai <-> VOICE_STUB mapping ok
+<6>[    1.793560] asoc: snd-soc-dummy-dai <-> VoLTE mapping ok
+<6>[    1.794781] asoc: snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+<6>[    1.796490] asoc: tabla_rx1 <-> msm-dai-q6.16384 mapping ok
+<6>[    1.801495] asoc: tabla_tx1 <-> msm-dai-q6.16385 mapping ok
+<6>[    1.802502] asoc: msm-stub-rx <-> msm-dai-q6.12288 mapping ok
+<6>[    1.803601] asoc: msm-stub-tx <-> msm-dai-q6.12289 mapping ok
+<6>[    1.804639] asoc: msm-stub-rx <-> msm-dai-q6.12292 mapping ok
+<6>[    1.805707] asoc: msm-stub-tx <-> msm-dai-q6.12293 mapping ok
+<6>[    1.806745] asoc: msm-stub-rx <-> msm-dai-q6-hdmi.8 mapping ok
+<6>[    1.807843] asoc: msm-stub-rx <-> msm-dai-q6.224 mapping ok
+<6>[    1.808881] asoc: msm-stub-tx <-> msm-dai-q6.225 mapping ok
+<6>[    1.809949] asoc: msm-stub-rx <-> msm-dai-q6.2 mapping ok
+<6>[    1.811017] asoc: msm-stub-tx <-> msm-dai-q6.3 mapping ok
+<6>[    1.812116] asoc: tabla_rx2 <-> msm-dai-stub mapping ok
+<6>[    1.813154] asoc: tabla_tx1 <-> msm-dai-stub mapping ok
+<6>[    1.814161] asoc: msm-stub-rx <-> msm-dai-q6.16386 mapping ok
+<6>[    1.815260] asoc: msm-stub-tx <-> msm-dai-q6.16387 mapping ok
+<6>[    1.816450] asoc: tabla_tx2 <-> msm-dai-q6.16389 mapping ok
+<6>[    1.817518] asoc: tabla_rx3 <-> msm-dai-q6.16388 mapping ok
+<6>[    1.818556] asoc: msm-stub-rx <-> msm-dai-q6.16392 mapping ok
+<6>[    1.819624] asoc: msm-stub-tx <-> msm-dai-q6.16393 mapping ok
+<6>[    1.820784] asoc: tabla_tx3 <-> msm-dai-stub mapping ok
+<6>[    1.821822] asoc: msm-stub-rx <-> msm-dai-q6.16390 mapping ok
+<6>[    1.822829] asoc: msm-stub-tx <-> msm-dai-q6.16391 mapping ok
+<6>[    1.826155] input: apq8064-tabla-snd-card Button Jack as /devices/platform/soc-audio.0/sound/card0/input3
+<6>[    1.826613] input: apq8064-tabla-snd-card Headset Jack as /devices/platform/soc-audio.0/sound/card0/input4
+<6>[    1.831680] oprofile: using arm/armv7-krait
+<6>[    1.831924] u32 classifier
+<6>[    1.832015]     Actions configured
+<6>[    1.832198] Netfilter messages via NETLINK v0.30.
+<6>[    1.832382] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+<6>[    1.833358] ctnetlink v0.93: registering with nfnetlink.
+<6>[    1.833541] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    1.833725] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    1.834091] xt_time: kernel timezone is -0000
+<6>[    1.834793] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.835159] arp_tables: (C) 2002 David S. Miller
+<6>[    1.835373] TCP: cubic registered
+<6>[    1.835556] Initializing XFRM netlink socket
+<6>[    1.836380] NET: Registered protocol family 10
+<6>[    1.839157] Mobile IPv6
+<6>[    1.839371] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.839707] IPv6 over IPv4 tunneling driver
+<6>[    1.840683] NET: Registered protocol family 17
+<6>[    1.840805] NET: Registered protocol family 15
+<6>[    1.841263] Bluetooth: RFCOMM TTY layer initialized
+<6>[    1.841660] Bluetooth: RFCOMM socket layer initialized
+<6>[    1.841843] Bluetooth: RFCOMM ver 1.11
+<6>[    1.842179] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    1.842362] Bluetooth: BNEP filters: protocol multicast
+<6>[    1.842545] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    1.843003] L2TP core driver, V2.0
+<6>[    1.843216] PPPoL2TP kernel driver, V2.0
+<6>[    1.845170] VFP support v0.3: implementor 51 architecture 64 part 6f variant 0 rev 2
+<5>[    1.845597] Registering SWP/SWPB emulation handler
+<6>[    1.871967] clock_late_init: Removing enables held for handed-off clocks
+<6>[    1.884053] MSM Watchdog Initialized
+<6>[    1.893483] registered taskstats version 1
+<6>[    1.893972] rtc-pm8xxx rtc-pm8xxx: setting system clock to 2013-08-14 11:31:22 UTC (1376479882)
+<3>[    1.894887] read_ocv_trim: program rev reg is 0x34
+<3>[    1.894948] read_ocv_trim: trim reg is 0x46
+<3>[    1.895040] read_ocv_trim: trim delta is 3
+<3>[    1.895132] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    1.897451] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    1.898763] pm8921_is_usb_chg_plugged_in: called before init
+<6>[    1.898886] ocv_ir_compensation: comp ocv = 4312623, ocv = 4309557, ibatt_ua = 14000, rbatt_mohm = 219
+<6>[    1.899038] read_soc_params_raw: discard shutdown soc! cc_raw = 0x3c5c1
+<0>[    1.899221] calculate_unusable_charge_uah: Using shutdown_iavg_ma = 500 in all samples
+<3>[    1.899343] pm8921_is_batfet_closed: called before init
+<3>[    1.920555] pm8921_is_usb_chg_plugged_in: called before init
+<6>[    1.920647] adjust_soc: ibat_ua = 344400, vbat_uv = 4264798, soc = 99, batt_temp=309
+<3>[    1.922966] pm8921_get_batt_state: called before init
+<6>[    1.923119] pm8921_bms_probe: OK battery_capacity_at_boot=99 volt = 4272684 ocv = 4312623
+<3>[    1.924126] power_supply usb: driver failed to report `present' property: 4294967274
+<3>[    1.924278] power_supply usb: driver failed to report `present' property: 4294967274
+<3>[    1.924431] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+<3>[    1.924553] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+<3>[    1.925866] pm8921_get_batt_state: called before init
+<3>[    1.928185] pm8921_get_batt_state: called before init
+<6>[    1.933831] wlc: bq51051b_wlc_probe: probe
+<6>[    1.933892] wlc: bq51051b_wlc_hw_init: hw_init
+<3>[    1.934259] power_supply wireless: driver failed to report `present' property: 4294967274
+<6>[    1.934625] batt_temp_ctrl_init 
+<6>[    1.934747] batt_temp_ctrl_probe
+<6>[    1.935632] android_vibrator: default amplitude 88 
+<6>[    1.935785] android vibrator probed
+<7>[    1.935937] hsd_init: hsd_init
+<7>[    1.936090] hsd_probe: hsd_probe
+<7>[    1.936151] hsd_probe: hi->irq_detect = 369
+<7>[    1.936303] hsd_probe: hi->irq_key = 371
+<6>[    1.936761] input: hs_detect as /devices/virtual/input/input5
+<6>[    1.936944] ALSA device list:
+<6>[    1.937066]   #0: apq8064-tabla-snd-card
+<6>[    1.938013] Freeing init memory: 1036K
+<4>[    1.941614] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<6>[    2.073462] keychord: using input dev pmic8xxx_pwrkey for fevent
+<6>[    2.073584] keychord: using input dev keypad_8064 for fevent
+<3>[    2.073981] init: cannot open '/initlogo.rle'
+<6>[    2.249748] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[    2.258873] EXT4-fs (mmcblk0p22): recovery complete
+<6>[    2.259636] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=remount-ro
+<6>[    2.320738] fs_mgr: Running /system/bin/e2fsck on /dev/block/platform/msm_sdcc.1/by-name/cache
+<6>[    2.355287] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<6>[    2.610987] msm_otg msm_otg: Avail curr from USB = 500
+<6>[    2.611323] msm_otg msm_otg: current: 0 -> 500 (mA)
+<6>[    2.611384] pm_power_set_property_usb: usb_target_ma 0
+<6>[    2.614191] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+<7>[    2.723119] EXT4-fs (mmcblk0p23): ext4_orphan_cleanup: deleting unreferenced inode 33230
+<7>[    2.723332] EXT4-fs (mmcblk0p23): ext4_orphan_cleanup: deleting unreferenced inode 33226
+<6>[    2.723515] EXT4-fs (mmcblk0p23): 2 orphan inodes deleted
+<6>[    2.723607] EXT4-fs (mmcblk0p23): recovery complete
+<6>[    2.728521] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=remount-ro
+<6>[    2.831039] fs_mgr: Running /system/bin/e2fsck on /dev/block/platform/msm_sdcc.1/by-name/userdata
+<6>[    2.845566] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered,noauto_da_alloc
+<6>[    2.853898] EXT4-fs (mmcblk0p20): recovery complete
+<6>[    2.854600] EXT4-fs (mmcblk0p20): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered,nodelalloc
+<6>[    2.904959] wcnss_wlan triggered by userspace
+<6>[    3.011170] unplug_check_worker: Stopping Unplug Check Worker USB == 500mA
+<6>[    3.075629] pil pil1: wcnss: Brought out of reset
+<6>[    3.075904] wcnss_8960: Subsystem restart activated for riva.
+<3>[    3.099649] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+<3>[    3.106149] pil pil4: gss: Failed to locate gss.mdt
+<3>[    3.107614] pil pil4: gss: Failed to locate gss.mdt
+<3>[    3.110392] pil pil4: gss: Failed to locate gss.mdt
+<3>[    3.112467] pil pil4: gss: Failed to locate gss.mdt
+<3>[    3.118235] init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+<3>[    3.118541] init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<3>[    3.118815] init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+<3>[    3.163314] enable_store: android_usb: already disabled
+<3>[    3.163558] enable_store: android_usb: already disabled
+<3>[    3.164230] init: using deprecated syntax for specifying property 'sys.usb.config', use ${name} instead
+<6>[    3.240317] mdm_modem_ioctl: Powering on mdm
+<6>[    3.244773] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<6>[    3.273615] msm_thermal: enabled = 0
+<6>[    3.339691] adb_open
+<6>[    3.339752] mtp_bind_config
+<6>[    3.340180] adb_bind_config
+<6>[    3.362917] pil pil3: dsps: Brought out of reset
+<4>[    3.363863] QSEECOM: qseecom_load_app: App (keymaster) does not exist, loading apps for first time
+<4>[    3.458751] QSEECOM: qseecom_load_app: App with id 1 (keymaster) now loaded
+<6>[    3.469586] android_work: android_work: did not send uevent (0 0   (null))
+<6>[    3.508347] wcnss_wlan_ctrl_probe: SMD ctrl channel up
+<6>[    3.580222] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[    3.583915] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[    3.643735] mdp4_dtv_start: <ID=0 1920x1080 (88,44,148), (4,5,36) 148MHz>
+<6>[    3.648985] dtv_on: tv_src_clk=148500kHz, pm_qos_rate=148500kHz, [0]
+<6>[    3.649656] hdmi_msm hdmi_msm.1: power: ON (1920x1080 148500000)
+<6>[    3.649778] hdmi_msm hdmi_msm.1: power=OFF DVI= OFF
+<6>[    3.649839] mdp4_dtv_on:
+<3>[    3.649961] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=1
+<6>[    3.650053] hdmi_msm hdmi_msm.1: power: OFF (audio off, Reset Core)
+<6>[    3.650144] hdmi_msm hdmi_msm.1: HDMI Audio: Disabled
+<6>[    3.650236] dtv_off
+<6>[    3.652708] mdp4_dtv_off:
+<6>[    3.653166] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 1
+<6>[    3.712314] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[    3.713108] android_usb gadget: high-speed config #1: android_usb
+<6>[    3.771616] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[    3.787547] msm_ipc_router_create: Do not have permissions
+<6>[    3.791240] mipi_dsi_controller_cfg: DSI status=8 failed
+<6>[    3.791362] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<4>[    3.791484] ext_dsv_load: Failed to create debugfs directory
+<6>[    3.793560]  mipi_dsi_panel_power : reset start.
+<6>[    3.814802] mipi_lgit_lcd_on started
+<6>[    3.835983] mipi_lgit_lcd_on finished
+<6>[    4.274195] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[    4.276850] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[    4.761239] hdmi_msm hdmi_msm.1: HDMI HPD: event detected
+<6>[    4.761300] hdmi_msm hdmi_msm.1: HDMI HPD: QDSP OFF
+<6>[    4.761635] hdmi_msm hdmi_msm.1: hdmi_audio state switched to 0: hdmi_msm_hpd_state_work
+<6>[    4.761696] hdmi_msm hdmi_msm.1: Hdmi state switched to 0: hdmi_msm_hpd_state_work
+<6>[    4.761819] hdmi_msm hdmi_msm.1: HDMI HPD: DISCONNECTED: send OFFLINE
+<6>[    7.621242] msm_ta_detect_work: USB exit ta detection - frindex
+<6>[   13.521226] wcnss_post_bootup: Cancel APPS vote for Iris & Riva
+<6>[   17.145917] request_suspend_state: wakeup (3->0) at 17144700469 (2013-08-14 11:31:37.740956404 UTC)
+<4>[   17.242240] lowmem_shrink: convert oom_adj to oom_score_adj:
+<4>[   17.242362] oom_adj 0 => oom_score_adj 0
+<4>[   17.242423] oom_adj 1 => oom_score_adj 58
+<4>[   17.242545] oom_adj 2 => oom_score_adj 117
+<4>[   17.242606] oom_adj 4 => oom_score_adj 235
+<4>[   17.242667] oom_adj 9 => oom_score_adj 529
+<4>[   17.243247] oom_adj 15 => oom_score_adj 1000
+<6>[   17.602502] wlan: loading driver v3.2.1.13
+<3>[   17.621638] [WLAN][509:E :SME] csrOpen: 326:  country Code from nvRam USI
+<3>[   17.621638] 
+<3>[   17.629757] [WLAN][509:E :PE ] CheckParam: 788: Param id 40 wrong permissions 237094
+<3>[   17.629757] 
+<3>[   17.629971] [WLAN][509:E :PE ] ProcSetReqInternal: 689: Check param failed, param 40
+<3>[   17.630001] 
+<3>[   17.630367] [0:509:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.633450] [1:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.634152] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.635861] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.637570] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.639401] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.640897] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.641507] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.643399] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.644834] [0:603:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.647550] [0:509:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<6>[   17.806683] wlan: WCNSS WLAN version 1.3.1.0
+<6>[   17.806836] wlan: WCNSS software version AAAAAANAAW122025
+<6>[   17.806928] wlan: WCNSS hardware version WCN v2.0 IRIS v2.0 with 48MHz XO
+<3>[   17.807080] [0:509:E :CTL] Caps exchange feature NOT supported. Return NOT SUPPORTED for 2 feature
+<3>[   17.822890] [WLAN][509:E :HDD] In module init: Ensure Force XO Core is OFF when  WLAN is turned ON so Core toggles unless we enter PS
+<3>[   17.822890] 
+<6>[   17.823103] wlan: driver loaded
+<3>[   18.874103] [WLAN][613:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<3>[   18.874103] 
+<6>[   18.874774] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+<3>[   19.267694] [WLAN][613:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<3>[   19.267694] 
+<6>[   19.268335] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<3>[   20.024172] [WLAN][603:E :PE ] limProcessAssocRspFrame: 705: Successfully Associated with BSS 00:24:c4:d2:9f:90
+<6>[   20.043674] wlan: connected to 00:24:c4:d2:9f:90
+<6>[   20.045811] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+<3>[   20.046329] [WLAN][604:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.047550] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.047794] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.054814] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.061376] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 1 State: 1
+<3>[   20.061712] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 1 AC Mask: 0
+<3>[   20.063634] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.064031] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.098122] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.098489] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.098641] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.113902] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.114268] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.114481] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.130138] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.130444] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.130688] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.151136] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.151442] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.151686] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.167648] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.167953] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.168136] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   20.180711] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[   20.211506] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 1 State: 1
+<3>[   20.212116] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 1 AC Mask: 0
+<3>[   20.258354] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[   20.258507] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[   21.211597] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 1 State: 1
+<3>[   21.212391] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 1 AC Mask: 0
+<3>[   21.263757] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<6>[   22.085457] adjust_soc: ibat_ua = 500, vbat_uv = 4329057, soc = 99, batt_temp=312
+<6>[   22.085945] calculate_soc_work: Recharging is started
+<3>[   23.266656] [WLAN][613:E :SME] csrRoamIssueDisassociateCmd: 6050:   reason = 0
+<3>[   23.266687] 
+<3>[   23.267663] [WLAN][613:E :SME] csrRoamProcessDisassocDeauth: 5970:  restore AC weights (1-3-5-7)
+<3>[   23.267663] 
+<3>[   23.268365] [WLAN][613:E :SME] csrRoamIssueDisassociate: 1946:  restore AC weights (1-3-5-7)
+<3>[   23.268396] 
+<3>[   23.269189] [WLAN][603:E :PE ] __limProcessSmeDisassocReq: 2176: received DISASSOC_REQ message. Reason: 1 global SmeState: 1
+<3>[   23.269220] 
+<3>[   23.270959] [WLAN][603:E :PE ] limProcessMlmDisassocReqPostSuspend: 2792: FT Preauth Session (ed120000,0) Cleanup
+<3>[   23.270990] 
+<3>[   23.274469] [WLAN][613:E :SME] csrNeighborRoamIndicateDisconnect: 2798: Disconnect indication on session 0 in state 1 (sub-state 12)
+<3>[   23.274958] [WLAN][613:E :SME] sme_QosDeleteBufferedRequests: 6306: Buffered List empty, nothing to delete on session 0
+<3>[   23.278071] [WLAN][613:E :SME] sme_QosDeleteExistingFlows: 6086: Flow List empty, nothing to delete
+<3>[   23.298580] [WLAN][603:E :SME] csrRoamingStateMsgProcessor: 7249: eWNI_SME_DISASSOC_RSP subState = 12
+<3>[   23.298580] 
+<6>[   23.299465] wlan: disconnected
+<3>[   23.299862] [WLAN][603:E :SME] sme_QosDeleteBufferedRequests: 6306: Buffered List empty, nothing to delete on session 0
+<3>[   23.300289] [WLAN][603:E :SME] sme_QosDeleteExistingFlows: 6086: Flow List empty, nothing to delete
+<3>[   23.300686] [WLAN][603:E :SME] csrNeighborRoamIndicateDisconnect: 2798: Disconnect indication on session 0 in state 1 (sub-state 0)
+<6>[   23.309385] cfg80211: Calling CRDA for country: DE
+<3>[   25.032931] [WLAN][613:E :HDD] wlan_hdd_cfg80211_set_cipher: received cipher 0 - considering none
+<3>[   25.033053] [WLAN][613:E :HDD] wlan_hdd_cfg80211_set_cipher: received cipher 0 - considering none
+<3>[   25.085457] [WLAN][603:E :PE ] limProcessAssocRspFrame: 705: Successfully Associated with BSS 00:24:c4:d2:9f:91
+<6>[   25.106638] wlan: connected to 00:24:c4:d2:9f:91
+<7>[   30.231222] wlan0: no IPv6 routers present
+<6>[   42.111521] adjust_soc: ibat_ua = -96400, vbat_uv = 4346711, soc = 99, batt_temp=312
+<6>[   46.362093] mdm_modem_ioctl: normal boot done
+<6>[   46.367984] mdm_pblrdy_change: pbl ready:0
+<6>[   47.009980] mdm_status_change: status = 1: mdm is now ready
+<6>[   47.027620] msm_hsic_host msm_hsic_host: remove, state 1
+<6>[   47.027895] usb usb1: USB disconnect, device number 1
+<6>[   47.028292] usb 1-1: USB disconnect, device number 2
+<6>[   47.038791] qcserial ttyUSB0: Qualcomm USB modem converter now disconnected from ttyUSB0
+<6>[   47.039981] qcserial 1-1:1.0: device disconnected
+<6>[   47.049565] msm_hsic_host msm_hsic_host: USB bus 1 deregistered
+<6>[   47.074500] msm_hsic_host msm_hsic_host: Qualcomm EHCI Host Controller using HSIC
+<6>[   47.074988] msm_hsic_host msm_hsic_host: new USB bus registered, assigned bus number 1
+<6>[   47.101602] msm_hsic_host msm_hsic_host: irq 261, io mem 0x12510000
+<6>[   47.121257] msm_hsic_host msm_hsic_host: USB 2.0 started, EHCI 1.00
+<6>[   47.121410] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[   47.121532] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[   47.121623] usb usb1: Product: Qualcomm EHCI Host Controller using HSIC
+<6>[   47.121684] usb usb1: Manufacturer: Linux 3.4.0-perf-g7ce11cd-dirty ehci_hcd
+<6>[   47.121806] usb usb1: SerialNumber: msm_hsic_host
+<6>[   47.122661] hub 1-0:1.0: USB hub found
+<6>[   47.122783] hub 1-0:1.0: 1 port detected
+<6>[   47.491377] usb 1-1: new high-speed USB device number 2 using msm_hsic_host
+<6>[   47.554616] usb 1-1: New USB device found, idVendor=05c6, idProduct=9048
+<6>[   47.554860] usb 1-1: New USB device strings: Mfr=3, Product=2, SerialNumber=0
+<6>[   47.555257] usb 1-1: Product: Qualcomm CDMA Technologies MSM
+<6>[   47.555470] usb 1-1: Manufacturer: Qualcomm, Incorporated
+<6>[   47.573050] qcserial 1-1:1.2: Qualcomm USB modem converter detected
+<6>[   47.575247] usb 1-1: Qualcomm USB modem converter now attached to ttyUSB0
+<6>[   47.594964] rmnet_usb 1-1:1.5: rmnet_usb0: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 7e:83:3a:aa:2c:3f
+<6>[   47.608911] rmnet_usb 1-1:1.6: rmnet_usb1: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 7e:83:3a:aa:2c:3f
+<6>[   47.642606] rmnet_usb 1-1:1.7: rmnet_usb2: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 7e:83:3a:aa:2c:3f
+<6>[   47.682618] rmnet_usb 1-1:1.8: rmnet_usb3: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 7e:83:3a:aa:2c:3f
+<3>[   49.815656] msm_ipc_router_create: Do not have permissions
+<3>[   49.831710] msm_ipc_router_create: Do not have permissions
+<3>[   49.871326] msm_ipc_router_create: Do not have permissions
+<3>[   49.887746] msm_ipc_router_create: Do not have permissions
+<6>[   50.651609] pil pil0: q6: Brought out of reset
+<6>[   50.682527] apr_tal:Q6 Is Up
+<6>[   50.682984] apr_tal: SMD_EVENT_OPEN
+<6>[   51.957363] acc_open
+<6>[   51.957454] acc_release
+<6>[   53.521287] bcm2079x-i2c 0-a1fa: 10,29
+<6>[   53.831741] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[   53.831802] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[   53.832229] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[   54.522173] mtp_open
+<3>[   55.169601] transport_store: usb cable is not connected
+<3>[   56.099984] init: sys_prop: permission denied uid:1003  name:service.bootanim.exit
+<6>[   62.111368] adjust_soc: ibat_ua = 321200, vbat_uv = 4271998, soc = 99, batt_temp=315
+<6>[   65.245658] binder: 542:591 transaction failed 29189, size 100-4
+<6>[   82.111765] adjust_soc: ibat_ua = -77800, vbat_uv = 4340212, soc = 99, batt_temp=317
+<6>[   86.847825] lm3530_backlight_off, on: 1
+<6>[   86.873401] lm3530_backlight_off, on: 0
+<3>[   86.911277] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[   86.911307] mipi_dsi_ahb_ctrl: ahb clks already ON
+<6>[   86.911307] mipi_dsi_clk_enable: mipi_dsi_clks already ON
+<6>[   86.911307] mipi_lgit_lcd_off started
+<6>[   87.041233] mipi_lgit_lcd_off finished
+<6>[   87.043705] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[   87.045505] lm3530_backlight_off, on: 0
+<6>[   87.046574] request_suspend_state: sleep (0->3) at 87045387169 (2013-08-14 11:32:47.641643104 UTC)
+<4>[   87.046757] [Touch D]touch disable
+<3>[   87.080970] dtv_pipe is not configured yet
+<6>[   87.082862] active wake lock qcril
+<6>[   87.082984] active wake lock PowerManagerService.Broadcasts
+<6>[   87.083045] active wake lock msm_hsic_host
+<6>[   87.083076] active wake lock pm8921_eoc
+<6>[   87.083198] active wake lock PowerManagerService
+<6>[   87.083259] active wake lock msm_otg
+<6>[   87.083320] PM: Syncing filesystems...
+<6>[   87.099221] sync done.
+<3>[   92.406928] init: untracked pid 1773 exited
+<3>[   92.407324] init: untracked pid 1775 exited
+<6>[  102.111796] adjust_soc: ibat_ua = -193500, vbat_uv = 4364725, soc = 100, batt_temp=317
+<6>[  122.111796] adjust_soc: ibat_ua = -198100, vbat_uv = 4367973, soc = 100, batt_temp=315
+<6>[  142.111765] adjust_soc: ibat_ua = -163000, vbat_uv = 4367973, soc = 100, batt_temp=312
+<6>[  162.111765] adjust_soc: ibat_ua = -142200, vbat_uv = 4365609, soc = 100, batt_temp=311
+<6>[  182.111796] adjust_soc: ibat_ua = -193500, vbat_uv = 4378307, soc = 100, batt_temp=310
+<6>[  195.692720] request_suspend_state: wakeup (3->0) at 195691503438 (2013-08-14 11:34:36.287759373 UTC)
+<4>[  195.719945] [Touch D]touch enable
+<6>[  195.731573] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[  195.733282]  mipi_dsi_panel_power : reset start.
+<6>[  195.755104] mipi_lgit_lcd_on started
+<6>[  195.811628] mipi_lgit_lcd_on finished
+<6>[  195.814405] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[  195.845383] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[  195.848741] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[  197.298428] bcm2079x-i2c 0-a1fa: 10,29
+<6>[  197.608728] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[  197.608911] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[  197.609369] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[  202.111735] adjust_soc: ibat_ua = -82400, vbat_uv = 4356749, soc = 100, batt_temp=308
+<6>[  222.111704] adjust_soc: ibat_ua = -31000, vbat_uv = 4345824, soc = 100, batt_temp=308
+<6>[  242.111796] adjust_soc: ibat_ua = -35400, vbat_uv = 4347598, soc = 100, batt_temp=309
+<6>[  244.064184] eoc_worker: End of Charging
+<6>[  244.077247] adjust_soc: ibat_ua = -34300, vbat_uv = 4345584, soc = 100, batt_temp=309
+<6>[  257.635128] lm3530_backlight_off, on: 1
+<6>[  257.660979] lm3530_backlight_off, on: 0
+<3>[  257.702578] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[  257.702639] mipi_lgit_lcd_off started
+<6>[  257.831313] mipi_lgit_lcd_off finished
+<6>[  257.835312] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[  257.837540] lm3530_backlight_off, on: 0
+<6>[  257.841477] request_suspend_state: sleep (0->3) at 257840259727 (2013-08-14 11:35:38.436515662 UTC)
+<4>[  257.841965] [Touch D]touch disable
+<3>[  257.891713] dtv_pipe is not configured yet
+<6>[  257.895315] active wake lock sns_async_ev_wakelock
+<6>[  257.895498] active wake lock PowerManagerService.Broadcasts
+<6>[  257.895833] active wake lock PowerManagerService
+<6>[  257.896017] active wake lock msm_otg
+<6>[  257.896230] PM: Syncing filesystems...
+<6>[  257.920738] sync done.
+<6>[  262.084297] adjust_soc: ibat_ua = -500, vbat_uv = 4343811, soc = 100, batt_temp=309
+<6>[  282.084297] adjust_soc: ibat_ua = -1600, vbat_uv = 4342338, soc = 100, batt_temp=309
+<6>[  302.124278] adjust_soc: ibat_ua = -2100, vbat_uv = 4341450, soc = 100, batt_temp=308
+<6>[  322.044193] adjust_soc: ibat_ua = -1600, vbat_uv = 4340565, soc = 100, batt_temp=307
+<6>[  342.044315] adjust_soc: ibat_ua = -1600, vbat_uv = 4339386, soc = 100, batt_temp=306
+<3>[  352.986754] [WLAN][603:E :PE ] limProcessDeauthFrame: 114: received Deauth frame (mlm state = eLIM_MLM_LINK_ESTABLISHED_STATE
+<3>[  352.986784] ) with reason code 103 from 
+<3>[  352.987547] [WLAN][603:E :PE ] limPrintMacAddr: 1258: 0:24:C4:D2:9F:91
+<3>[  352.987547] 
+<3>[  352.988066] [WLAN][603:E :SME] sme_QosDeleteBufferedRequests: 6306: Buffered List empty, nothing to delete on session 0
+<3>[  352.988463] [WLAN][603:E :SME] sme_QosDeleteExistingFlows: 6086: Flow List empty, nothing to delete
+<3>[  352.988890] [WLAN][603:E :SME] csrNeighborRoamIndicateDisconnect: 2798: Disconnect indication on session 0 in state 2 (sub-state 0)
+<3>[  352.989287] [WLAN][603:E :SME] csrNeighborRoamIndicateDisconnect: 2865: Received disconnect event in state 2
+<3>[  352.989684] [WLAN][603:E :SME] csrNeighborRoamIndicateDisconnect: 2866: Transitioning to INIT state
+<6>[  352.995330] wlan: disconnected
+<6>[  352.997924] cfg80211: Calling CRDA to update world regulatory domain
+<6>[  352.999481] wlan: disconnected
+<3>[  353.000579] [WLAN][603:E :TL ] WLAN TL:Station was not previously registered on WLANTL_ClearSTAClient
+<3>[  353.883412] [WLAN][603:E :PE ] limProcessAssocRspFrame: 705: Successfully Associated with BSS 00:24:c4:d2:9f:9f
+<6>[  353.905234] wlan: connected to 00:24:c4:d2:9f:9f
+<6>[  353.909110] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+<3>[  353.915000] [WLAN][604:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  353.917228] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  353.917778] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  353.922997] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  353.993499] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  353.993712] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.005249] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.005554] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.005676] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.011719] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.011963] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.012147] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.017976] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.018251] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.018434] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.024355] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.024568] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.024751] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.030642] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.030856] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.031039] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.036288] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.232076] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.232259] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.238791] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.239004] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.239188] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.250968] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.251915] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.252098] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.258141] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.258476] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.258812] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Adding a new cache entry 0.
+<3>[  354.258904] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<3>[  354.260491] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.260582] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<3>[  354.261925] [WLAN][605:E :TL ] WLAN TL:RX Frame  EAPOL EtherType 34958 - processing
+<3>[  354.262200] [WLAN][0:E :TL ] WLAN TL:Packet pending indication for STA: 3 AC: 3 State: 1
+<3>[  354.262353] [WLAN][604:E :TL ] WLAN TL: WLANTL_STATxConn no more packets in HDD for AC: 3 AC Mask: 0
+<6>[  362.044162] adjust_soc: ibat_ua = -1000, vbat_uv = 4339977, soc = 100, batt_temp=306
+<7>[  370.901266] wlan0: no IPv6 routers present
+<6>[  382.044193] adjust_soc: ibat_ua = -1600, vbat_uv = 4337319, soc = 100, batt_temp=306
+<6>[  402.044162] adjust_soc: ibat_ua = -2800, vbat_uv = 4339089, soc = 100, batt_temp=305
+<6>[  422.044162] adjust_soc: ibat_ua = -3300, vbat_uv = 4340862, soc = 100, batt_temp=304
+<6>[  442.044162] adjust_soc: ibat_ua = -2800, vbat_uv = 4339680, soc = 100, batt_temp=303
+<6>[  462.044162] adjust_soc: ibat_ua = -2100, vbat_uv = 4335549, soc = 100, batt_temp=303
+<6>[  482.044162] adjust_soc: ibat_ua = -2800, vbat_uv = 4338204, soc = 100, batt_temp=302
+<6>[  502.044162] adjust_soc: ibat_ua = -2800, vbat_uv = 4340565, soc = 100, batt_temp=301
+<6>[  522.044162] adjust_soc: ibat_ua = -3300, vbat_uv = 4341450, soc = 100, batt_temp=300
+<6>[  542.044193] adjust_soc: ibat_ua = -3300, vbat_uv = 4339089, soc = 100, batt_temp=300
+<6>[  562.044162] adjust_soc: ibat_ua = -3300, vbat_uv = 4338204, soc = 100, batt_temp=300
+<6>[  582.044162] adjust_soc: ibat_ua = -2800, vbat_uv = 4338795, soc = 100, batt_temp=299
+<6>[  602.044193] adjust_soc: ibat_ua = -3300, vbat_uv = 4338795, soc = 100, batt_temp=299
+<6>[  622.044193] adjust_soc: ibat_ua = 500, vbat_uv = 4340271, soc = 100, batt_temp=298
+<6>[  642.044346] adjust_soc: ibat_ua = 0, vbat_uv = 4339089, soc = 100, batt_temp=298
+<6>[  662.044162] adjust_soc: ibat_ua = 0, vbat_uv = 4339386, soc = 100, batt_temp=298
+<6>[  682.044193] adjust_soc: ibat_ua = -500, vbat_uv = 4337025, soc = 100, batt_temp=298
+<6>[  702.044132] adjust_soc: ibat_ua = 0, vbat_uv = 4336728, soc = 100, batt_temp=297
+<6>[  722.044132] adjust_soc: ibat_ua = 500, vbat_uv = 4340271, soc = 100, batt_temp=296
+<6>[  742.044132] adjust_soc: ibat_ua = 0, vbat_uv = 4336140, soc = 100, batt_temp=296
+<6>[  750.493911] request_suspend_state: wakeup (3->0) at 750492693669 (2013-08-14 11:43:51.088949604 UTC)
+<4>[  750.510361] [Touch D]touch enable
+<6>[  750.520036] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[  750.521409]  mipi_dsi_panel_power : reset start.
+<6>[  750.545398] mipi_lgit_lcd_on started
+<6>[  750.602807] mipi_lgit_lcd_on finished
+<6>[  750.606073] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[  750.635830] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[  750.638882] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[  752.099099] bcm2079x-i2c 0-a1fa: 10,29
+<6>[  752.409796] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[  752.409888] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[  752.410376] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[  758.575766] apr_tal: SMD_EVENT_OPEN
+<6>[  758.631283] amp_enable: AMP_EN is set to 1
+<6>[  761.711796] SLIM_CL: skip reconfig sequence
+<6>[  761.725469] amp_enable: amp enable bypass(2)
+<6>[  761.725957] amp_enable: AMP_EN is set to 0
+<6>[  762.044620] adjust_soc: ibat_ua = -500, vbat_uv = 4337025, soc = 100, batt_temp=296
+<6>[  762.211261] amp_enable: AMP_EN is set to 1
+<6>[  765.374362] SLIM_CL: skip reconfig sequence
+<6>[  765.387181] amp_enable: amp enable bypass(2)
+<6>[  765.387822] amp_enable: AMP_EN is set to 0
+<3>[  774.480939] binder: release proc 1895, transaction 71990, not freed
+<6>[  775.639401] binder: 542:591 transaction failed 29189, size 100-4
+<6>[  779.671264] amp_enable: AMP_EN is set to 1
+<6>[  782.043918] adjust_soc: ibat_ua = 0, vbat_uv = 4327875, soc = 100, batt_temp=298
+<6>[  782.806714] SLIM_CL: skip reconfig sequence
+<6>[  782.820418] amp_enable: amp enable bypass(2)
+<6>[  782.821028] amp_enable: AMP_EN is set to 0
+<6>[  789.511277] amp_enable: AMP_EN is set to 1
+<6>[  794.040256] SLIM_CL: skip reconfig sequence
+<6>[  794.050572] amp_enable: amp enable bypass(2)
+<6>[  794.050755] amp_enable: AMP_EN is set to 0
+<6>[  794.341278] amp_enable: AMP_EN is set to 1
+<6>[  797.508743] SLIM_CL: skip reconfig sequence
+<6>[  797.518968] amp_enable: amp enable bypass(2)
+<6>[  797.519181] amp_enable: AMP_EN is set to 0
+<6>[  800.461284] amp_enable: AMP_EN is set to 1
+<6>[  802.043949] adjust_soc: ibat_ua = 500, vbat_uv = 4336140, soc = 100, batt_temp=300
+<6>[  803.638180] SLIM_CL: skip reconfig sequence
+<6>[  803.649381] amp_enable: amp enable bypass(2)
+<6>[  803.649564] amp_enable: AMP_EN is set to 0
+<6>[  803.711277] amp_enable: AMP_EN is set to 1
+<6>[  809.396886] SLIM_CL: skip reconfig sequence
+<6>[  809.406165] amp_enable: amp enable bypass(2)
+<6>[  809.406348] amp_enable: AMP_EN is set to 0
+<6>[  811.371280] amp_enable: AMP_EN is set to 1
+<6>[  819.522142] SLIM_CL: skip reconfig sequence
+<6>[  819.530260] amp_enable: amp enable bypass(2)
+<6>[  819.530443] amp_enable: AMP_EN is set to 0
+<6>[  819.701327] amp_enable: AMP_EN is set to 1
+<6>[  822.043735] adjust_soc: ibat_ua = 95300, vbat_uv = 4326399, soc = 100, batt_temp=302
+<6>[  825.232412] SLIM_CL: skip reconfig sequence
+<6>[  825.242118] amp_enable: amp enable bypass(2)
+<6>[  825.242301] amp_enable: AMP_EN is set to 0
+<6>[  826.141248] amp_enable: AMP_EN is set to 1
+<6>[  829.927514] SLIM_CL: skip reconfig sequence
+<6>[  829.942316] amp_enable: amp enable bypass(2)
+<6>[  829.942835] amp_enable: AMP_EN is set to 0
+<3>[  840.743842] init: untracked pid 3000 exited
+<6>[  841.881306] amp_enable: AMP_EN is set to 1
+<6>[  842.043827] adjust_soc: ibat_ua = 24200, vbat_uv = 4334664, soc = 100, batt_temp=304
+<3>[  842.682404] init: untracked pid 3055 exited
+<6>[  845.044773] SLIM_CL: skip reconfig sequence
+<6>[  845.058476] amp_enable: amp enable bypass(2)
+<6>[  845.058843] amp_enable: AMP_EN is set to 0
+<6>[  862.046360] adjust_soc: ibat_ua = 500, vbat_uv = 4336728, soc = 100, batt_temp=305
+<3>[  871.746741] init: untracked pid 3093 exited
+<6>[  882.044162] adjust_soc: ibat_ua = 1000, vbat_uv = 4337025, soc = 100, batt_temp=304
+<6>[  902.045414] adjust_soc: ibat_ua = 1000, vbat_uv = 4336140, soc = 100, batt_temp=304
+<6>[  917.901266] amp_enable: AMP_EN is set to 1
+<6>[  921.048130] SLIM_CL: skip reconfig sequence
+<6>[  921.058232] amp_enable: amp enable bypass(2)
+<6>[  921.058385] amp_enable: AMP_EN is set to 0
+<6>[  922.043735] adjust_soc: ibat_ua = 14000, vbat_uv = 4334073, soc = 100, batt_temp=304
+<6>[  926.705600] [imoseyon] ondemandx active
+<6>[  931.549122] [imoseyon] ondemandx inactive
+<6>[  942.043735] adjust_soc: ibat_ua = 14000, vbat_uv = 4333779, soc = 100, batt_temp=306
+<6>[  947.307553] [imoseyon] ondemandx active
+<6>[  957.421028] [imoseyon] ondemandx inactive
+<6>[  962.043674] adjust_soc: ibat_ua = 15200, vbat_uv = 4322562, soc = 100, batt_temp=307
+<6>[  979.710849] [imoseyon] ondemandx active
+<6>[  982.043735] adjust_soc: ibat_ua = 16300, vbat_uv = 4332303, soc = 100, batt_temp=308
+<6>[  994.637082] [imoseyon] ondemandx inactive
+<6>[ 1002.043735] adjust_soc: ibat_ua = 43400, vbat_uv = 4325220, soc = 100, batt_temp=309
+<6>[ 1010.912803] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 1010.912925] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 1010.913077] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 1010.920799] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 1010.920952] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 1010.921074] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 1022.043949] adjust_soc: ibat_ua = 2800, vbat_uv = 4336140, soc = 100, batt_temp=311
+<6>[ 1024.684175] [imoseyon] ondemandx active
+<6>[ 1042.044315] adjust_soc: ibat_ua = 2100, vbat_uv = 4340565, soc = 100, batt_temp=312
+<6>[ 1045.082099] [imoseyon] ondemandx inactive
+<6>[ 1062.043735] adjust_soc: ibat_ua = 19600, vbat_uv = 4333779, soc = 100, batt_temp=312
+<6>[ 1068.782237] [imoseyon] ondemandx active
+<6>[ 1082.044162] adjust_soc: ibat_ua = 2100, vbat_uv = 4336140, soc = 100, batt_temp=313
+<6>[ 1084.649778] [imoseyon] ondemandx inactive
+<6>[ 1102.043918] adjust_soc: ibat_ua = 2800, vbat_uv = 4333482, soc = 100, batt_temp=313
+<6>[ 1122.043735] adjust_soc: ibat_ua = 51300, vbat_uv = 4324038, soc = 100, batt_temp=315
+<6>[ 1124.055455] [imoseyon] ondemandx active
+<6>[ 1142.044010] adjust_soc: ibat_ua = 6700, vbat_uv = 4323447, soc = 100, batt_temp=316
+<6>[ 1154.524736] [imoseyon] ondemandx inactive
+<6>[ 1162.043705] adjust_soc: ibat_ua = 33800, vbat_uv = 4321086, soc = 100, batt_temp=316
+<6>[ 1182.043705] adjust_soc: ibat_ua = 2800, vbat_uv = 4334367, soc = 100, batt_temp=317
+<6>[ 1200.134808] [imoseyon] ondemandx active
+<6>[ 1202.044956] adjust_soc: ibat_ua = 3300, vbat_uv = 4334367, soc = 100, batt_temp=318
+<6>[ 1222.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4332597, soc = 100, batt_temp=318
+<6>[ 1235.770608] [imoseyon] ondemandx inactive
+<6>[ 1242.043735] adjust_soc: ibat_ua = 28200, vbat_uv = 4322562, soc = 100, batt_temp=319
+<6>[ 1262.043735] adjust_soc: ibat_ua = 40600, vbat_uv = 4317840, soc = 100, batt_temp=320
+<6>[ 1282.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4330530, soc = 100, batt_temp=320
+<6>[ 1287.538409] [imoseyon] ondemandx active
+<6>[ 1302.043735] adjust_soc: ibat_ua = 10000, vbat_uv = 4327875, soc = 100, batt_temp=321
+<6>[ 1322.044162] adjust_soc: ibat_ua = 4900, vbat_uv = 4333188, soc = 100, batt_temp=321
+<6>[ 1328.110727] [imoseyon] ondemandx inactive
+<6>[ 1342.043735] adjust_soc: ibat_ua = 27500, vbat_uv = 4330827, soc = 100, batt_temp=322
+<6>[ 1362.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4332597, soc = 100, batt_temp=322
+<6>[ 1365.957179] [imoseyon] ondemandx active
+<6>[ 1382.044162] adjust_soc: ibat_ua = 0, vbat_uv = 4332597, soc = 100, batt_temp=322
+<6>[ 1395.888264] [imoseyon] ondemandx inactive
+<6>[ 1402.043735] adjust_soc: ibat_ua = 32600, vbat_uv = 4324038, soc = 100, batt_temp=322
+<6>[ 1422.043705] adjust_soc: ibat_ua = 500, vbat_uv = 4324038, soc = 100, batt_temp=322
+<6>[ 1432.996062] [imoseyon] ondemandx active
+<6>[ 1442.043857] adjust_soc: ibat_ua = 1600, vbat_uv = 4332597, soc = 100, batt_temp=322
+<6>[ 1460.355562] [imoseyon] ondemandx inactive
+<6>[ 1462.043735] adjust_soc: ibat_ua = 74500, vbat_uv = 4315479, soc = 100, batt_temp=322
+<6>[ 1482.043766] adjust_soc: ibat_ua = -500, vbat_uv = 4333482, soc = 100, batt_temp=322
+<6>[ 1500.374484] [imoseyon] ondemandx active
+<6>[ 1502.044193] adjust_soc: ibat_ua = -500, vbat_uv = 4332006, soc = 100, batt_temp=323
+<6>[ 1522.044132] adjust_soc: ibat_ua = 0, vbat_uv = 4333482, soc = 100, batt_temp=322
+<6>[ 1530.051274] [imoseyon] ondemandx inactive
+<6>[ 1542.043735] adjust_soc: ibat_ua = 78500, vbat_uv = 4315776, soc = 100, batt_temp=322
+<6>[ 1562.043735] adjust_soc: ibat_ua = 500, vbat_uv = 4332303, soc = 100, batt_temp=323
+<6>[ 1582.043766] adjust_soc: ibat_ua = 500, vbat_uv = 4328760, soc = 100, batt_temp=325
+<6>[ 1602.043704] adjust_soc: ibat_ua = 30400, vbat_uv = 4324038, soc = 100, batt_temp=325
+<6>[ 1604.363009] [imoseyon] ondemandx active
+<6>[ 1622.044162] adjust_soc: ibat_ua = -500, vbat_uv = 4335252, soc = 100, batt_temp=325
+<6>[ 1642.044162] adjust_soc: ibat_ua = 0, vbat_uv = 4332006, soc = 100, batt_temp=326
+<6>[ 1662.044590] adjust_soc: ibat_ua = 36600, vbat_uv = 4314300, soc = 100, batt_temp=327
+<6>[ 1665.018342] [imoseyon] ondemandx inactive
+<6>[ 1682.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4330827, soc = 100, batt_temp=327
+<6>[ 1702.043857] adjust_soc: ibat_ua = -500, vbat_uv = 4324629, soc = 100, batt_temp=327
+<6>[ 1707.880237] [imoseyon] ondemandx active
+<6>[ 1722.043949] adjust_soc: ibat_ua = 0, vbat_uv = 4330236, soc = 100, batt_temp=327
+<6>[ 1741.306058] [imoseyon] ondemandx inactive
+<6>[ 1742.043735] adjust_soc: ibat_ua = 5600, vbat_uv = 4329645, soc = 100, batt_temp=325
+<6>[ 1762.043735] adjust_soc: ibat_ua = 12900, vbat_uv = 4330530, soc = 100, batt_temp=326
+<6>[ 1782.043735] adjust_soc: ibat_ua = 69900, vbat_uv = 4334958, soc = 100, batt_temp=326
+<6>[ 1801.492354] [imoseyon] ondemandx active
+<6>[ 1802.044132] adjust_soc: ibat_ua = 44500, vbat_uv = 4333188, soc = 100, batt_temp=327
+<6>[ 1822.045627] adjust_soc: ibat_ua = 0, vbat_uv = 4330827, soc = 100, batt_temp=327
+<6>[ 1842.045108] adjust_soc: ibat_ua = -1000, vbat_uv = 4331418, soc = 100, batt_temp=327
+<6>[ 1851.496291] [imoseyon] ondemandx inactive
+<6>[ 1862.043735] adjust_soc: ibat_ua = 3300, vbat_uv = 4331712, soc = 100, batt_temp=327
+<6>[ 1882.043735] adjust_soc: ibat_ua = 12900, vbat_uv = 4325514, soc = 100, batt_temp=328
+<6>[ 1899.464733] mtp_release
+<6>[ 1902.043735] adjust_soc: ibat_ua = 13500, vbat_uv = 4328760, soc = 100, batt_temp=328
+<6>[ 1904.574789] mtp_open
+<6>[ 1915.287257] [imoseyon] ondemandx active
+<6>[ 1922.044162] adjust_soc: ibat_ua = 0, vbat_uv = 4332006, soc = 100, batt_temp=328
+<6>[ 1942.044467] adjust_soc: ibat_ua = -500, vbat_uv = 4331712, soc = 100, batt_temp=329
+<6>[ 1962.044406] adjust_soc: ibat_ua = -500, vbat_uv = 4334367, soc = 100, batt_temp=328
+<6>[ 1969.411597] [imoseyon] ondemandx inactive
+<6>[ 1982.043704] adjust_soc: ibat_ua = 158600, vbat_uv = 4319610, soc = 100, batt_temp=329
+<6>[ 2002.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4334958, soc = 100, batt_temp=330
+<6>[ 2022.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4329351, soc = 100, batt_temp=330
+<6>[ 2042.043735] adjust_soc: ibat_ua = 125800, vbat_uv = 4332006, soc = 100, batt_temp=330
+<6>[ 2059.534960] [imoseyon] ondemandx active
+<6>[ 2062.044132] adjust_soc: ibat_ua = 0, vbat_uv = 4333482, soc = 100, batt_temp=331
+<6>[ 2082.046054] adjust_soc: ibat_ua = -500, vbat_uv = 4332006, soc = 100, batt_temp=332
+<6>[ 2102.043888] adjust_soc: ibat_ua = 25900, vbat_uv = 4310463, soc = 100, batt_temp=331
+<6>[ 2122.044162] adjust_soc: ibat_ua = -500, vbat_uv = 4334958, soc = 100, batt_temp=331
+<6>[ 2136.070959] [imoseyon] ondemandx inactive
+<6>[ 2142.043796] adjust_soc: ibat_ua = 41200, vbat_uv = 4323447, soc = 100, batt_temp=332
+<6>[ 2162.043704] adjust_soc: ibat_ua = -500, vbat_uv = 4334664, soc = 100, batt_temp=333
+<6>[ 2182.043643] adjust_soc: ibat_ua = 0, vbat_uv = 4338204, soc = 100, batt_temp=332
+<6>[ 2193.683686] [imoseyon] ondemandx active
+<3>[ 2195.689424] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Reusing cache entry 0.
+<3>[ 2195.689607] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<6>[ 2202.044132] adjust_soc: ibat_ua = 0, vbat_uv = 4332891, soc = 100, batt_temp=332
+<6>[ 2222.044132] adjust_soc: ibat_ua = 23600, vbat_uv = 4332303, soc = 100, batt_temp=331
+<6>[ 2238.158797] [imoseyon] ondemandx inactive
+<6>[ 2242.043765] adjust_soc: ibat_ua = 10000, vbat_uv = 4321086, soc = 100, batt_temp=330
+<6>[ 2262.043765] adjust_soc: ibat_ua = -500, vbat_uv = 4334664, soc = 100, batt_temp=331
+<6>[ 2282.043765] adjust_soc: ibat_ua = -500, vbat_uv = 4331712, soc = 100, batt_temp=332
+<6>[ 2302.043735] adjust_soc: ibat_ua = 0, vbat_uv = 4331712, soc = 100, batt_temp=333
+<6>[ 2322.043735] adjust_soc: ibat_ua = 32100, vbat_uv = 4322268, soc = 100, batt_temp=334
+<6>[ 2342.043826] adjust_soc: ibat_ua = 50100, vbat_uv = 4319610, soc = 100, batt_temp=335
+<6>[ 2346.633358] [imoseyon] ondemandx active
+<6>[ 2362.043796] adjust_soc: ibat_ua = 10700, vbat_uv = 4330530, soc = 100, batt_temp=335
+<6>[ 2382.044010] adjust_soc: ibat_ua = 33800, vbat_uv = 4324038, soc = 100, batt_temp=335
+<6>[ 2402.044162] adjust_soc: ibat_ua = -500, vbat_uv = 4334073, soc = 100, batt_temp=335
+<6>[ 2422.044162] adjust_soc: ibat_ua = 500, vbat_uv = 4332006, soc = 100, batt_temp=335
+<6>[ 2435.715275] [imoseyon] ondemandx inactive
+<6>[ 2442.043643] adjust_soc: ibat_ua = 102800, vbat_uv = 4312233, soc = 100, batt_temp=335
+<6>[ 2462.043949] adjust_soc: ibat_ua = 1000, vbat_uv = 4335549, soc = 100, batt_temp=336
+<6>[ 2482.043735] adjust_soc: ibat_ua = 1000, vbat_uv = 4332303, soc = 100, batt_temp=336
+<6>[ 2502.043735] adjust_soc: ibat_ua = 1000, vbat_uv = 4331418, soc = 100, batt_temp=336
+<6>[ 2511.685914] [imoseyon] ondemandx active
+<6>[ 2522.043796] adjust_soc: ibat_ua = 10100, vbat_uv = 4327581, soc = 100, batt_temp=337
+<6>[ 2542.044162] adjust_soc: ibat_ua = 0, vbat_uv = 4333779, soc = 100, batt_temp=335
+<6>[ 2562.043735] adjust_soc: ibat_ua = 7200, vbat_uv = 4329351, soc = 100, batt_temp=335
+<6>[ 2576.727971] [imoseyon] ondemandx inactive
+<6>[ 2582.043765] adjust_soc: ibat_ua = 68800, vbat_uv = 4327284, soc = 100, batt_temp=335
+<6>[ 2587.731267] amp_enable: AMP_EN is set to 1
+<6>[ 2590.902609] SLIM_CL: skip reconfig sequence
+<6>[ 2590.912741] amp_enable: amp enable bypass(2)
+<6>[ 2590.912864] amp_enable: AMP_EN is set to 0
+<6>[ 2592.981260] amp_enable: AMP_EN is set to 1
+<6>[ 2596.136730] SLIM_CL: skip reconfig sequence
+<6>[ 2596.144849] amp_enable: amp enable bypass(2)
+<6>[ 2596.145032] amp_enable: AMP_EN is set to 0
+<6>[ 2599.931267] amp_enable: AMP_EN is set to 1
+<6>[ 2602.043826] adjust_soc: ibat_ua = 500, vbat_uv = 4327875, soc = 100, batt_temp=337
+<6>[ 2605.434945] SLIM_CL: skip reconfig sequence
+<6>[ 2605.445078] amp_enable: amp enable bypass(2)
+<6>[ 2605.445261] amp_enable: AMP_EN is set to 0
+<6>[ 2607.451273] amp_enable: AMP_EN is set to 1
+<6>[ 2616.070593] SLIM_CL: skip reconfig sequence
+<6>[ 2616.079779] amp_enable: amp enable bypass(2)
+<6>[ 2616.079902] amp_enable: AMP_EN is set to 0
+<6>[ 2622.044010] adjust_soc: ibat_ua = 132700, vbat_uv = 4319610, soc = 100, batt_temp=339
+<6>[ 2642.043765] adjust_soc: ibat_ua = 65500, vbat_uv = 4323153, soc = 100, batt_temp=341
+<6>[ 2662.043735] adjust_soc: ibat_ua = 64800, vbat_uv = 4321086, soc = 100, batt_temp=342
+<6>[ 2682.043735] adjust_soc: ibat_ua = 22600, vbat_uv = 4325808, soc = 100, batt_temp=344
+<6>[ 2699.658324] [imoseyon] ondemandx active
+<6>[ 2702.044986] adjust_soc: ibat_ua = 34900, vbat_uv = 4314888, soc = 100, batt_temp=345
+<6>[ 2722.047733] adjust_soc: ibat_ua = 22600, vbat_uv = 4324332, soc = 99, batt_temp=346
+<6>[ 2742.043765] adjust_soc: ibat_ua = 21400, vbat_uv = 4321383, soc = 99, batt_temp=347
+<6>[ 2742.043979] calculate_soc_work: Recharging is started
+<6>[ 2762.071478] adjust_soc: ibat_ua = 63200, vbat_uv = 4311480, soc = 99, batt_temp=347
+<6>[ 2782.071447] adjust_soc: ibat_ua = 70600, vbat_uv = 4309413, soc = 99, batt_temp=348
+<6>[ 2802.071447] adjust_soc: ibat_ua = 39400, vbat_uv = 4313251, soc = 99, batt_temp=349
+<6>[ 2806.293544] [imoseyon] ondemandx inactive
+<6>[ 2822.071356] adjust_soc: ibat_ua = -3800, vbat_uv = 4319454, soc = 99, batt_temp=350
+<6>[ 2842.071447] adjust_soc: ibat_ua = 144500, vbat_uv = 4301146, soc = 99, batt_temp=350
+<6>[ 2862.071386] adjust_soc: ibat_ua = 160400, vbat_uv = 4293470, soc = 99, batt_temp=350
+<6>[ 2882.071447] adjust_soc: ibat_ua = -19600, vbat_uv = 4320634, soc = 99, batt_temp=351
+<6>[ 2893.535388] [imoseyon] ondemandx active
+<6>[ 2902.071508] adjust_soc: ibat_ua = 80700, vbat_uv = 4310596, soc = 99, batt_temp=350
+<6>[ 2922.071356] adjust_soc: ibat_ua = 44000, vbat_uv = 4313548, soc = 99, batt_temp=351
+<6>[ 2942.071478] adjust_soc: ibat_ua = 11200, vbat_uv = 4316796, soc = 99, batt_temp=351
+<6>[ 2962.071569] adjust_soc: ibat_ua = -64300, vbat_uv = 4329195, soc = 99, batt_temp=351
+<6>[ 2970.405493] [imoseyon] ondemandx inactive
+<6>[ 2982.071386] adjust_soc: ibat_ua = -52400, vbat_uv = 4325950, soc = 99, batt_temp=352
+<6>[ 3002.071356] adjust_soc: ibat_ua = 109500, vbat_uv = 4304100, soc = 99, batt_temp=353
+<6>[ 3022.071356] adjust_soc: ibat_ua = 8900, vbat_uv = 4325353, soc = 99, batt_temp=353
+<6>[ 3041.769357] [imoseyon] ondemandx active
+<6>[ 3042.071417] adjust_soc: ibat_ua = 159200, vbat_uv = 4304053, soc = 99, batt_temp=353
+<6>[ 3062.071386] adjust_soc: ibat_ua = 54700, vbat_uv = 4322989, soc = 99, batt_temp=352
+<6>[ 3082.071844] adjust_soc: ibat_ua = 17400, vbat_uv = 4325060, soc = 99, batt_temp=352
+<6>[ 3102.071356] adjust_soc: ibat_ua = 72200, vbat_uv = 4314111, soc = 99, batt_temp=353
+<6>[ 3102.838913] [imoseyon] ondemandx inactive
+<6>[ 3122.071356] adjust_soc: ibat_ua = 211200, vbat_uv = 4291330, soc = 99, batt_temp=353
+<6>[ 3126.431252] amp_enable: AMP_EN is set to 1
+<6>[ 3132.354554] SLIM_CL: skip reconfig sequence
+<6>[ 3132.362703] amp_enable: amp enable bypass(2)
+<6>[ 3132.362825] amp_enable: AMP_EN is set to 0
+<6>[ 3136.941644] amp_enable: AMP_EN is set to 1
+<6>[ 3140.101174] SLIM_CL: skip reconfig sequence
+<6>[ 3140.111337] amp_enable: amp enable bypass(2)
+<6>[ 3140.111460] amp_enable: AMP_EN is set to 0
+<6>[ 3142.071386] adjust_soc: ibat_ua = 217400, vbat_uv = 4286596, soc = 99, batt_temp=356
+<6>[ 3143.011261] amp_enable: AMP_EN is set to 1
+<6>[ 3146.150892] SLIM_CL: skip reconfig sequence
+<6>[ 3146.160109] amp_enable: amp enable bypass(2)
+<6>[ 3146.160292] amp_enable: AMP_EN is set to 0
+<6>[ 3152.731267] amp_enable: AMP_EN is set to 1
+<6>[ 3162.071386] adjust_soc: ibat_ua = 346200, vbat_uv = 4267069, soc = 99, batt_temp=359
+<6>[ 3182.071417] adjust_soc: ibat_ua = 194300, vbat_uv = 4285119, soc = 99, batt_temp=364
+<6>[ 3202.071386] adjust_soc: ibat_ua = 189700, vbat_uv = 4284819, soc = 99, batt_temp=365
+<6>[ 3222.071356] adjust_soc: ibat_ua = 197100, vbat_uv = 4280678, soc = 99, batt_temp=368
+<6>[ 3241.011841] [imoseyon] ondemandx active
+<6>[ 3242.071386] adjust_soc: ibat_ua = 233200, vbat_uv = 4277128, soc = 99, batt_temp=370
+<6>[ 3247.898610] SLIM_CL: skip reconfig sequence
+<6>[ 3247.909842] amp_enable: amp enable bypass(2)
+<6>[ 3247.910056] amp_enable: AMP_EN is set to 0
+<6>[ 3262.071386] adjust_soc: ibat_ua = 159200, vbat_uv = 4288669, soc = 99, batt_temp=369
+<6>[ 3267.211322] amp_enable: AMP_EN is set to 1
+<6>[ 3270.334686] SLIM_CL: skip reconfig sequence
+<6>[ 3270.350190] amp_enable: amp enable bypass(2)
+<6>[ 3270.350587] amp_enable: AMP_EN is set to 0
+<6>[ 3282.071447] adjust_soc: ibat_ua = 233800, vbat_uv = 4279791, soc = 99, batt_temp=368
+<6>[ 3302.071539] adjust_soc: ibat_ua = 120900, vbat_uv = 4299318, soc = 99, batt_temp=365
+<6>[ 3322.071600] adjust_soc: ibat_ua = 45100, vbat_uv = 4312041, soc = 99, batt_temp=363
+<6>[ 3342.071569] adjust_soc: ibat_ua = -67700, vbat_uv = 4328607, soc = 99, batt_temp=362
+<6>[ 3360.395787] [imoseyon] ondemandx inactive
+<6>[ 3362.071417] adjust_soc: ibat_ua = 103300, vbat_uv = 4300799, soc = 99, batt_temp=361
+<6>[ 3382.071447] adjust_soc: ibat_ua = -29800, vbat_uv = 4321803, soc = 99, batt_temp=363
+<6>[ 3402.071356] adjust_soc: ibat_ua = 71700, vbat_uv = 4308193, soc = 99, batt_temp=360
+<6>[ 3422.071386] adjust_soc: ibat_ua = 70600, vbat_uv = 4307603, soc = 99, batt_temp=360
+<6>[ 3429.316617] [imoseyon] ondemandx active
+<6>[ 3442.071508] adjust_soc: ibat_ua = -46200, vbat_uv = 4327130, soc = 99, batt_temp=359
+<6>[ 3462.071447] adjust_soc: ibat_ua = 48000, vbat_uv = 4314408, soc = 99, batt_temp=358
+<6>[ 3482.071386] adjust_soc: ibat_ua = -14000, vbat_uv = 4320622, soc = 99, batt_temp=358
+<6>[ 3491.976498] [imoseyon] ondemandx inactive
+<6>[ 3502.071356] adjust_soc: ibat_ua = 68800, vbat_uv = 4303462, soc = 99, batt_temp=358
+<6>[ 3522.071386] adjust_soc: ibat_ua = -42200, vbat_uv = 4323286, soc = 99, batt_temp=359
+<6>[ 3542.071386] adjust_soc: ibat_ua = 159200, vbat_uv = 4296951, soc = 99, batt_temp=358
+<6>[ 3562.071386] adjust_soc: ibat_ua = 137200, vbat_uv = 4295177, soc = 99, batt_temp=358
+<6>[ 3576.024537] [imoseyon] ondemandx active
+<6>[ 3582.071447] adjust_soc: ibat_ua = 62600, vbat_uv = 4311154, soc = 99, batt_temp=358
+<6>[ 3602.071356] adjust_soc: ibat_ua = 20300, vbat_uv = 4315594, soc = 99, batt_temp=358
+<6>[ 3622.071356] adjust_soc: ibat_ua = 66600, vbat_uv = 4305005, soc = 99, batt_temp=358
+<6>[ 3642.071386] adjust_soc: ibat_ua = 103300, vbat_uv = 4300277, soc = 99, batt_temp=357
+<6>[ 3649.862932] [imoseyon] ondemandx inactive
+<6>[ 3662.071386] adjust_soc: ibat_ua = 136600, vbat_uv = 4294659, soc = 99, batt_temp=358
+<6>[ 3682.071356] adjust_soc: ibat_ua = 62000, vbat_uv = 4303825, soc = 99, batt_temp=359
+<6>[ 3702.071386] adjust_soc: ibat_ua = -31000, vbat_uv = 4317716, soc = 99, batt_temp=359
+<6>[ 3722.071386] adjust_soc: ibat_ua = 81800, vbat_uv = 4301458, soc = 99, batt_temp=359
+<6>[ 3727.695070] mtp_release
+<6>[ 3729.525590] [imoseyon] ondemandx active
+<6>[ 3742.071417] adjust_soc: ibat_ua = 82400, vbat_uv = 4301458, soc = 99, batt_temp=359
+<6>[ 3742.508316] mtp_open
+<6>[ 3762.071508] adjust_soc: ibat_ua = 83500, vbat_uv = 4299684, soc = 99, batt_temp=360
+<6>[ 3782.071386] adjust_soc: ibat_ua = 64800, vbat_uv = 4307666, soc = 99, batt_temp=358
+<6>[ 3801.641446] [imoseyon] ondemandx inactive
+<6>[ 3802.071356] adjust_soc: ibat_ua = 175000, vbat_uv = 4287863, soc = 99, batt_temp=359
+<6>[ 3822.071386] adjust_soc: ibat_ua = 59200, vbat_uv = 4304709, soc = 98, batt_temp=359
+<6>[ 3842.071417] adjust_soc: ibat_ua = 153600, vbat_uv = 4291114, soc = 98, batt_temp=360
+<6>[ 3862.071386] adjust_soc: ibat_ua = -24700, vbat_uv = 4315648, soc = 99, batt_temp=360
+<6>[ 3882.071386] adjust_soc: ibat_ua = 57600, vbat_uv = 4304415, soc = 98, batt_temp=360
+<6>[ 3884.089485] [imoseyon] ondemandx active
+<6>[ 3902.071417] adjust_soc: ibat_ua = 134900, vbat_uv = 4291998, soc = 98, batt_temp=360
+<6>[ 3922.071386] adjust_soc: ibat_ua = -29300, vbat_uv = 4319196, soc = 99, batt_temp=359
+<6>[ 3942.071478] adjust_soc: ibat_ua = 7200, vbat_uv = 4311510, soc = 98, batt_temp=360
+<6>[ 3956.286860] [imoseyon] ondemandx inactive
+<6>[ 3962.072638] adjust_soc: ibat_ua = 171100, vbat_uv = 4286977, soc = 98, batt_temp=360
+<6>[ 3982.071356] adjust_soc: ibat_ua = 23600, vbat_uv = 4307369, soc = 98, batt_temp=360
+<6>[ 4002.071356] adjust_soc: ibat_ua = -1000, vbat_uv = 4314168, soc = 99, batt_temp=360
+<6>[ 4022.071356] adjust_soc: ibat_ua = 133800, vbat_uv = 4296730, soc = 98, batt_temp=360
+<3>[ 4025.115000] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Reusing cache entry 0.
+<3>[ 4025.115061] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<6>[ 4035.317625] [imoseyon] ondemandx active
+<6>[ 4042.071417] adjust_soc: ibat_ua = 89200, vbat_uv = 4299684, soc = 98, batt_temp=360
+<6>[ 4062.071417] adjust_soc: ibat_ua = 110000, vbat_uv = 4298207, soc = 98, batt_temp=360
+<6>[ 4082.071417] adjust_soc: ibat_ua = 60900, vbat_uv = 4305302, soc = 98, batt_temp=360
+<6>[ 4102.071417] adjust_soc: ibat_ua = 132700, vbat_uv = 4294659, soc = 98, batt_temp=360
+<6>[ 4106.321623] [imoseyon] ondemandx inactive
+<3>[ 4109.080115] binder: release proc 4863, transaction 440071, not freed
+<6>[ 4122.071356] adjust_soc: ibat_ua = 119100, vbat_uv = 4293772, soc = 98, batt_temp=361
+<6>[ 4142.071386] adjust_soc: ibat_ua = 51900, vbat_uv = 4306483, soc = 98, batt_temp=362
+<6>[ 4162.071386] adjust_soc: ibat_ua = 159200, vbat_uv = 4286977, soc = 98, batt_temp=363
+<6>[ 4182.071356] adjust_soc: ibat_ua = 63200, vbat_uv = 4299684, soc = 98, batt_temp=364
+<6>[ 4202.071356] adjust_soc: ibat_ua = 75100, vbat_uv = 4300571, soc = 98, batt_temp=365
+<6>[ 4222.071386] adjust_soc: ibat_ua = 96500, vbat_uv = 4292894, soc = 98, batt_temp=365
+<6>[ 4242.071386] adjust_soc: ibat_ua = 214100, vbat_uv = 4276322, soc = 98, batt_temp=365
+<6>[ 4262.071417] adjust_soc: ibat_ua = -25900, vbat_uv = 4314201, soc = 99, batt_temp=365
+<6>[ 4280.471691] [imoseyon] ondemandx active
+<6>[ 4282.071508] adjust_soc: ibat_ua = 23100, vbat_uv = 4302662, soc = 98, batt_temp=366
+<6>[ 4302.071356] adjust_soc: ibat_ua = 159200, vbat_uv = 4285496, soc = 98, batt_temp=367
+<6>[ 4322.071447] adjust_soc: ibat_ua = 56900, vbat_uv = 4302066, soc = 98, batt_temp=367
+<6>[ 4342.071417] adjust_soc: ibat_ua = -32100, vbat_uv = 4313901, soc = 99, batt_temp=368
+<6>[ 4362.071386] adjust_soc: ibat_ua = 202200, vbat_uv = 4276621, soc = 98, batt_temp=368
+<6>[ 4382.071508] adjust_soc: ibat_ua = 95300, vbat_uv = 4292598, soc = 98, batt_temp=368
+<6>[ 4402.071661] adjust_soc: ibat_ua = -29300, vbat_uv = 4309760, soc = 99, batt_temp=369
+<6>[ 4422.071386] adjust_soc: ibat_ua = 75600, vbat_uv = 4292598, soc = 98, batt_temp=369
+<6>[ 4429.022645] [imoseyon] ondemandx inactive
+<6>[ 4442.071447] adjust_soc: ibat_ua = 140500, vbat_uv = 4283129, soc = 98, batt_temp=370
+<6>[ 4462.071386] adjust_soc: ibat_ua = -42200, vbat_uv = 4313608, soc = 99, batt_temp=370
+<6>[ 4482.071386] adjust_soc: ibat_ua = 41700, vbat_uv = 4299999, soc = 98, batt_temp=370
+<6>[ 4502.071386] adjust_soc: ibat_ua = 8900, vbat_uv = 4305620, soc = 98, batt_temp=369
+<6>[ 4522.071447] adjust_soc: ibat_ua = -56400, vbat_uv = 4313901, soc = 99, batt_temp=370
+<6>[ 4542.071386] adjust_soc: ibat_ua = 135500, vbat_uv = 4284903, soc = 98, batt_temp=370
+<6>[ 4562.071417] adjust_soc: ibat_ua = 50800, vbat_uv = 4299109, soc = 98, batt_temp=369
+<6>[ 4582.071386] adjust_soc: ibat_ua = -56400, vbat_uv = 4315385, soc = 99, batt_temp=370
+<6>[ 4599.973904] [imoseyon] ondemandx active
+<6>[ 4602.071386] adjust_soc: ibat_ua = 106100, vbat_uv = 4292304, soc = 98, batt_temp=370
+<6>[ 4622.071386] adjust_soc: ibat_ua = 121400, vbat_uv = 4285203, soc = 98, batt_temp=370
+<6>[ 4642.071508] adjust_soc: ibat_ua = -3800, vbat_uv = 4309170, soc = 99, batt_temp=370
+<6>[ 4662.071447] adjust_soc: ibat_ua = -44000, vbat_uv = 4314498, soc = 99, batt_temp=370
+<6>[ 4682.071386] adjust_soc: ibat_ua = 29800, vbat_uv = 4299999, soc = 98, batt_temp=370
+<6>[ 4702.071661] adjust_soc: ibat_ua = -61500, vbat_uv = 4319229, soc = 99, batt_temp=369
+<6>[ 4722.071386] adjust_soc: ibat_ua = 168900, vbat_uv = 4282539, soc = 98, batt_temp=370
+<6>[ 4742.071386] adjust_soc: ibat_ua = 39400, vbat_uv = 4299109, soc = 98, batt_temp=370
+<6>[ 4749.452738] [imoseyon] ondemandx inactive
+<6>[ 4762.071386] adjust_soc: ibat_ua = 167100, vbat_uv = 4278098, soc = 98, batt_temp=370
+<6>[ 4782.071447] adjust_soc: ibat_ua = -62000, vbat_uv = 4316565, soc = 99, batt_temp=371
+<6>[ 4789.721287] amp_enable: AMP_EN is set to 1
+<3>[ 4791.713107] [WLAN][0:E :HDD] hdd_hard_start_xmit:Queue is Filling up.Inform TL again about pending packets
+<6>[ 4794.082862] SLIM_CL: skip reconfig sequence
+<6>[ 4794.091041] amp_enable: amp enable bypass(2)
+<6>[ 4794.091255] amp_enable: AMP_EN is set to 0
+<6>[ 4802.071386] adjust_soc: ibat_ua = 140000, vbat_uv = 4282539, soc = 98, batt_temp=372
+<6>[ 4822.071386] adjust_soc: ibat_ua = -63200, vbat_uv = 4313191, soc = 99, batt_temp=371
+<6>[ 4842.071386] adjust_soc: ibat_ua = 39400, vbat_uv = 4297823, soc = 98, batt_temp=371
+<6>[ 4862.071386] adjust_soc: ibat_ua = 131600, vbat_uv = 4284229, soc = 98, batt_temp=371
+<6>[ 4882.071356] adjust_soc: ibat_ua = -60900, vbat_uv = 4312898, soc = 99, batt_temp=372
+<6>[ 4902.071356] adjust_soc: ibat_ua = 48500, vbat_uv = 4295759, soc = 98, batt_temp=372
+<6>[ 4922.071478] adjust_soc: ibat_ua = 68300, vbat_uv = 4294575, soc = 98, batt_temp=372
+<6>[ 4935.468517] [imoseyon] ondemandx active
+<6>[ 4942.071386] adjust_soc: ibat_ua = -77800, vbat_uv = 4317332, soc = 99, batt_temp=372
+<6>[ 4962.071386] adjust_soc: ibat_ua = 150700, vbat_uv = 4280391, soc = 98, batt_temp=372
+<6>[ 4982.071447] adjust_soc: ibat_ua = 30400, vbat_uv = 4302554, soc = 98, batt_temp=372
+<6>[ 5002.071417] adjust_soc: ibat_ua = -32100, vbat_uv = 4310240, soc = 99, batt_temp=372
+<6>[ 5022.071478] adjust_soc: ibat_ua = 76700, vbat_uv = 4292211, soc = 98, batt_temp=372
+<6>[ 5042.071386] adjust_soc: ibat_ua = 52400, vbat_uv = 4297530, soc = 98, batt_temp=372
+<6>[ 5062.071356] adjust_soc: ibat_ua = 108400, vbat_uv = 4286299, soc = 98, batt_temp=372
+<6>[ 5082.071386] adjust_soc: ibat_ua = 128700, vbat_uv = 4283051, soc = 98, batt_temp=372
+<6>[ 5095.666350] [imoseyon] ondemandx inactive
+<6>[ 5102.071356] adjust_soc: ibat_ua = 26400, vbat_uv = 4295462, soc = 98, batt_temp=373
+<6>[ 5122.071356] adjust_soc: ibat_ua = 28200, vbat_uv = 4300190, soc = 98, batt_temp=373
+<6>[ 5142.071386] adjust_soc: ibat_ua = 50100, vbat_uv = 4293985, soc = 98, batt_temp=372
+<6>[ 5162.071386] adjust_soc: ibat_ua = -63200, vbat_uv = 4312601, soc = 99, batt_temp=371
+<6>[ 5182.071447] adjust_soc: ibat_ua = -62000, vbat_uv = 4312011, soc = 99, batt_temp=371
+<6>[ 5186.670623] [imoseyon] ondemandx active
+<6>[ 5202.071386] adjust_soc: ibat_ua = -32100, vbat_uv = 4309353, soc = 99, batt_temp=370
+<6>[ 5222.071447] adjust_soc: ibat_ua = -50100, vbat_uv = 4310827, soc = 99, batt_temp=370
+<6>[ 5242.071478] adjust_soc: ibat_ua = -28700, vbat_uv = 4307283, soc = 99, batt_temp=370
+<6>[ 5262.071447] adjust_soc: ibat_ua = 28700, vbat_uv = 4301667, soc = 98, batt_temp=369
+<6>[ 5269.585044] [imoseyon] ondemandx inactive
+<6>[ 5282.071356] adjust_soc: ibat_ua = 129800, vbat_uv = 4283642, soc = 98, batt_temp=370
+<6>[ 5302.071386] adjust_soc: ibat_ua = 40600, vbat_uv = 4298120, soc = 98, batt_temp=370
+<6>[ 5317.241262] amp_enable: AMP_EN is set to 1
+<6>[ 5321.548603] SLIM_CL: skip reconfig sequence
+<6>[ 5321.555805] amp_enable: amp enable bypass(2)
+<6>[ 5321.555988] amp_enable: AMP_EN is set to 0
+<6>[ 5322.071356] adjust_soc: ibat_ua = 38300, vbat_uv = 4295759, soc = 98, batt_temp=370
+<6>[ 5342.071478] adjust_soc: ibat_ua = -46800, vbat_uv = 4311714, soc = 99, batt_temp=370
+<6>[ 5362.071478] adjust_soc: ibat_ua = -2100, vbat_uv = 4305509, soc = 99, batt_temp=370
+<6>[ 5382.071356] adjust_soc: ibat_ua = 60900, vbat_uv = 4296349, soc = 97, batt_temp=370
+<6>[ 5392.834762] [imoseyon] ondemandx active
+<6>[ 5402.071478] adjust_soc: ibat_ua = 11200, vbat_uv = 4304328, soc = 97, batt_temp=370
+<6>[ 5422.071386] adjust_soc: ibat_ua = -37200, vbat_uv = 4312277, soc = 99, batt_temp=370
+<6>[ 5442.071478] adjust_soc: ibat_ua = -24200, vbat_uv = 4306956, soc = 99, batt_temp=370
+<6>[ 5462.071355] adjust_soc: ibat_ua = 143400, vbat_uv = 4286851, soc = 97, batt_temp=369
+<6>[ 5482.071691] adjust_soc: ibat_ua = -92000, vbat_uv = 4318192, soc = 99, batt_temp=370
+<3>[ 5493.335082] [WLAN][0:E :HDD] hdd_hard_start_xmit:Queue is Filling up.Inform TL again about pending packets
+<6>[ 5502.071447] adjust_soc: ibat_ua = 124800, vbat_uv = 4283006, soc = 97, batt_temp=370
+<6>[ 5503.541613] [imoseyon] ondemandx inactive
+<6>[ 5522.071447] adjust_soc: ibat_ua = 107800, vbat_uv = 4286851, soc = 97, batt_temp=370
+<6>[ 5542.071478] adjust_soc: ibat_ua = 10100, vbat_uv = 4303112, soc = 97, batt_temp=370
+<6>[ 5562.071447] adjust_soc: ibat_ua = 199400, vbat_uv = 4274134, soc = 97, batt_temp=370
+<6>[ 5582.071447] adjust_soc: ibat_ua = -44500, vbat_uv = 4308139, soc = 99, batt_temp=370
+<6>[ 5600.191850] [imoseyon] ondemandx active
+<6>[ 5602.071661] adjust_soc: ibat_ua = 46200, vbat_uv = 4298087, soc = 97, batt_temp=370
+<6>[ 5622.071508] adjust_soc: ibat_ua = 33800, vbat_uv = 4299564, soc = 97, batt_temp=369
+<6>[ 5642.071447] adjust_soc: ibat_ua = -53600, vbat_uv = 4312868, soc = 99, batt_temp=369
+<6>[ 5662.071447] adjust_soc: ibat_ua = 126500, vbat_uv = 4285964, soc = 97, batt_temp=369
+<6>[ 5682.071447] adjust_soc: ibat_ua = 34900, vbat_uv = 4300154, soc = 97, batt_temp=368
+<6>[ 5687.248435] [imoseyon] ondemandx inactive
+<6>[ 5702.071386] adjust_soc: ibat_ua = 56400, vbat_uv = 4293652, soc = 97, batt_temp=369
+<6>[ 5722.071355] adjust_soc: ibat_ua = 43400, vbat_uv = 4293059, soc = 97, batt_temp=370
+<6>[ 5742.071386] adjust_soc: ibat_ua = 94300, vbat_uv = 4289511, soc = 97, batt_temp=370
+<6>[ 5762.071478] adjust_soc: ibat_ua = 53000, vbat_uv = 4292466, soc = 97, batt_temp=371
+<6>[ 5782.071386] adjust_soc: ibat_ua = 38900, vbat_uv = 4294539, soc = 97, batt_temp=371
+<6>[ 5802.071447] adjust_soc: ibat_ua = 31000, vbat_uv = 4297790, soc = 97, batt_temp=372
+<6>[ 5822.071355] adjust_soc: ibat_ua = 149100, vbat_uv = 4276501, soc = 97, batt_temp=372
+<3>[ 5839.471386] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Reusing cache entry 0.
+<3>[ 5839.471539] [WLAN][613:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<6>[ 5842.071386] adjust_soc: ibat_ua = -46800, vbat_uv = 4303702, soc = 99, batt_temp=373
+<6>[ 5862.071416] adjust_soc: ibat_ua = 25400, vbat_uv = 4291875, soc = 97, batt_temp=373
+<6>[ 5882.071355] adjust_soc: ibat_ua = -61500, vbat_uv = 4305775, soc = 99, batt_temp=373
+<6>[ 5902.071386] adjust_soc: ibat_ua = 91400, vbat_uv = 4281529, soc = 97, batt_temp=373
+<6>[ 5910.470837] [imoseyon] ondemandx active
+<6>[ 5922.071661] adjust_soc: ibat_ua = 3800, vbat_uv = 4296903, soc = 97, batt_temp=373
+<6>[ 5942.071386] adjust_soc: ibat_ua = 36100, vbat_uv = 4290989, soc = 97, batt_temp=373
+<6>[ 5962.071386] adjust_soc: ibat_ua = 21900, vbat_uv = 4294539, soc = 97, batt_temp=373
+<6>[ 5982.071447] adjust_soc: ibat_ua = 6100, vbat_uv = 4291579, soc = 97, batt_temp=374
+<6>[ 6002.071355] adjust_soc: ibat_ua = 159800, vbat_uv = 4272363, soc = 97, batt_temp=375
+<6>[ 6022.071447] adjust_soc: ibat_ua = 113500, vbat_uv = 4288580, soc = 97, batt_temp=373
+<6>[ 6042.071478] adjust_soc: ibat_ua = -35500, vbat_uv = 4307810, soc = 99, batt_temp=371
+<6>[ 6062.071508] adjust_soc: ibat_ua = -39400, vbat_uv = 4312541, soc = 99, batt_temp=370
+<6>[ 6082.071447] adjust_soc: ibat_ua = 103300, vbat_uv = 4287102, soc = 97, batt_temp=369
+<6>[ 6102.071416] adjust_soc: ibat_ua = -50800, vbat_uv = 4310471, soc = 99, batt_temp=368
+<6>[ 6122.071355] adjust_soc: ibat_ua = 165500, vbat_uv = 4279704, soc = 97, batt_temp=367
+<6>[ 6142.071447] adjust_soc: ibat_ua = -4400, vbat_uv = 4305146, soc = 99, batt_temp=367
+<6>[ 6162.071386] adjust_soc: ibat_ua = -34900, vbat_uv = 4313134, soc = 99, batt_temp=366
+<6>[ 6182.071386] adjust_soc: ibat_ua = 63200, vbat_uv = 4297158, soc = 97, batt_temp=366
+<6>[ 6202.071447] adjust_soc: ibat_ua = -56400, vbat_uv = 4315795, soc = 99, batt_temp=365
+<6>[ 6222.071355] adjust_soc: ibat_ua = 92600, vbat_uv = 4292427, soc = 97, batt_temp=366
+<6>[ 6242.071508] adjust_soc: ibat_ua = 80700, vbat_uv = 4294201, soc = 97, batt_temp=365
+<6>[ 6262.071477] adjust_soc: ibat_ua = 15700, vbat_uv = 4303669, soc = 97, batt_temp=365
+<6>[ 6282.071386] adjust_soc: ibat_ua = 290400, vbat_uv = 4261957, soc = 97, batt_temp=365
+<6>[ 6283.041293] amp_enable: AMP_EN is set to 1
+<6>[ 6286.197252] SLIM_CL: skip reconfig sequence
+<6>[ 6286.204729] amp_enable: amp enable bypass(2)
+<6>[ 6286.204974] amp_enable: AMP_EN is set to 0
+<6>[ 6295.856553] [imoseyon] ondemandx inactive
+<6>[ 6295.911276] amp_enable: AMP_EN is set to 1
+<6>[ 6299.023377] SLIM_CL: skip reconfig sequence
+<6>[ 6299.030550] amp_enable: amp enable bypass(2)
+<6>[ 6299.030702] amp_enable: AMP_EN is set to 0
+<6>[ 6302.071386] adjust_soc: ibat_ua = 116300, vbat_uv = 4285029, soc = 97, batt_temp=366
+<6>[ 6304.983121] [imoseyon] ondemandx active
+<6>[ 6309.934014] [imoseyon] ondemandx inactive
+<6>[ 6322.071355] adjust_soc: ibat_ua = 54700, vbat_uv = 4295091, soc = 97, batt_temp=367
+<6>[ 6326.190751] [imoseyon] ondemandx active
+<6>[ 6336.549030] [imoseyon] ondemandx inactive
+<6>[ 6342.072607] adjust_soc: ibat_ua = 107200, vbat_uv = 4284142, soc = 97, batt_temp=369
+<6>[ 6359.795360] [imoseyon] ondemandx active
+<6>[ 6362.071691] adjust_soc: ibat_ua = 176200, vbat_uv = 4275270, soc = 97, batt_temp=370
+<6>[ 6375.397130] [imoseyon] ondemandx inactive
+<6>[ 6382.071386] adjust_soc: ibat_ua = 97700, vbat_uv = 4286215, soc = 97, batt_temp=370
+<6>[ 6402.071416] adjust_soc: ibat_ua = 129300, vbat_uv = 4279704, soc = 97, batt_temp=371
+<6>[ 6422.071386] adjust_soc: ibat_ua = 24200, vbat_uv = 4298342, soc = 97, batt_temp=370
+<6>[ 6442.071416] adjust_soc: ibat_ua = 12300, vbat_uv = 4300118, soc = 97, batt_temp=370
+<6>[ 6462.071386] adjust_soc: ibat_ua = 77300, vbat_uv = 4292130, soc = 97, batt_temp=370
+<6>[ 6482.071416] adjust_soc: ibat_ua = 45200, vbat_uv = 4292427, soc = 97, batt_temp=370
+<6>[ 6502.071416] adjust_soc: ibat_ua = 1000, vbat_uv = 4299822, soc = 97, batt_temp=370
+<6>[ 6522.072637] adjust_soc: ibat_ua = -45200, vbat_uv = 4307513, soc = 99, batt_temp=370
+<6>[ 6542.071355] adjust_soc: ibat_ua = 15700, vbat_uv = 4299525, soc = 97, batt_temp=370
+<6>[ 6562.071416] adjust_soc: ibat_ua = -31000, vbat_uv = 4308400, soc = 99, batt_temp=370
+<6>[ 6582.071386] adjust_soc: ibat_ua = 66000, vbat_uv = 4296271, soc = 97, batt_temp=370
+<6>[ 6602.071447] adjust_soc: ibat_ua = 14600, vbat_uv = 4301596, soc = 97, batt_temp=370
+<6>[ 6613.107827] mtp_release
+<6>[ 6618.239919] mtp_open
+<6>[ 6622.071447] adjust_soc: ibat_ua = 136500, vbat_uv = 4275968, soc = 97, batt_temp=371
+<6>[ 6622.161299] amp_enable: AMP_EN is set to 1
+<6>[ 6625.273980] SLIM_CL: skip reconfig sequence
+<6>[ 6625.283197] amp_enable: amp enable bypass(2)
+<6>[ 6625.283350] amp_enable: AMP_EN is set to 0
+<6>[ 6642.071416] adjust_soc: ibat_ua = -28700, vbat_uv = 4300472, soc = 99, batt_temp=372
+<6>[ 6662.071355] adjust_soc: ibat_ua = 18000, vbat_uv = 4293089, soc = 97, batt_temp=372
+<6>[ 6682.071386] adjust_soc: ibat_ua = -64800, vbat_uv = 4304900, soc = 99, batt_temp=372

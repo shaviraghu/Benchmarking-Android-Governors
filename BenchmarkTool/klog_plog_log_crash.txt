@@ -1,0 +1,808 @@
+<6>[ 3418.455302] lm3530_backlight_off, on: 1
+<6>[ 3418.480115] lm3530_backlight_off, on: 0
+<3>[ 3418.514267] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 3418.514328] mipi_lgit_lcd_off started
+<6>[ 3418.643277] mipi_lgit_lcd_off finished
+<6>[ 3418.647184] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 3418.649320] lm3530_backlight_off, on: 0
+<6>[ 3418.651548] request_suspend_state: sleep (0->3) at 3418648387859 (2013-08-14 10:04:58.834680989 UTC)
+<4>[ 3418.652036] [Touch D]touch disable
+<3>[ 3418.705294] dtv_pipe is not configured yet
+<6>[ 3418.708743] active wake lock PowerManagerService
+<6>[ 3418.708926] active wake lock sns_async_ev_wakelock
+<6>[ 3418.709262] active wake lock PowerManagerService.Broadcasts
+<6>[ 3418.709445] active wake lock msm_otg
+<6>[ 3418.709781] active wake lock msm_hsic_host
+<6>[ 3418.709964] active wake lock pm8921_eoc
+<6>[ 3418.710178] PM: Syncing filesystems...
+<6>[ 3418.735143] sync done.
+<6>[ 3423.073462] adjust_soc: ibat_ua = -208900, vbat_uv = 4333383, soc = 95, batt_temp=302
+<6>[ 3443.073462] adjust_soc: ibat_ua = -209400, vbat_uv = 4336335, soc = 95, batt_temp=302
+<6>[ 3463.073462] adjust_soc: ibat_ua = -207200, vbat_uv = 4338396, soc = 95, batt_temp=300
+<6>[ 3481.253532] [imoseyon] ondemandx suspended at 384000
+<6>[ 3481.253745] [imoseyon] ondemandx active
+<6>[ 3483.073462] adjust_soc: ibat_ua = -206600, vbat_uv = 4339283, soc = 95, batt_temp=299
+<6>[ 3496.231160] request_suspend_state: wakeup (3->0) at 3496228000243 (2013-08-14 10:06:16.414262852 UTC)
+<6>[ 3496.235799] [imoseyon] ondemandx awake at 1512000
+<4>[ 3496.245261] [Touch D]touch enable
+<6>[ 3496.253776] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 3496.257286]  mipi_dsi_panel_power : reset start.
+<6>[ 3496.284724] mipi_lgit_lcd_on started
+<6>[ 3496.348206] mipi_lgit_lcd_on finished
+<6>[ 3496.352723] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 3496.379795] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 3496.382786] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 3498.043002] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 3498.353578] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 3498.353700] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 3498.354157] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 3503.073309] adjust_soc: ibat_ua = -62000, vbat_uv = 4315091, soc = 95, batt_temp=298
+<6>[ 3523.073309] adjust_soc: ibat_ua = -7800, vbat_uv = 4308008, soc = 95, batt_temp=298
+<6>[ 3543.073340] adjust_soc: ibat_ua = -63800, vbat_uv = 4312730, soc = 95, batt_temp=298
+<6>[ 3558.390843] lm3530_backlight_off, on: 1
+<6>[ 3558.416602] lm3530_backlight_off, on: 0
+<3>[ 3558.443369] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 3558.443430] mipi_lgit_lcd_off started
+<6>[ 3558.577719] mipi_lgit_lcd_off finished
+<6>[ 3558.580863] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 3558.582938] lm3530_backlight_off, on: 0
+<6>[ 3558.584067] request_suspend_state: sleep (0->3) at 3558580937821 (2013-08-14 10:07:18.767200431 UTC)
+<4>[ 3558.584159] [Touch D]touch disable
+<3>[ 3558.626552] dtv_pipe is not configured yet
+<6>[ 3558.635586] [imoseyon] ondemandx suspended at 384000
+<6>[ 3558.636013] active wake lock PowerManagerService
+<6>[ 3558.636257] active wake lock sns_async_ev_wakelock
+<6>[ 3558.636471] active wake lock PowerManagerService.Broadcasts
+<6>[ 3558.636837] active wake lock msm_otg
+<6>[ 3558.637051] active wake lock msm_hsic_host
+<6>[ 3558.637448] active wake lock pm8921_eoc
+<6>[ 3558.637661] PM: Syncing filesystems...
+<6>[ 3558.725255] sync done.
+<6>[ 3563.073492] adjust_soc: ibat_ua = -206000, vbat_uv = 4338106, soc = 95, batt_temp=298
+<6>[ 3581.500991] request_suspend_state: wakeup (3->0) at 3581497830846 (2013-08-14 10:07:41.684123976 UTC)
+<6>[ 3581.506302] [imoseyon] ondemandx awake at 1512000
+<4>[ 3581.521226] [Touch D]touch enable
+<6>[ 3581.530077] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 3581.532274]  mipi_dsi_panel_power : reset start.
+<6>[ 3581.552784] mipi_lgit_lcd_on started
+<6>[ 3581.613459] mipi_lgit_lcd_on finished
+<6>[ 3581.616541] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 3581.631008] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 3581.634151] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 3583.073431] adjust_soc: ibat_ua = -90300, vbat_uv = 4317452, soc = 95, batt_temp=297
+<6>[ 3603.073309] adjust_soc: ibat_ua = -65400, vbat_uv = 4315975, soc = 95, batt_temp=296
+<6>[ 3612.007477] lm3530_backlight_off, on: 1
+<6>[ 3612.030703] lm3530_backlight_off, on: 0
+<3>[ 3612.063237] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 3612.063237] mipi_lgit_lcd_off started
+<6>[ 3612.193315] mipi_lgit_lcd_off finished
+<6>[ 3612.197222] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 3612.199389] lm3530_backlight_off, on: 0
+<6>[ 3612.201678] request_suspend_state: sleep (0->3) at 3612198517548 (2013-08-14 10:08:12.384780158 UTC)
+<4>[ 3612.202166] [Touch D]touch disable
+<3>[ 3612.243063] dtv_pipe is not configured yet
+<6>[ 3612.250815] [imoseyon] ondemandx suspended at 384000
+<6>[ 3612.251060] active wake lock PowerManagerService
+<6>[ 3612.251273] active wake lock sns_async_ev_wakelock
+<6>[ 3612.251670] active wake lock PowerManagerService.Broadcasts
+<6>[ 3612.251884] active wake lock msm_otg
+<6>[ 3612.252250] active wake lock msm_hsic_host
+<6>[ 3612.252464] active wake lock pm8921_eoc
+<6>[ 3612.252708] PM: Syncing filesystems...
+<6>[ 3612.288478] sync done.
+<6>[ 3623.073523] adjust_soc: ibat_ua = -203200, vbat_uv = 4342723, soc = 95, batt_temp=296
+<6>[ 3643.073462] adjust_soc: ibat_ua = -230300, vbat_uv = 4348332, soc = 95, batt_temp=296
+<6>[ 3663.073584] adjust_soc: ibat_ua = -203200, vbat_uv = 4346561, soc = 95, batt_temp=295
+<6>[ 3682.063665] request_suspend_state: wakeup (3->0) at 3682060504417 (2013-08-14 10:09:22.246767027 UTC)
+<6>[ 3682.068182] [imoseyon] ondemandx awake at 1512000
+<4>[ 3682.078528] [Touch D]touch enable
+<6>[ 3682.086830] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 3682.088722]  mipi_dsi_panel_power : reset start.
+<6>[ 3682.110513] mipi_lgit_lcd_on started
+<6>[ 3682.164138] mipi_lgit_lcd_on finished
+<6>[ 3682.166823] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 3682.192583] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 3682.195940] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 3683.073370] adjust_soc: ibat_ua = -90800, vbat_uv = 4327963, soc = 100, batt_temp=294
+<6>[ 3684.965114] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 3685.275659] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 3685.276147] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 3685.276819] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 3703.073309] adjust_soc: ibat_ua = -43300, vbat_uv = 4318519, soc = 100, batt_temp=294
+<6>[ 3723.073309] adjust_soc: ibat_ua = -49100, vbat_uv = 4319112, soc = 100, batt_temp=294
+<6>[ 3743.073340] adjust_soc: ibat_ua = -81200, vbat_uv = 4327376, soc = 100, batt_temp=296
+<6>[ 3745.270165] lm3530_backlight_off, on: 1
+<6>[ 3745.297512] lm3530_backlight_off, on: 0
+<3>[ 3745.325590] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 3745.325621] mipi_lgit_lcd_off started
+<6>[ 3745.453288] mipi_lgit_lcd_off finished
+<6>[ 3745.457164] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 3745.459331] lm3530_backlight_off, on: 0
+<6>[ 3745.461650] request_suspend_state: sleep (0->3) at 3745458490065 (2013-08-14 10:10:25.644783195 UTC)
+<4>[ 3745.462139] [Touch D]touch disable
+<3>[ 3745.506118] dtv_pipe is not configured yet
+<6>[ 3745.515213] [imoseyon] ondemandx suspended at 384000
+<6>[ 3745.515458] active wake lock sns_async_ev_wakelock
+<6>[ 3745.515671] active wake lock PowerManagerService.Broadcasts
+<6>[ 3745.516068] active wake lock PowerManagerService
+<6>[ 3745.516282] active wake lock msm_otg
+<6>[ 3745.516678] active wake lock msm_hsic_host
+<6>[ 3745.516892] active wake lock pm8921_eoc
+<6>[ 3745.517106] PM: Syncing filesystems...
+<6>[ 3745.621577] sync done.
+<6>[ 3763.073492] adjust_soc: ibat_ua = -200900, vbat_uv = 4346561, soc = 100, batt_temp=296
+<6>[ 3783.073492] adjust_soc: ibat_ua = -200300, vbat_uv = 4346561, soc = 100, batt_temp=296
+<6>[ 3803.073492] adjust_soc: ibat_ua = -199800, vbat_uv = 4348035, soc = 100, batt_temp=295
+<6>[ 3823.073492] adjust_soc: ibat_ua = -195800, vbat_uv = 4348332, soc = 100, batt_temp=294
+<6>[ 3843.073492] adjust_soc: ibat_ua = -180600, vbat_uv = 4346265, soc = 100, batt_temp=294
+<6>[ 3863.073492] adjust_soc: ibat_ua = -198600, vbat_uv = 4351874, soc = 100, batt_temp=293
+<6>[ 3875.089546] request_suspend_state: wakeup (3->0) at 3875086385671 (2013-08-14 10:12:35.272678801 UTC)
+<6>[ 3875.094612] [imoseyon] ondemandx awake at 1512000
+<4>[ 3875.109750] [Touch D]touch enable
+<6>[ 3875.129192] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 3875.133404]  mipi_dsi_panel_power : reset start.
+<6>[ 3875.156080] mipi_lgit_lcd_on started
+<6>[ 3875.215473] mipi_lgit_lcd_on finished
+<6>[ 3875.218525] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 3875.243430] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 3875.246176] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 3876.347443] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 3876.657774] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 3876.657957] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 3876.658446] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 3877.593193] amp_enable: AMP_EN is set to 1
+<6>[ 3883.073675] adjust_soc: ibat_ua = 183400, vbat_uv = 4289302, soc = 100, batt_temp=293
+<6>[ 3885.560994] SLIM_CL: skip reconfig sequence
+<6>[ 3885.572287] amp_enable: amp enable bypass(2)
+<6>[ 3885.572470] amp_enable: AMP_EN is set to 0
+<6>[ 3895.363191] amp_enable: AMP_EN is set to 1
+<6>[ 3898.476025] SLIM_CL: skip reconfig sequence
+<6>[ 3898.488691] amp_enable: amp enable bypass(2)
+<6>[ 3898.489241] amp_enable: AMP_EN is set to 0
+<6>[ 3900.203204] amp_enable: AMP_EN is set to 1
+<6>[ 3903.073309] adjust_soc: ibat_ua = 95900, vbat_uv = 4298156, soc = 100, batt_temp=295
+<6>[ 3903.324186] SLIM_CL: skip reconfig sequence
+<6>[ 3903.332335] amp_enable: amp enable bypass(2)
+<6>[ 3903.332457] amp_enable: AMP_EN is set to 0
+<6>[ 3912.093330] amp_enable: AMP_EN is set to 1
+<6>[ 3923.073401] adjust_soc: ibat_ua = 73300, vbat_uv = 4298452, soc = 100, batt_temp=298
+<6>[ 3943.073339] adjust_soc: ibat_ua = 36100, vbat_uv = 4305536, soc = 100, batt_temp=302
+<6>[ 3963.073492] adjust_soc: ibat_ua = 38900, vbat_uv = 4299927, soc = 100, batt_temp=305
+<6>[ 3983.073339] adjust_soc: ibat_ua = 4400, vbat_uv = 4303765, soc = 100, batt_temp=307
+<6>[ 4003.073401] adjust_soc: ibat_ua = -7200, vbat_uv = 4306420, soc = 100, batt_temp=310
+<6>[ 4023.073370] adjust_soc: ibat_ua = -15100, vbat_uv = 4306126, soc = 100, batt_temp=312
+<3>[ 4034.631496] [WLAN][594:F :HDD] wlan_hdd_cfg80211_set_pmksa: Reusing cache entry 0.
+<3>[ 4034.631710] [WLAN][594:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<6>[ 4043.073370] adjust_soc: ibat_ua = 1000, vbat_uv = 4302581, soc = 100, batt_temp=315
+<6>[ 4063.073339] adjust_soc: ibat_ua = 111700, vbat_uv = 4287234, soc = 100, batt_temp=316
+<6>[ 4076.172164] mdp4_overlay_mdp_perf_upd mdp bw is changed [0] from 1 to 4
+<6>[ 4076.293788] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 4080.925346] SLIM_CL: skip reconfig sequence
+<6>[ 4080.940118] amp_enable: amp enable bypass(2)
+<6>[ 4080.940820] amp_enable: AMP_EN is set to 0
+<6>[ 4083.073309] adjust_soc: ibat_ua = 6700, vbat_uv = 4306126, soc = 100, batt_temp=318
+<6>[ 4103.073309] adjust_soc: ibat_ua = -49100, vbat_uv = 4314683, soc = 100, batt_temp=319
+<6>[ 4123.073309] adjust_soc: ibat_ua = 4400, vbat_uv = 4309961, soc = 100, batt_temp=317
+<6>[ 4138.318296] lm3530_backlight_off, on: 1
+<6>[ 4138.335174] lm3530_backlight_off, on: 0
+<3>[ 4138.363588] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 4138.363619] mipi_lgit_lcd_off started
+<6>[ 4138.494154] mipi_lgit_lcd_off finished
+<6>[ 4138.498977] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 4138.500899] lm3530_backlight_off, on: 0
+<6>[ 4138.504012] request_suspend_state: sleep (0->3) at 4138500852296 (2013-08-14 10:16:58.687145426 UTC)
+<4>[ 4138.504501] [Touch D]touch disable
+<3>[ 4138.543353] dtv_pipe is not configured yet
+<6>[ 4138.550892] [imoseyon] ondemandx suspended at 384000
+<6>[ 4138.551319] active wake lock sns_async_ev_wakelock
+<6>[ 4138.551533] active wake lock PowerManagerService.Broadcasts
+<6>[ 4138.551929] active wake lock msm_otg
+<6>[ 4138.552143] active wake lock msm_hsic_host
+<6>[ 4138.552357] active wake lock pm8921_eoc
+<6>[ 4138.552753] PM: Syncing filesystems...
+<6>[ 4138.587150] sync done.
+<6>[ 4143.073492] adjust_soc: ibat_ua = -203200, vbat_uv = 4343313, soc = 100, batt_temp=316
+<6>[ 4163.073462] adjust_soc: ibat_ua = -160800, vbat_uv = 4342133, soc = 100, batt_temp=314
+<6>[ 4183.073462] adjust_soc: ibat_ua = -194700, vbat_uv = 4350987, soc = 100, batt_temp=312
+<6>[ 4203.073462] adjust_soc: ibat_ua = -143400, vbat_uv = 4340949, soc = 100, batt_temp=310
+<6>[ 4223.073431] adjust_soc: ibat_ua = -224500, vbat_uv = 4355206, soc = 100, batt_temp=309
+<6>[ 4243.073462] adjust_soc: ibat_ua = -195200, vbat_uv = 4351074, soc = 100, batt_temp=308
+<6>[ 4263.073492] adjust_soc: ibat_ua = -152200, vbat_uv = 4348419, soc = 100, batt_temp=307
+<6>[ 4283.073462] adjust_soc: ibat_ua = -195700, vbat_uv = 4352847, soc = 100, batt_temp=306
+<6>[ 4299.639889] request_suspend_state: wakeup (3->0) at 4299636728974 (2013-08-14 10:19:39.822991584 UTC)
+<6>[ 4299.644894] [imoseyon] ondemandx awake at 1512000
+<4>[ 4299.660155] [Touch D]touch enable
+<6>[ 4299.669036] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 4299.670989]  mipi_dsi_panel_power : reset start.
+<6>[ 4299.691560] mipi_lgit_lcd_on started
+<6>[ 4299.743567] mipi_lgit_lcd_on finished
+<6>[ 4299.746619] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 4299.771249] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 4299.774240] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 4303.073339] adjust_soc: ibat_ua = -59700, vbat_uv = 4332772, soc = 100, batt_temp=305
+<6>[ 4323.073584] adjust_soc: ibat_ua = -127500, vbat_uv = 4342513, soc = 100, batt_temp=305
+<6>[ 4330.178299] lm3530_backlight_off, on: 1
+<6>[ 4330.194353] lm3530_backlight_off, on: 0
+<3>[ 4330.223469] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 4330.223469] mipi_lgit_lcd_off started
+<6>[ 4330.363344] mipi_lgit_lcd_off finished
+<6>[ 4330.367190] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 4330.369295] lm3530_backlight_off, on: 0
+<6>[ 4330.371310] request_suspend_state: sleep (0->3) at 4330368149695 (2013-08-14 10:20:10.554442825 UTC)
+<4>[ 4330.371737] [Touch D]touch disable
+<3>[ 4330.403509] dtv_pipe is not configured yet
+<6>[ 4330.405432] [imoseyon] ondemandx suspended at 384000
+<6>[ 4330.405798] active wake lock sns_async_ev_wakelock
+<6>[ 4330.405798] PM: Syncing filesystems...
+<6>[ 4330.406134] active wake lock PowerManagerService.Broadcasts
+<6>[ 4330.406469] active wake lock msm_otg
+<6>[ 4330.406652] active wake lock msm_hsic_host
+<6>[ 4330.406958] active wake lock pm8921_eoc
+<6>[ 4330.424080] sync done.
+<6>[ 4343.073492] adjust_soc: ibat_ua = -191700, vbat_uv = 4354028, soc = 100, batt_temp=305
+<6>[ 4363.073462] adjust_soc: ibat_ua = -195200, vbat_uv = 4356093, soc = 100, batt_temp=304
+<6>[ 4383.073492] adjust_soc: ibat_ua = -191700, vbat_uv = 4358750, soc = 100, batt_temp=304
+<6>[ 4403.073462] adjust_soc: ibat_ua = -194000, vbat_uv = 4358454, soc = 100, batt_temp=303
+<6>[ 4410.433785] request_suspend_state: wakeup (3->0) at 4410430624887 (2013-08-14 10:21:30.616918017 UTC)
+<6>[ 4410.438455] [imoseyon] ondemandx awake at 1512000
+<4>[ 4410.454905] [Touch D]touch enable
+<6>[ 4410.464519] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 4410.466198]  mipi_dsi_panel_power : reset start.
+<6>[ 4410.487013] mipi_lgit_lcd_on started
+<6>[ 4410.544910] mipi_lgit_lcd_on finished
+<6>[ 4410.549274] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 4410.593559] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 4410.596642] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 4411.984769] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 4412.295070] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 4412.295223] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 4412.295711] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 4413.373233] amp_enable: AMP_EN is set to 1
+<6>[ 4416.566152] binder: 523:1601 transaction failed 29189, size 124-0
+<6>[ 4416.736883] lm3530_backlight_off, on: 1
+<6>[ 4416.755561] lm3530_backlight_off, on: 0
+<3>[ 4416.783243] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 4416.783274] mipi_lgit_lcd_off started
+<6>[ 4416.913565] mipi_lgit_lcd_off finished
+<6>[ 4416.916617] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 4416.918449] lm3530_backlight_off, on: 0
+<6>[ 4416.919303] request_suspend_state: sleep (0->3) at 4416916173491 (2013-08-14 10:21:37.102466621 UTC)
+<4>[ 4416.919456] [Touch D]touch disable
+<6>[ 4416.929192] SLIM_CL: skip reconfig sequence
+<6>[ 4416.938470] amp_enable: amp enable bypass(2)
+<6>[ 4416.938653] amp_enable: AMP_EN is set to 0
+<3>[ 4416.954310] dtv_pipe is not configured yet
+<6>[ 4416.956355] [imoseyon] ondemandx suspended at 1026000
+<6>[ 4416.956446] active wake lock PowerManagerService
+<6>[ 4416.956446] PM: Syncing filesystems...
+<6>[ 4416.956660] active wake lock msm_otg
+<6>[ 4416.956752] active wake lock msm_hsic_host
+<6>[ 4416.956904] active wake lock pm8921_eoc
+<6>[ 4417.016205] sync done.
+<6>[ 4423.073492] adjust_soc: ibat_ua = -113800, vbat_uv = 4341926, soc = 100, batt_temp=303
+<6>[ 4443.073614] adjust_soc: ibat_ua = -103700, vbat_uv = 4339268, soc = 100, batt_temp=304
+<6>[ 4463.073645] adjust_soc: ibat_ua = -70500, vbat_uv = 4335727, soc = 100, batt_temp=305
+<6>[ 4483.079016] adjust_soc: ibat_ua = -78900, vbat_uv = 4340742, soc = 100, batt_temp=306
+<6>[ 4503.073980] adjust_soc: ibat_ua = -77200, vbat_uv = 4339268, soc = 100, batt_temp=307
+<6>[ 4506.678589] request_suspend_state: wakeup (3->0) at 4506675428782 (2013-08-14 10:23:06.861721912 UTC)
+<6>[ 4506.683350] [imoseyon] ondemandx awake at 1512000
+<4>[ 4506.694307] [Touch D]touch enable
+<6>[ 4506.710452] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 4506.712161]  mipi_dsi_panel_power : reset start.
+<6>[ 4506.733312] mipi_lgit_lcd_on started
+<6>[ 4506.798503] mipi_lgit_lcd_on finished
+<6>[ 4506.802532] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 4506.832564] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 4506.835677] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 4507.422035] SLIM_CL: skip reconfig sequence
+<6>[ 4510.850907] SLIM_CL: skip reconfig sequence
+<6>[ 4512.943719] amp_enable: AMP_EN is set to 1
+<6>[ 4516.036471] SLIM_CL: skip reconfig sequence
+<6>[ 4516.049198] amp_enable: amp enable bypass(2)
+<6>[ 4516.049656] amp_enable: AMP_EN is set to 0
+<6>[ 4523.073339] adjust_soc: ibat_ua = -49600, vbat_uv = 4331885, soc = 100, batt_temp=308
+<6>[ 4543.073462] adjust_soc: ibat_ua = -100900, vbat_uv = 4339858, soc = 100, batt_temp=309
+<6>[ 4563.073339] adjust_soc: ibat_ua = -36600, vbat_uv = 4329524, soc = 100, batt_temp=308
+<6>[ 4573.142407] lm3530_backlight_off, on: 1
+<6>[ 4573.172103] lm3530_backlight_off, on: 0
+<3>[ 4573.203234] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 4573.203234] mipi_lgit_lcd_off started
+<6>[ 4573.333281] mipi_lgit_lcd_off finished
+<6>[ 4573.337219] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 4573.339355] lm3530_backlight_off, on: 0
+<6>[ 4573.342193] request_suspend_state: sleep (0->3) at 4573339033231 (2013-08-14 10:24:13.525326361 UTC)
+<4>[ 4573.342529] [Touch D]touch disable
+<3>[ 4573.386265] dtv_pipe is not configured yet
+<6>[ 4573.390812] [imoseyon] ondemandx suspended at 384000
+<6>[ 4573.391026] active wake lock sns_async_ev_wakelock
+<6>[ 4573.391026] PM: Syncing filesystems...
+<6>[ 4573.391514] active wake lock PowerManagerService.Broadcasts
+<6>[ 4573.391850] active wake lock msm_otg
+<6>[ 4573.392033] active wake lock msm_hsic_host
+<6>[ 4573.392216] active wake lock pm8921_eoc
+<6>[ 4573.463542] sync done.
+<6>[ 4583.073492] adjust_soc: ibat_ua = -191200, vbat_uv = 4355796, soc = 100, batt_temp=308
+<6>[ 4603.073461] adjust_soc: ibat_ua = -192900, vbat_uv = 4360818, soc = 100, batt_temp=308
+<6>[ 4615.914786] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 4615.915366] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 4615.915702] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 4615.926109] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 4615.926933] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 4615.927391] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 4615.929588] pm8xxx-led pm8xxx-led: resume red set 255
+<6>[ 4615.930168] pm8xxx-led pm8xxx-led: resume green set 255
+<6>[ 4615.930901] pm8xxx-led pm8xxx-led: resume blue set 255
+<6>[ 4616.510666] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 4616.511185] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 4616.511490] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 4623.073492] adjust_soc: ibat_ua = -191700, vbat_uv = 4360521, soc = 100, batt_temp=307
+<6>[ 4643.073584] adjust_soc: ibat_ua = -189400, vbat_uv = 4361702, soc = 100, batt_temp=306
+<6>[ 4663.073492] adjust_soc: ibat_ua = -175900, vbat_uv = 4359931, soc = 100, batt_temp=305
+<6>[ 4683.073461] adjust_soc: ibat_ua = -179900, vbat_uv = 4361995, soc = 100, batt_temp=304
+<6>[ 4703.073461] adjust_soc: ibat_ua = -192300, vbat_uv = 4366424, soc = 100, batt_temp=304
+<6>[ 4723.073461] adjust_soc: ibat_ua = -190600, vbat_uv = 4366127, soc = 100, batt_temp=303
+<6>[ 4743.073492] adjust_soc: ibat_ua = -186100, vbat_uv = 4366127, soc = 100, batt_temp=302
+<6>[ 4763.073461] adjust_soc: ibat_ua = -188400, vbat_uv = 4367014, soc = 100, batt_temp=302
+<6>[ 4783.073492] adjust_soc: ibat_ua = -188900, vbat_uv = 4369082, soc = 100, batt_temp=301
+<6>[ 4803.073461] adjust_soc: ibat_ua = -212600, vbat_uv = 4371739, soc = 100, batt_temp=300
+<6>[ 4823.073461] adjust_soc: ibat_ua = -187400, vbat_uv = 4371056, soc = 100, batt_temp=300
+<6>[ 4843.073461] adjust_soc: ibat_ua = -170400, vbat_uv = 4367811, soc = 100, batt_temp=300
+<6>[ 4863.073492] adjust_soc: ibat_ua = -184600, vbat_uv = 4371056, soc = 100, batt_temp=299
+<6>[ 4883.073492] adjust_soc: ibat_ua = -183900, vbat_uv = 4371943, soc = 100, batt_temp=298
+<6>[ 4903.073492] adjust_soc: ibat_ua = -186800, vbat_uv = 4373417, soc = 100, batt_temp=298
+<6>[ 4923.073461] adjust_soc: ibat_ua = -162000, vbat_uv = 4369582, soc = 100, batt_temp=298
+<6>[ 4943.073492] adjust_soc: ibat_ua = -184600, vbat_uv = 4374304, soc = 100, batt_temp=298
+<6>[ 4963.073461] adjust_soc: ibat_ua = -207700, vbat_uv = 4378142, soc = 100, batt_temp=297
+<6>[ 4983.073461] adjust_soc: ibat_ua = -181100, vbat_uv = 4374601, soc = 100, batt_temp=297
+<6>[ 5003.073492] adjust_soc: ibat_ua = -132500, vbat_uv = 4368989, soc = 100, batt_temp=296
+<6>[ 5023.073492] adjust_soc: ibat_ua = -178800, vbat_uv = 4376372, soc = 100, batt_temp=296
+<6>[ 5043.073461] adjust_soc: ibat_ua = -180600, vbat_uv = 4377549, soc = 100, batt_temp=296
+<6>[ 5063.073461] adjust_soc: ibat_ua = -176000, vbat_uv = 4376075, soc = 100, batt_temp=296
+<6>[ 5083.073492] adjust_soc: ibat_ua = -136500, vbat_uv = 4373124, soc = 100, batt_temp=295
+<6>[ 5103.073461] adjust_soc: ibat_ua = -177200, vbat_uv = 4379617, soc = 100, batt_temp=295
+<6>[ 5123.073492] adjust_soc: ibat_ua = -180600, vbat_uv = 4379026, soc = 100, batt_temp=295
+<6>[ 5143.073461] adjust_soc: ibat_ua = -180600, vbat_uv = 4382565, soc = 100, batt_temp=294
+<6>[ 5163.073675] adjust_soc: ibat_ua = -166500, vbat_uv = 4381387, soc = 100, batt_temp=294
+<6>[ 5183.073461] adjust_soc: ibat_ua = -180000, vbat_uv = 4381684, soc = 100, batt_temp=294
+<6>[ 5203.073461] adjust_soc: ibat_ua = -181700, vbat_uv = 4382862, soc = 100, batt_temp=294
+<6>[ 5223.073461] adjust_soc: ibat_ua = -200900, vbat_uv = 4385816, soc = 100, batt_temp=294
+<6>[ 5243.073492] adjust_soc: ibat_ua = -170400, vbat_uv = 4382274, soc = 100, batt_temp=294
+<6>[ 5263.073461] adjust_soc: ibat_ua = -177200, vbat_uv = 4384929, soc = 100, batt_temp=293
+<6>[ 5283.073461] adjust_soc: ibat_ua = -190700, vbat_uv = 4386700, soc = 100, batt_temp=293
+<6>[ 5303.073492] adjust_soc: ibat_ua = -173800, vbat_uv = 4385223, soc = 100, batt_temp=292
+<6>[ 5323.073492] adjust_soc: ibat_ua = -170900, vbat_uv = 4388471, soc = 100, batt_temp=292
+<6>[ 5343.073492] adjust_soc: ibat_ua = -174900, vbat_uv = 4386110, soc = 100, batt_temp=292
+<6>[ 5363.073492] adjust_soc: ibat_ua = -175500, vbat_uv = 4385223, soc = 100, batt_temp=292
+<6>[ 5383.073492] adjust_soc: ibat_ua = -123600, vbat_uv = 4378436, soc = 100, batt_temp=292
+<6>[ 5403.073492] adjust_soc: ibat_ua = -142700, vbat_uv = 4381387, soc = 100, batt_temp=292
+<6>[ 5423.073461] adjust_soc: ibat_ua = -177700, vbat_uv = 4387194, soc = 100, batt_temp=292
+<6>[ 5432.401281] request_suspend_state: wakeup (3->0) at 5432398120571 (2013-08-14 10:38:32.584383180 UTC)
+<6>[ 5432.406744] [imoseyon] ondemandx awake at 1512000
+<4>[ 5432.421729] [Touch D]touch enable
+<6>[ 5432.432137] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 5432.443460]  mipi_dsi_panel_power : reset start.
+<6>[ 5432.469738] mipi_lgit_lcd_on started
+<6>[ 5432.523820] mipi_lgit_lcd_on finished
+<6>[ 5432.526048] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 5432.558613] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 5432.561330] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 5442.927635] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 5443.073309] adjust_soc: ibat_ua = 45600, vbat_uv = 4349995, soc = 100, batt_temp=292
+<6>[ 5443.238088] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 5443.238546] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 5443.239462] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 5454.026765] eoc_worker: End of Charging
+<6>[ 5454.043490] adjust_soc: ibat_ua = -500, vbat_uv = 4361124, soc = 100, batt_temp=292
+<6>[ 5463.046787] adjust_soc: ibat_ua = 0, vbat_uv = 4356693, soc = 100, batt_temp=292
+<6>[ 5483.046817] adjust_soc: ibat_ua = -1600, vbat_uv = 4355217, soc = 100, batt_temp=294
+<6>[ 5503.047763] adjust_soc: ibat_ua = -1000, vbat_uv = 4346658, soc = 100, batt_temp=294
+<6>[ 5503.287318] lm3530_backlight_off, on: 1
+<6>[ 5503.317380] lm3530_backlight_off, on: 0
+<3>[ 5503.345093] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 5503.345154] mipi_lgit_lcd_off started
+<6>[ 5503.473309] mipi_lgit_lcd_off finished
+<6>[ 5503.477215] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 5503.479352] lm3530_backlight_off, on: 0
+<6>[ 5503.481946] request_suspend_state: sleep (0->3) at 5503478785906 (2013-08-14 10:39:43.665048516 UTC)
+<4>[ 5503.482434] [Touch D]touch disable
+<3>[ 5503.525712] dtv_pipe is not configured yet
+<6>[ 5503.534166] [imoseyon] ondemandx suspended at 384000
+<6>[ 5503.534441] active wake lock PowerManagerService
+<6>[ 5503.534838] active wake lock sns_async_ev_wakelock
+<6>[ 5503.535052] active wake lock PowerManagerService.Broadcasts
+<6>[ 5503.535448] active wake lock msm_otg
+<6>[ 5503.535662] active wake lock msm_hsic_host
+<6>[ 5503.535876] PM: Syncing filesystems...
+<6>[ 5503.634884] sync done.
+<6>[ 5503.757728] binder: 523:1601 transaction failed 29189, size 212-0
+<6>[ 5523.046146] adjust_soc: ibat_ua = -1000, vbat_uv = 4353447, soc = 100, batt_temp=294
+<6>[ 5543.046085] adjust_soc: ibat_ua = -1000, vbat_uv = 4349019, soc = 100, batt_temp=294
+<6>[ 5563.046115] adjust_soc: ibat_ua = -2100, vbat_uv = 4350198, soc = 100, batt_temp=294
+<6>[ 5564.858171] request_suspend_state: wakeup (3->0) at 5564854980011 (2013-08-14 10:40:45.041273141 UTC)
+<6>[ 5564.864702] [imoseyon] ondemandx awake at 1512000
+<4>[ 5564.879718] [Touch D]touch enable
+<6>[ 5564.890126] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 5564.892659]  mipi_dsi_panel_power : reset start.
+<6>[ 5564.922965] mipi_lgit_lcd_on started
+<6>[ 5564.983548] mipi_lgit_lcd_on finished
+<6>[ 5564.986997] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 5564.998961] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 5565.002044] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 5566.336608] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 5566.647153] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 5566.647275] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 5566.647763] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 5583.047702] adjust_soc: ibat_ua = -500, vbat_uv = 4351086, soc = 100, batt_temp=294
+<6>[ 5603.047428] adjust_soc: ibat_ua = -1000, vbat_uv = 4349904, soc = 100, batt_temp=294
+<6>[ 5623.046726] adjust_soc: ibat_ua = -500, vbat_uv = 4349610, soc = 100, batt_temp=296
+<6>[ 5626.727788] lm3530_backlight_off, on: 1
+<6>[ 5626.749640] lm3530_backlight_off, on: 0
+<3>[ 5626.773355] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 5626.773385] mipi_lgit_lcd_off started
+<6>[ 5626.904379] mipi_lgit_lcd_off finished
+<6>[ 5626.909811] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 5626.911948] lm3530_backlight_off, on: 0
+<6>[ 5626.915396] request_suspend_state: sleep (0->3) at 5626912236222 (2013-08-14 10:41:47.098529352 UTC)
+<4>[ 5626.915885] [Touch D]touch disable
+<3>[ 5626.955775] dtv_pipe is not configured yet
+<6>[ 5626.964015] [imoseyon] ondemandx suspended at 384000
+<6>[ 5626.964443] active wake lock PowerManagerService
+<6>[ 5626.964656] active wake lock sns_async_ev_wakelock
+<6>[ 5626.965053] active wake lock PowerManagerService.Broadcasts
+<6>[ 5626.965267] active wake lock msm_otg
+<6>[ 5626.965480] active wake lock msm_hsic_host
+<6>[ 5626.965877] PM: Syncing filesystems...
+<6>[ 5627.070104] sync done.
+<6>[ 5643.046237] adjust_soc: ibat_ua = -1000, vbat_uv = 4345770, soc = 100, batt_temp=296
+<6>[ 5663.046237] adjust_soc: ibat_ua = -1000, vbat_uv = 4345476, soc = 100, batt_temp=296
+<6>[ 5683.046207] adjust_soc: ibat_ua = -1600, vbat_uv = 4347837, soc = 100, batt_temp=295
+<6>[ 5703.046237] adjust_soc: ibat_ua = -1600, vbat_uv = 4347543, soc = 100, batt_temp=294
+<6>[ 5704.062535] request_suspend_state: wakeup (3->0) at 5704059344406 (2013-08-14 10:43:04.245637536 UTC)
+<6>[ 5704.067571] [imoseyon] ondemandx awake at 1512000
+<4>[ 5704.082556] [Touch D]touch enable
+<6>[ 5704.091529] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 5704.093208]  mipi_dsi_panel_power : reset start.
+<6>[ 5704.113718] mipi_lgit_lcd_on started
+<6>[ 5704.173477] mipi_lgit_lcd_on finished
+<6>[ 5704.176864] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 5704.202013] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 5704.205248] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 5705.623866] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 5705.934166] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 5705.934350] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 5705.934838] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 5723.046787] adjust_soc: ibat_ua = -1000, vbat_uv = 4345179, soc = 100, batt_temp=294
+<6>[ 5743.046115] adjust_soc: ibat_ua = -1000, vbat_uv = 4344000, soc = 100, batt_temp=296
+<6>[ 5763.046146] adjust_soc: ibat_ua = -500, vbat_uv = 4346067, soc = 100, batt_temp=296
+<6>[ 5765.929039] lm3530_backlight_off, on: 1
+<6>[ 5765.956385] lm3530_backlight_off, on: 0
+<3>[ 5765.983365] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 5765.983396] mipi_lgit_lcd_off started
+<6>[ 5766.114176] mipi_lgit_lcd_off finished
+<6>[ 5766.118052] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 5766.120188] lm3530_backlight_off, on: 0
+<6>[ 5766.122660] request_suspend_state: sleep (0->3) at 5766119500054 (2013-08-14 10:44:06.305793184 UTC)
+<4>[ 5766.123271] [Touch D]touch disable
+<3>[ 5766.165816] dtv_pipe is not configured yet
+<6>[ 5766.173904] [imoseyon] ondemandx suspended at 384000
+<6>[ 5766.174148] active wake lock PowerManagerService
+<6>[ 5766.174545] active wake lock sns_async_ev_wakelock
+<6>[ 5766.174758] active wake lock PowerManagerService.Broadcasts
+<6>[ 5766.175125] active wake lock msm_otg
+<6>[ 5766.175338] active wake lock msm_hsic_host
+<6>[ 5766.175583] PM: Syncing filesystems...
+<6>[ 5766.279352] sync done.
+<6>[ 5766.356446] request_suspend_state: wakeup (3->0) at 5766353286105 (2013-08-14 10:44:06.539548715 UTC)
+<6>[ 5766.361146] [imoseyon] ondemandx awake at 1512000
+<4>[ 5766.376498] [Touch D]touch enable
+<6>[ 5766.385105] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 5766.387089]  mipi_dsi_panel_power : reset start.
+<6>[ 5766.408880] mipi_lgit_lcd_on started
+<6>[ 5766.466564] mipi_lgit_lcd_on finished
+<6>[ 5766.469250] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 5766.476574] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 5766.479382] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 5766.573934] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 5766.884327] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 5766.884479] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 5766.884907] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 5768.703219] amp_enable: AMP_EN is set to 1
+<6>[ 5771.832961] SLIM_CL: skip reconfig sequence
+<6>[ 5771.844223] amp_enable: amp enable bypass(2)
+<6>[ 5771.844406] amp_enable: AMP_EN is set to 0
+<6>[ 5783.046359] adjust_soc: ibat_ua = -1000, vbat_uv = 4344000, soc = 100, batt_temp=297
+<6>[ 5803.046237] adjust_soc: ibat_ua = -500, vbat_uv = 4345476, soc = 100, batt_temp=298
+<6>[ 5823.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4344591, soc = 100, batt_temp=298
+<6>[ 5829.852677] lm3530_backlight_off, on: 1
+<6>[ 5829.887775] lm3530_backlight_off, on: 0
+<3>[ 5829.923667] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 5829.923698] mipi_lgit_lcd_off started
+<6>[ 5830.053257] mipi_lgit_lcd_off finished
+<6>[ 5830.057163] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 5830.059269] lm3530_backlight_off, on: 0
+<6>[ 5830.061894] request_suspend_state: sleep (0->3) at 5830058733984 (2013-08-14 10:45:10.244996594 UTC)
+<4>[ 5830.062199] [Touch D]touch disable
+<3>[ 5830.100106] dtv_pipe is not configured yet
+<6>[ 5830.108041] [imoseyon] ondemandx suspended at 384000
+<6>[ 5830.108285] active wake lock PowerManagerService
+<6>[ 5830.108682] active wake lock sns_async_ev_wakelock
+<6>[ 5830.108896] active wake lock PowerManagerService.Broadcasts
+<6>[ 5830.109292] active wake lock msm_otg
+<6>[ 5830.109506] active wake lock msm_hsic_host
+<6>[ 5830.109720] PM: Syncing filesystems...
+<6>[ 5830.150067] sync done.
+<3>[ 5831.298000] binder: release proc 6140, transaction 271261, not freed
+<3>[ 5832.503066] [WLAN][594:F :HDD] wlan_hdd_cfg80211_set_pmksa: Reusing cache entry 0.
+<3>[ 5832.503463] [WLAN][594:F :HDD] wlan_hdd_cfg80211_set_pmksa: Calling csrRoamSetPMKIDCache with 1 cache entries.
+<6>[ 5843.047366] adjust_soc: ibat_ua = -500, vbat_uv = 4344294, soc = 100, batt_temp=298
+<6>[ 5863.046207] adjust_soc: ibat_ua = -500, vbat_uv = 4342818, soc = 100, batt_temp=298
+<6>[ 5883.046146] adjust_soc: ibat_ua = -1600, vbat_uv = 4344000, soc = 100, batt_temp=297
+<6>[ 5901.152143] request_suspend_state: wakeup (3->0) at 5901148982717 (2013-08-14 10:46:21.335275847 UTC)
+<6>[ 5901.157209] [imoseyon] ondemandx awake at 1512000
+<4>[ 5901.172286] [Touch D]touch enable
+<6>[ 5901.187974] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 5901.192369]  mipi_dsi_panel_power : reset start.
+<6>[ 5901.224263] mipi_lgit_lcd_on started
+<6>[ 5901.293818] mipi_lgit_lcd_on finished
+<6>[ 5901.296748] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 5901.321653] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 5901.324705] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 5902.656187] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 5902.966732] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 5902.966884] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 5902.967556] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 5903.045749] adjust_soc: ibat_ua = 124100, vbat_uv = 4329534, soc = 100, batt_temp=297
+<6>[ 5905.089698] mtp_release
+<6>[ 5909.792674] [imoseyon] ondemandx inactive
+<6>[ 5909.863206] amp_enable: AMP_EN is set to 1
+<6>[ 5910.208789] mtp_open
+<6>[ 5912.991697] SLIM_CL: skip reconfig sequence
+<6>[ 5912.999816] amp_enable: amp enable bypass(2)
+<6>[ 5912.999938] amp_enable: AMP_EN is set to 0
+<6>[ 5918.482892] [imoseyon] ondemandx active
+<6>[ 5923.046420] adjust_soc: ibat_ua = 0, vbat_uv = 4341048, soc = 100, batt_temp=298
+<6>[ 5923.663786] [imoseyon] ondemandx inactive
+<6>[ 5939.438821] [imoseyon] ondemandx active
+<6>[ 5943.045718] adjust_soc: ibat_ua = 500, vbat_uv = 4332486, soc = 100, batt_temp=300
+<6>[ 5949.662749] [imoseyon] ondemandx inactive
+<6>[ 5963.045657] adjust_soc: ibat_ua = 21900, vbat_uv = 4338981, soc = 100, batt_temp=302
+<6>[ 5970.235738] lm3530_backlight_off, on: 1
+<6>[ 5970.254264] lm3530_backlight_off, on: 0
+<3>[ 5970.283380] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 5970.283380] mipi_lgit_lcd_off started
+<6>[ 5970.413275] mipi_lgit_lcd_off finished
+<6>[ 5970.416388] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 5970.418464] lm3530_backlight_off, on: 0
+<6>[ 5970.419654] request_suspend_state: sleep (0->3) at 5970416493773 (2013-08-14 10:47:30.602786903 UTC)
+<4>[ 5970.419776] [Touch D]touch disable
+<3>[ 5970.453165] dtv_pipe is not configured yet
+<6>[ 5970.454966] active wake lock PowerManagerService
+<6>[ 5970.455058] active wake lock sns_async_ev_wakelock
+<6>[ 5970.455119] active wake lock msm_otg
+<6>[ 5970.455180] active wake lock msm_hsic_host
+<6>[ 5970.455302] PM: Syncing filesystems...
+<6>[ 5970.471478] sync done.
+<6>[ 5972.460002] [imoseyon] ondemandx suspended at 384000
+<6>[ 5972.461467] [imoseyon] ondemandx active
+<6>[ 5983.046054] adjust_soc: ibat_ua = 500, vbat_uv = 4340751, soc = 100, batt_temp=303
+<6>[ 6003.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4340457, soc = 100, batt_temp=302
+<6>[ 6011.984433] [imoseyon] ondemandx inactive
+<6>[ 6023.045657] adjust_soc: ibat_ua = 0, vbat_uv = 4340457, soc = 100, batt_temp=301
+<6>[ 6041.731389] [imoseyon] ondemandx suspended at 384000
+<6>[ 6041.732610] [imoseyon] ondemandx active
+<6>[ 6043.047000] adjust_soc: ibat_ua = 0, vbat_uv = 4341639, soc = 100, batt_temp=301
+<6>[ 6063.046207] adjust_soc: ibat_ua = 0, vbat_uv = 4344294, soc = 100, batt_temp=301
+<6>[ 6083.046207] adjust_soc: ibat_ua = 0, vbat_uv = 4341048, soc = 100, batt_temp=300
+<6>[ 6092.690949] [imoseyon] ondemandx inactive
+<6>[ 6103.045688] adjust_soc: ibat_ua = 500, vbat_uv = 4342818, soc = 100, batt_temp=299
+<6>[ 6116.607843] [imoseyon] ondemandx suspended at 384000
+<6>[ 6116.608239] [imoseyon] ondemandx active
+<6>[ 6123.046237] adjust_soc: ibat_ua = 0, vbat_uv = 4342818, soc = 100, batt_temp=300
+<6>[ 6143.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4344294, soc = 100, batt_temp=299
+<6>[ 6143.188798] [imoseyon] ondemandx inactive
+<6>[ 6163.045688] adjust_soc: ibat_ua = 500, vbat_uv = 4340160, soc = 100, batt_temp=300
+<6>[ 6182.558400] [imoseyon] ondemandx suspended at 384000
+<6>[ 6182.559651] [imoseyon] ondemandx active
+<6>[ 6183.046207] adjust_soc: ibat_ua = 500, vbat_uv = 4342524, soc = 100, batt_temp=300
+<6>[ 6203.046054] adjust_soc: ibat_ua = 0, vbat_uv = 4344000, soc = 100, batt_temp=300
+<6>[ 6223.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4338684, soc = 100, batt_temp=300
+<6>[ 6243.046085] adjust_soc: ibat_ua = -500, vbat_uv = 4341933, soc = 100, batt_temp=299
+<6>[ 6258.992369] [imoseyon] ondemandx inactive
+<6>[ 6263.045749] adjust_soc: ibat_ua = -500, vbat_uv = 4341342, soc = 100, batt_temp=298
+<6>[ 6283.045688] adjust_soc: ibat_ua = 0, vbat_uv = 4338096, soc = 100, batt_temp=299
+<6>[ 6303.045657] adjust_soc: ibat_ua = -500, vbat_uv = 4339275, soc = 100, batt_temp=300
+<6>[ 6304.086310] [imoseyon] ondemandx suspended at 384000
+<6>[ 6304.087562] [imoseyon] ondemandx active
+<6>[ 6323.046237] adjust_soc: ibat_ua = -500, vbat_uv = 4338684, soc = 100, batt_temp=301
+<6>[ 6343.046207] adjust_soc: ibat_ua = 0, vbat_uv = 4343409, soc = 100, batt_temp=299
+<6>[ 6363.046054] adjust_soc: ibat_ua = 0, vbat_uv = 4341048, soc = 100, batt_temp=299
+<6>[ 6383.046085] adjust_soc: ibat_ua = 0, vbat_uv = 4340457, soc = 100, batt_temp=298
+<6>[ 6392.128428] [imoseyon] ondemandx inactive
+<6>[ 6403.045688] adjust_soc: ibat_ua = 0, vbat_uv = 4341048, soc = 100, batt_temp=298
+<6>[ 6418.199480] pm8xxx-led pm8xxx-led: resume red set 255
+<6>[ 6418.199846] pm8xxx-led pm8xxx-led: resume green set 255
+<6>[ 6418.200182] pm8xxx-led pm8xxx-led: resume blue set 255
+<6>[ 6421.678222] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 6421.678345] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 6421.678467] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 6422.010193] pm8xxx-led pm8xxx-led: resume red set 255
+<6>[ 6422.010589] pm8xxx-led pm8xxx-led: resume green set 255
+<6>[ 6422.010895] pm8xxx-led pm8xxx-led: resume blue set 255
+<6>[ 6423.045688] adjust_soc: ibat_ua = 0, vbat_uv = 4341639, soc = 100, batt_temp=299
+<6>[ 6443.045657] adjust_soc: ibat_ua = 500, vbat_uv = 4338981, soc = 100, batt_temp=301
+<6>[ 6443.885212] [imoseyon] ondemandx suspended at 384000
+<6>[ 6443.885883] [imoseyon] ondemandx active
+<6>[ 6463.046054] adjust_soc: ibat_ua = 500, vbat_uv = 4341639, soc = 100, batt_temp=301
+<6>[ 6483.046054] adjust_soc: ibat_ua = 0, vbat_uv = 4338684, soc = 100, batt_temp=300
+<6>[ 6503.046085] adjust_soc: ibat_ua = 0, vbat_uv = 4340160, soc = 100, batt_temp=300
+<6>[ 6523.046054] adjust_soc: ibat_ua = 0, vbat_uv = 4340751, soc = 100, batt_temp=299
+<6>[ 6543.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4341342, soc = 100, batt_temp=298
+<6>[ 6546.345398] [imoseyon] ondemandx inactive
+<6>[ 6563.045627] adjust_soc: ibat_ua = 0, vbat_uv = 4342227, soc = 100, batt_temp=298
+<6>[ 6583.045688] adjust_soc: ibat_ua = 0, vbat_uv = 4342227, soc = 100, batt_temp=300
+<6>[ 6588.155836] [imoseyon] ondemandx suspended at 384000
+<6>[ 6588.156507] [imoseyon] ondemandx active
+<6>[ 6603.046237] adjust_soc: ibat_ua = -500, vbat_uv = 4342524, soc = 100, batt_temp=300
+<6>[ 6623.046054] adjust_soc: ibat_ua = 0, vbat_uv = 4340457, soc = 100, batt_temp=300
+<6>[ 6625.016663] request_suspend_state: wakeup (3->0) at 6625013502699 (2013-08-14 10:58:25.199795829 UTC)
+<6>[ 6625.022645] [imoseyon] ondemandx awake at 1512000
+<4>[ 6625.037691] [Touch D]touch enable
+<6>[ 6625.046756] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 6625.048892]  mipi_dsi_panel_power : reset start.
+<6>[ 6625.070104] mipi_lgit_lcd_on started
+<6>[ 6625.123667] mipi_lgit_lcd_on finished
+<6>[ 6625.126384] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 6625.153516] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 6625.156538] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 6629.742865] pm8xxx-led pm8xxx-led: resume red set 0
+<6>[ 6629.744085] pm8xxx-led pm8xxx-led: resume green set 0
+<6>[ 6629.744177] pm8xxx-led pm8xxx-led: resume blue set 0
+<6>[ 6629.747290] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 6630.057774] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 6630.057896] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 6630.058323] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 6638.961207] [imoseyon] ondemandx inactive
+<6>[ 6643.045657] adjust_soc: ibat_ua = 56400, vbat_uv = 4328943, soc = 100, batt_temp=300
+<6>[ 6663.045688] adjust_soc: ibat_ua = 1600, vbat_uv = 4339572, soc = 100, batt_temp=302
+<6>[ 6676.748938] [imoseyon] ondemandx active
+<6>[ 6683.046237] adjust_soc: ibat_ua = 1000, vbat_uv = 4336914, soc = 100, batt_temp=303
+<6>[ 6691.016205] lm3530_backlight_off, on: 1
+<6>[ 6691.046451] lm3530_backlight_off, on: 0
+<3>[ 6691.074377] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 6691.074438] mipi_lgit_lcd_off started
+<6>[ 6691.203295] mipi_lgit_lcd_off finished
+<6>[ 6691.208483] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 6691.210376] lm3530_backlight_off, on: 0
+<6>[ 6691.214648] request_suspend_state: sleep (0->3) at 6691211488347 (2013-08-14 10:59:31.397781477 UTC)
+<4>[ 6691.215137] [Touch D]touch disable
+<3>[ 6691.256492] dtv_pipe is not configured yet
+<6>[ 6691.264855] [imoseyon] ondemandx suspended at 384000
+<6>[ 6691.265129] active wake lock PowerManagerService
+<6>[ 6691.265343] active wake lock sns_async_ev_wakelock
+<6>[ 6691.265740] active wake lock PowerManagerService.Broadcasts
+<6>[ 6691.265953] active wake lock msm_otg
+<6>[ 6691.266319] active wake lock msm_hsic_host
+<6>[ 6691.266564] PM: Syncing filesystems...
+<6>[ 6691.308102] sync done.
+<6>[ 6703.046207] adjust_soc: ibat_ua = 500, vbat_uv = 4340457, soc = 100, batt_temp=304
+<6>[ 6723.046237] adjust_soc: ibat_ua = 500, vbat_uv = 4341933, soc = 100, batt_temp=302
+<6>[ 6743.046207] adjust_soc: ibat_ua = 500, vbat_uv = 4338684, soc = 100, batt_temp=302
+<6>[ 6763.046207] adjust_soc: ibat_ua = 0, vbat_uv = 4341639, soc = 100, batt_temp=300
+<6>[ 6766.221424] request_suspend_state: wakeup (3->0) at 6766218233340 (2013-08-14 11:00:46.404526470 UTC)
+<6>[ 6766.226338] [imoseyon] ondemandx awake at 1512000
+<4>[ 6766.235494] [Touch D]touch enable
+<6>[ 6766.244864] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 6766.246725]  mipi_dsi_panel_power : reset start.
+<6>[ 6766.267998] mipi_lgit_lcd_on started
+<6>[ 6766.323606] mipi_lgit_lcd_on finished
+<6>[ 6766.326231] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 6766.339141] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 6766.342224] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 6783.046115] adjust_soc: ibat_ua = 0, vbat_uv = 4338981, soc = 100, batt_temp=300
+<6>[ 6796.726811] lm3530_backlight_off, on: 1
+<6>[ 6796.757209] lm3530_backlight_off, on: 0
+<3>[ 6796.785471] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 6796.785502] mipi_lgit_lcd_off started
+<6>[ 6796.923270] mipi_lgit_lcd_off finished
+<6>[ 6796.928306] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 6796.930412] lm3530_backlight_off, on: 0
+<6>[ 6796.933068] request_suspend_state: sleep (0->3) at 6796929907379 (2013-08-14 11:01:17.116200509 UTC)
+<4>[ 6796.933647] [Touch D]touch disable
+<3>[ 6796.973721] dtv_pipe is not configured yet
+<6>[ 6796.975735] [imoseyon] ondemandx suspended at 384000
+<6>[ 6796.975949] active wake lock sns_async_ev_wakelock
+<6>[ 6796.976284] active wake lock msm_otg
+<6>[ 6796.976467] active wake lock msm_hsic_host
+<6>[ 6796.976681] PM: Syncing filesystems...
+<6>[ 6797.080176] sync done.
+<6>[ 6803.046146] adjust_soc: ibat_ua = 500, vbat_uv = 4337208, soc = 100, batt_temp=301
+<6>[ 6823.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4341639, soc = 100, batt_temp=300
+<6>[ 6843.046084] adjust_soc: ibat_ua = 500, vbat_uv = 4340160, soc = 100, batt_temp=300
+<6>[ 6863.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4340751, soc = 100, batt_temp=299
+<6>[ 6883.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4340751, soc = 100, batt_temp=299
+<6>[ 6903.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4338981, soc = 100, batt_temp=298
+<6>[ 6923.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4340751, soc = 100, batt_temp=298
+<6>[ 6943.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4339275, soc = 100, batt_temp=298
+<6>[ 6963.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4338096, soc = 100, batt_temp=298
+<6>[ 6983.046115] adjust_soc: ibat_ua = -1000, vbat_uv = 4335732, soc = 100, batt_temp=297
+<6>[ 7003.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4336323, soc = 100, batt_temp=297
+<6>[ 7023.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4338096, soc = 100, batt_temp=296
+<6>[ 7043.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4341342, soc = 100, batt_temp=296
+<6>[ 7063.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4339572, soc = 100, batt_temp=296
+<6>[ 7083.046115] adjust_soc: ibat_ua = -1000, vbat_uv = 4338096, soc = 100, batt_temp=296
+<6>[ 7103.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4339275, soc = 100, batt_temp=295
+<6>[ 7123.046115] adjust_soc: ibat_ua = -500, vbat_uv = 4337208, soc = 100, batt_temp=296
+<6>[ 7143.046145] adjust_soc: ibat_ua = -1000, vbat_uv = 4339572, soc = 100, batt_temp=295
+<6>[ 7163.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4337799, soc = 100, batt_temp=295
+<6>[ 7183.046115] adjust_soc: ibat_ua = -1000, vbat_uv = 4337505, soc = 100, batt_temp=294
+<6>[ 7203.046084] adjust_soc: ibat_ua = -500, vbat_uv = 4340457, soc = 100, batt_temp=294
+<6>[ 7223.046023] adjust_soc: ibat_ua = 0, vbat_uv = 4338096, soc = 100, batt_temp=294
+<6>[ 7243.046084] adjust_soc: ibat_ua = 500, vbat_uv = 4337208, soc = 100, batt_temp=294
+<6>[ 7263.046084] adjust_soc: ibat_ua = 500, vbat_uv = 4337799, soc = 100, batt_temp=294
+<6>[ 7283.046084] adjust_soc: ibat_ua = 0, vbat_uv = 4338684, soc = 100, batt_temp=294
+<6>[ 7303.046084] adjust_soc: ibat_ua = 500, vbat_uv = 4339275, soc = 100, batt_temp=293
+<6>[ 7323.046206] adjust_soc: ibat_ua = 500, vbat_uv = 4338096, soc = 100, batt_temp=293
+<6>[ 7343.046206] adjust_soc: ibat_ua = 0, vbat_uv = 4337505, soc = 100, batt_temp=294
+<6>[ 7363.046237] adjust_soc: ibat_ua = 0, vbat_uv = 4336914, soc = 100, batt_temp=293
+<6>[ 7383.046237] adjust_soc: ibat_ua = 500, vbat_uv = 4337208, soc = 100, batt_temp=293
+<6>[ 7403.046206] adjust_soc: ibat_ua = 0, vbat_uv = 4338096, soc = 100, batt_temp=293
+<6>[ 7423.046237] adjust_soc: ibat_ua = 500, vbat_uv = 4341342, soc = 100, batt_temp=292
+<6>[ 7443.046390] adjust_soc: ibat_ua = 500, vbat_uv = 4338096, soc = 100, batt_temp=292
+<6>[ 7463.046206] adjust_soc: ibat_ua = 0, vbat_uv = 4338096, soc = 100, batt_temp=292
+<6>[ 7483.046206] adjust_soc: ibat_ua = 1000, vbat_uv = 4338684, soc = 100, batt_temp=292
+<6>[ 7496.617975] request_suspend_state: wakeup (3->0) at 7496614814973 (2013-08-14 11:12:56.801077582 UTC)
+<6>[ 7496.622828] [imoseyon] ondemandx awake at 1512000
+<4>[ 7496.639309] [Touch D]touch enable
+<6>[ 7496.647305] mipi_dsi_panel_power: mipi lcd function started status = 1 
+<6>[ 7496.653623]  mipi_dsi_panel_power : reset start.
+<6>[ 7496.680054] mipi_lgit_lcd_on started
+<6>[ 7496.736577] mipi_lgit_lcd_on finished
+<6>[ 7496.739294] lm3530_backlight_on, ++ lm3530_backlight_on  
+<6>[ 7496.766335] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+<6>[ 7496.769387] mdp4_overlay_mdp_perf_upd mdp bw is changed [1] from 4 to 1
+<6>[ 7498.017700] bcm2079x-i2c 0-a1fa: 10,29
+<6>[ 7498.328856] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+<6>[ 7498.328978] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+<6>[ 7498.329466] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+<6>[ 7501.943200] amp_enable: AMP_EN is set to 1
+<6>[ 7503.045840] adjust_soc: ibat_ua = 112300, vbat_uv = 4331601, soc = 100, batt_temp=292
+<6>[ 7505.120096] SLIM_CL: skip reconfig sequence
+<6>[ 7505.130382] amp_enable: amp enable bypass(2)
+<6>[ 7505.130626] amp_enable: AMP_EN is set to 0
+<6>[ 7512.993437] amp_enable: AMP_EN is set to 1
+<6>[ 7516.159834] SLIM_CL: skip reconfig sequence
+<6>[ 7516.169081] amp_enable: amp enable bypass(2)
+<6>[ 7516.169265] amp_enable: AMP_EN is set to 0
+<6>[ 7517.463237] amp_enable: AMP_EN is set to 1
+<6>[ 7520.587333] SLIM_CL: skip reconfig sequence
+<6>[ 7520.602043] amp_enable: amp enable bypass(2)
+<6>[ 7520.602654] amp_enable: AMP_EN is set to 0
+<6>[ 7523.047275] adjust_soc: ibat_ua = 2100, vbat_uv = 4341639, soc = 100, batt_temp=293
+<6>[ 7543.046084] adjust_soc: ibat_ua = 117400, vbat_uv = 4336323, soc = 100, batt_temp=296
+<6>[ 7552.418006] [imoseyon] ondemandx inactive
+<6>[ 7552.483167] amp_enable: AMP_EN is set to 1
+<6>[ 7555.619379] SLIM_CL: skip reconfig sequence
+<6>[ 7555.627497] amp_enable: amp enable bypass(2)
+<6>[ 7555.627650] amp_enable: AMP_EN is set to 0
+<6>[ 7561.139172] [imoseyon] ondemandx active
+<6>[ 7563.045962] adjust_soc: ibat_ua = 2100, vbat_uv = 4314771, soc = 100, batt_temp=297
+<6>[ 7566.396947] [imoseyon] ondemandx inactive
+<6>[ 7582.078131] [imoseyon] ondemandx active
+<6>[ 7583.046267] adjust_soc: ibat_ua = 2800, vbat_uv = 4336323, soc = 100, batt_temp=300
+<6>[ 7592.266319] [imoseyon] ondemandx inactive
+<6>[ 7603.045688] adjust_soc: ibat_ua = 68800, vbat_uv = 4333077, soc = 100, batt_temp=302
+<6>[ 7612.859819] lm3530_backlight_off, on: 1
+<6>[ 7612.881793] lm3530_backlight_off, on: 0
+<3>[ 7612.913656] mdp4_mixer_blend_setup: Error: no bg_pipe at mixer=0
+<6>[ 7612.913687] mipi_lgit_lcd_off started
+<6>[ 7613.043460] mipi_lgit_lcd_off finished
+<6>[ 7613.046908] mipi_dsi_panel_power: mipi lcd function started status = 0 
+<6>[ 7613.048953] lm3530_backlight_off, on: 0
+<6>[ 7613.050266] request_suspend_state: sleep (0->3) at 7613047105514 (2013-08-14 11:14:53.233398644 UTC)
+<4>[ 7613.050418] [Touch D]touch disable
+<3>[ 7613.085852] dtv_pipe is not configured yet
+<6>[ 7613.087653] active wake lock PowerManagerService
+<6>[ 7613.087714] active wake lock sns_async_ev_wakelock
+<6>[ 7613.087806] active wake lock msm_otg
+<6>[ 7613.087867] active wake lock msm_hsic_host
+<6>[ 7613.087928] PM: Syncing filesystems...
